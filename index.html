@@ -33,13 +33,17 @@
   .container { flex: 1; width: 100%; max-width: 650px; margin: 0 auto; padding: 20px 5%; }
   
   /* MENU CHÍNH: Ép buộc dạt sang mép trái */
-  .container:has(.module-grid) { margin: 0; padding: 40px 5%; }
-  
-  /* BẢNG LÀM BÀI QUIZ: Ép buộc hiện nền trắng đục, dễ đọc */
-  .card { background: rgba(255, 255, 255, 0.95) !important; border-radius: 24px !important; padding: 24px !important; box-shadow: 0 10px 40px rgba(0,0,0,0.2) !important; border: none !important; }
+    /* GIAO DIỆN CHÍNH (Menu): Căn trái */
+  .container:has(.module-grid) { width: 100%; max-width: 650px; margin: 0; padding: 40px 5%; display: flex; flex-direction: column; }
+
+  /* BÀI LÀM QUIZ: Ép buộc căn giữa hoàn hảo tuyệt đối */
+  .container:not(:has(.module-grid)) { width: 100%; max-width: 650px; margin-left: auto !important; margin-right: auto !important; padding: 20px 5%; display: flex; flex-direction: column; align-self: center; }
+
+  /* BẢNG LÀM BÀI QUIZ: Nền trắng đục, nổi bật, dễ đọc */
+  .card { background: rgba(255, 255, 255, 0.95) !important; border-radius: 24px !important; padding: 24px !important; box-shadow: 0 10px 40px rgba(0,0,0,0.2) !important; border: none !important; width: 100%; box-sizing: border-box; }
   @media (min-width: 768px) { .card { padding: 40px !important; } }
 
-  /* BẢNG MENU CHÍNH: Ép tàng hình để lộ máy bay */
+  /* BẢNG MENU CHÍNH: Tàng hình lộ máy bay */
   .card:has(.module-grid) { background: transparent !important; box-shadow: none !important; padding: 0 !important; }
 
   /* Font chữ và màu sắc của Menu chính */
