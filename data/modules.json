@@ -1,8 +1,9 @@
 [
   {
     "id": "m07a",
-    "title": "Module 07A",
-    "desc": "Thực hành bảo dưỡng (Bản test giao diện)",
+    "title": "Module 7A: Maintenance Practices",
+    "desc": "Basic Training for Aircraft Maintenance Technician",
     "file": "data/m07a.json"
   }
 ]
+
