@@ -1,0 +1,4 @@
+[
+  [1, "Hệ điều hành nào được tối ưu hiển thị ở web này?", ["Chỉ PC", "Chỉ iOS", "PC, iOS và Android"], 2, "Giao diện dùng Responsive CSS tự co giãn."],
+  [2, "Tốc độ tải web tĩnh trên GitHub Pages như thế nào?", ["Chậm", "Cực kỳ nhanh (Tức thì)", "Bình thường"], 1, "Vì nó không phải chờ gọi Database."]
+]
