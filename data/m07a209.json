@@ -1,0 +1,2112 @@
+[
+  {
+    "question": "What is the main objective of safety precautions in an aircraft workshop?",
+    "options": [
+      "To prevent injuries and accidents",
+      "To increase aircraft maintenance speed",
+      "To reduce aircraft weight"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To prevent injuries and accidents."
+  },
+  {
+    "question": "What is the correct procedure when hearing a continuous fire alarm is the workshop?",
+    "options": [
+      "Continue working until further notice",
+      "Evacuate the building immediately using the nearest exit",
+      "Call the fire department before leaving"
+    ],
+    "answer": 1,
+    "explanation": "Đáp án đúng vì Evacuate the building immediately using the nearest exit."
+  },
+  {
+    "question": "Why is it important to wear personal protective equipment (PPE) in a workshop?",
+    "options": [
+      "To follow company policies",
+      "To protect yourself from hazards",
+      "To reduce the cost of maintenance"
+    ],
+    "answer": 1,
+    "explanation": "Đáp án đúng vì To protect yourself from hazards."
+  },
+  {
+    "question": "What should you do first if you discover a fire in the workshop?",
+    "options": [
+      "Call for assistance and raise the alarm",
+      "Try to put it out yourself immediately",
+      "Run to the nearest exit without informing others Knowledge Level 2 (Understanding Properties and Applications)"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Call for assistance and raise the alarm."
+  },
+  {
+    "question": "What is the purpose of a Material Safety Data Sheet (MSDS)?",
+    "options": [
+      "To provide information on hazardous materials and their safe handling",
+      "To list all tools required for maintenance tasks",
+      "To calculate the weight of hazardous substances"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To provide information on hazardous materials and their safe handling."
+  },
+  {
+    "question": "Why is it necessary to tag and isolate circuit breakers before performing maintenance?",
+    "options": [
+      "To prevent unauthorized personnel from using the system",
+      "To protect technicians from accidental electrical shock",
+      "To ensure that only licensed engineers can access the system"
+    ],
+    "answer": 1,
+    "explanation": "Đáp án đúng vì To protect technicians from accidental electrical shock."
+  },
+  {
+    "question": "What should be done immediately if a person suffers an electric shock?",
+    "options": [
+      "Pull them away from the source with bare hands",
+      "Turn off the power and call for emergency assistance",
+      "Apply water to cool the affected area"
+    ],
+    "answer": 1,
+    "explanation": "Đáp án đúng vì Turn off the power and call for emergency assistance."
+  },
+  {
+    "question": "What is the purpose of risk assessments in a workshop?",
+    "options": [
+      "To determine which workers are responsible for accidents",
+      "To evaluate potential hazards and implement safety measures",
+      "To document workplace procedures Knowledge Level 3 (Detailed Application and Interpretation)"
+    ],
+    "answer": 1,
+    "explanation": "Đáp án đúng vì To evaluate potential hazards and implement safety measures."
+  },
+  {
+    "question": "What are the key safety considerations when working with high-pressure gases in an aircraft hangar?",
+    "options": [
+      "Ensure cylinders are stored upright, secured, and properly labeled",
+      "Keep cylinders near heat sources to maintain pressure",
+      "Always open valves fully for maximum gas flow"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Ensure cylinders are stored upright, secured, and properly labeled."
+  },
+  {
+    "question": "Why should weather radar systems be deactivated during aircraft maintenance?",
+    "options": [
+      "To prevent interference with workshop communication systems",
+      "To avoid exposing personnel to harmful radiation",
+      "To conserve aircraft battery power"
+    ],
+    "answer": 1,
+    "explanation": "Đáp án đúng vì To avoid exposing personnel to harmful radiation."
+  },
+  {
+    "question": "What is the primary risk associated with handling aviation oils and fuels?",
+    "options": [
+      "They can cause rapid cooling of aircraft surfaces",
+      "They are highly flammable and pose a fire hazard",
+      "They attract dust and contaminants"
+    ],
+    "answer": 1,
+    "explanation": "Đáp án đúng vì They are highly flammable and pose a fire hazard."
+  },
+  {
+    "question": "How can maintenance personnel ensure safety when working on aircraft doors?",
+    "options": [
+      "Only open or close doors after proper training and following procedures",
+      "Use additional force to close doors when they appear stuck",
+      "Assume doors are safe to operate as long as they are unlocked"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Only open or close doors after proper training and following procedures."
+  },
+  {
+    "question": "Why is tool care important in an aircraft workshop?",
+    "options": [
+      "To maintain tool performance and prevent damage",
+      "To increase the weight of the toolbox",
+      "To ensure tools are always stored in locked cabinets"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To maintain tool performance and prevent damage."
+  },
+  {
+    "question": "What is the purpose of a shadow board in tool management?",
+    "options": [
+      "To store all tools in one location",
+      "To provide visual control of missing tools",
+      "To prevent tools from being borrowed"
+    ],
+    "answer": 1,
+    "explanation": "Đáp án đúng vì To provide visual control of missing tools."
+  },
+  {
+    "question": "Why is tool calibration necessary?",
+    "options": [
+      "To ensure accuracy and reliability in measurements",
+      "To make tools last longer",
+      "To reduce the need for tool replacement"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To ensure accuracy and reliability in measurements."
+  },
+  {
+    "question": "What is the function of workshop materials in aircraft maintenance?",
+    "options": [
+      "To support the construction of new aircraft",
+      "To ensure repairs and maintenance meet quality standards",
+      "To replace all metallic parts with composite materials Knowledge Level 2 (Understanding Properties and Applications)"
+    ],
+    "answer": 1,
+    "explanation": "Đáp án đúng vì To ensure repairs and maintenance meet quality standards."
+  },
+  {
+    "question": "Why must tool calibration records be maintained?",
+    "options": [
+      "To track tool usage history",
+      "To ensure compliance with safety and quality standards",
+      "To check if the tool can be replaced"
+    ],
+    "answer": 1,
+    "explanation": "Đáp án đúng vì To ensure compliance with safety and quality standards."
+  },
+  {
+    "question": "What is the main difference between a national standard and an international standard?",
+    "options": [
+      "National standards apply to one country, while international standards are used worldwide",
+      "National standards are always stricter than international standards",
+      "International standards are only used in the aviation industry"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì National standards apply to one country, while international standards are used worldwide."
+  },
+  {
+    "question": "How does tolerance affect the fit of mechanical components?",
+    "options": [
+      "It determines the acceptable limits of variation in size",
+      "It increases the durability of a component",
+      "It ensures all parts fit exactly without variation"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì It determines the acceptable limits of variation in size."
+  },
+  {
+    "question": "What safety precautions should be taken when handling toxic workshop materials?",
+    "options": [
+      "Store them in plastic containers",
+      "Wear appropriate PPE and ensure proper ventilation",
+      "Dispose of them in general waste bins Knowledge Level 3 (Detailed Application and Interpretation)"
+    ],
+    "answer": 1,
+    "explanation": "Đáp án đúng vì Wear appropriate PPE and ensure proper ventilation."
+  },
+  {
+    "question": "How can improper tool control affect aircraft maintenance safety?",
+    "options": [
+      "It can lead to missing tools that cause foreign object damage (FOD)",
+      "It makes tools harder to locate",
+      "It increases the workload for maintenance personnel"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì It can lead to missing tools that cause foreign object damage (FOD)."
+  },
+  {
+    "question": "Why is international standardization important in aircraft maintenance?",
+    "options": [
+      "It ensures consistency and safety in global aviation practices",
+      "It allows each country to create unique aircraft maintenance procedures",
+      "It reduces the cost of aircraft components"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì It ensures consistency and safety in global aviation practices."
+  },
+  {
+    "question": "How does the calibration interval of a tool impact aircraft safety?",
+    "options": [
+      "Longer intervals reduce downtime but may lead to inaccurate readings",
+      "Frequent calibration ensures measurement accuracy and compliance",
+      "The calibration interval does not impact aircraft safety"
+    ],
+    "answer": 1,
+    "explanation": "Đáp án đúng vì Frequent calibration ensures measurement accuracy and compliance."
+  },
+  {
+    "question": "How do material handling procedures help prevent contamination in aircraft maintenance?",
+    "options": [
+      "By requiring personnel to wear gloves and store materials properly",
+      "By reducing the need for maintenance checks",
+      "By ensuring all materials are mixed together before use"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì By requiring personnel to wear gloves and store materials properly."
+  },
+  {
+    "question": "What is the primary function of hand tools in aircraft maintenance?",
+    "options": [
+      "To perform precision tasks such as tightening, cutting, and measuring",
+      "To operate aircraft engines",
+      "To store spare parts in the hangar"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To perform precision tasks such as tightening, cutting, and measuring."
+  },
+  {
+    "question": "What is a hacksaw commonly used for in aircraft maintenance?",
+    "options": [
+      "Cutting metal and plastic components",
+      "Removing screws and bolts",
+      "Welding metal sheets together"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Cutting metal and plastic components."
+  },
+  {
+    "question": "What is the purpose of a torque wrench?",
+    "options": [
+      "To apply a specific amount of torque to a fastener",
+      "To increase the strength of bolts",
+      "To cut metal sheets accurately"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To apply a specific amount of torque to a fastener."
+  },
+  {
+    "question": "What type of pliers is commonly used for gripping and cutting wires?",
+    "options": [
+      "Combination pliers",
+      "Locking pliers",
+      "Needle-nose pliers Knowledge Level 2 (Understanding Properties and Applications)"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Combination pliers."
+  },
+  {
+    "question": "What is the main difference between a ring spanner and an open-ended spanner? (Lv) 2)",
+    "options": [
+      "A ring spanner fully encloses the bolt head, providing better grip",
+      "A ring spanner is used only for electrical connections",
+      "An open-ended spanner is stronger than a ring spanner"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì A ring spanner fully encloses the bolt head, providing better grip."
+  },
+  {
+    "question": "How do precision measuring tools, such as micrometers, ensure accuracy?",
+    "options": [
+      "By providing highly precise measurements of small components",
+      "By increasing the strength of metal parts",
+      "By reducing the weight of aircraft components"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì By providing highly precise measurements of small components."
+  },
+  {
+    "question": "What is the purpose of feeler gauges in aircraft maintenance?",
+    "options": [
+      "To measure small gaps or clearances between components",
+      "To determine the weight of metal sheets",
+      "To check the sharpness of cutting tools"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To measure small gaps or clearances between components."
+  },
+  {
+    "question": "Why is it important to use a calibrated torque wrench?",
+    "options": [
+      "To prevent overtightening or under-tightening of bolts",
+      "To reduce the speed of maintenance tasks",
+      "To measure the thickness of fasteners Knowledge Level 3 (Detailed Application and Interpretation)"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To prevent overtightening or under-tightening of bolts."
+  },
+  {
+    "question": "Why should a torque wrench be reset to its lowest setting after use?",
+    "options": [
+      "To prevent damage to the internal spring mechanism",
+      "To ensure it remains properly calibrated",
+      "To keep it clean and free from dust"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To prevent damage to the internal spring mechanism."
+  },
+  {
+    "question": "How does a sine bar help in precision measurement?",
+    "options": [
+      "It is used to measure angles accurately using gauge blocks",
+      "It determines the electrical resistance of aircraft circuits",
+      "It measures the speed of rotating components"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì It is used to measure angles accurately using gauge blocks."
+  },
+  {
+    "question": "What is the main purpose of slip gauges in aircraft maintenance?",
+    "options": [
+      "To provide highly accurate reference measurements for calibrating tools",
+      "To store lubricant for moving parts",
+      "To increase the lifespan of fasteners"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To provide highly accurate reference measurements for calibrating tools."
+  },
+  {
+    "question": "What is the advantage of using electronic micrometers over traditional micrometers?",
+    "options": [
+      "They provide faster and more accurate digital readings",
+      "They are lighter than traditional micrometers",
+      "They do not require calibration"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì They provide faster and more accurate digital readings."
+  },
+  {
+    "question": "What is the purpose of an engineering drawing?",
+    "options": [
+      "To provide detailed information for manufacturing and assembling components",
+      "To record flight data",
+      "To track maintenance schedules"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To provide detailed information for manufacturing and assembling components."
+  },
+  {
+    "question": "What are the two main types of orthographic projection used in engineering drawings?",
+    "options": [
+      "First-angle and third-angle projection",
+      "Oblique and isometric projection",
+      "Schematic and block diagrams"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì First-angle and third-angle projection."
+  },
+  {
+    "question": "What symbol is used to indicate the projection system on a drawing?",
+    "options": [
+      "A triangle",
+      "A projection symbol",
+      "A circle with a cross"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì A triangle."
+  },
+  {
+    "question": "What is a sectional view used for in engineering drawings?",
+    "options": [
+      "To show the internal feartures of a components",
+      "To highlight electrical circuits",
+      "To indicate color coding of materials"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To show the internal feartures of a components."
+  },
+  {
+    "question": "What is the purpose of a title block on an engineering drawing?",
+    "options": [
+      "To provide identification and essential information about the drawing",
+      "To indicate measurement units only",
+      "To show the final assembled product"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To provide identification and essential information about the drawing."
+  },
+  {
+    "question": "What is an exploded view drawing used for?",
+    "options": [
+      "To show how individual components fit together",
+      "To indicate different material types",
+      "To display an object's electrical properties"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To show how individual components fit together."
+  },
+  {
+    "question": "What type of diagram is used to represent the connections between electrical components in an aircraft?",
+    "options": [
+      "Wiring diagram",
+      "Block diagram",
+      "Assembly drawing"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Wiring diagram."
+  },
+  {
+    "question": "What is the function of a component location diagram?",
+    "options": [
+      "To show the physical location of components in a system",
+      "To provide manufacturing instructions",
+      "To determine electrical resistance"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To show the physical location of components in a system."
+  },
+  {
+    "question": "What type of drawing is commonly used to show how an aircraft system operates?",
+    "options": [
+      "Schematic diagram",
+      "Detail drawing",
+      "Installation drawing"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Schematic diagram."
+  },
+  {
+    "question": "What does the term \"tolerance\" refer to in engineering drawings?",
+    "options": [
+      "The allowable variation in dimensions",
+      "The weight of a component",
+      "The maximum electrical load"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì The allowable variation in dimensions."
+  },
+  {
+    "question": "What is the main purpose of dimensioning in engineering drawing?",
+    "options": [
+      "To define the exact size and shape of a component",
+      "To add aesthetic value to the drawing",
+      "To provide a description of material properties"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To define the exact size and shape of a component."
+  },
+  {
+    "question": "Why are British Standards (BS) , ISO, and other international standards important in engineering drawings?",
+    "options": [
+      "They ensure consistency and accuracy across different industries",
+      "They are only used for historical reference",
+      "They replace the need for technical specifications"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì They ensure consistency and accuracy across different industries."
+  },
+  {
+    "question": "What is a fit in engineering terms?",
+    "options": [
+      "The relationship between two mating parts, such as a shaft and a hole",
+      "The maximum weight an aircraft component can handle",
+      "The alignment of an aircraft during flight"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì The relationship between two mating parts, such as a shaft and a hole."
+  },
+  {
+    "question": "What are the three main types of fits?",
+    "options": [
+      "Clearance, interference, and transition fits",
+      "Loose, tight, and medium fits",
+      "Standard, metric, and custom fits"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Clearance, interference, and transition fits."
+  },
+  {
+    "question": "What is a clearance fit?",
+    "options": [
+      "A fit where there is always space between mating parts",
+      "A fit where one part is pressed tightly into another",
+      "A fit where two parts must be welded together"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì A fit where there is always space between mating parts."
+  },
+  {
+    "question": "What is an interference fit?",
+    "options": [
+      "A fit where the parts are slightly larger than the mating component, requiring force for assembly",
+      "A fit that allows free movement of the parts",
+      "A fit where parts must be lubricated before use"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì A fit where the parts are slightly larger than the mating component, requiring force for assembly."
+  },
+  {
+    "question": "What is the a transition fit?",
+    "options": [
+      "A fit that may result in either clearance or interference depending on tolerances",
+      "A fit that always has a loose connection",
+      "A fit that is only used for non-moving parts"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì A fit that may result in either clearance or interference depending on tolerances."
+  },
+  {
+    "question": "Why is it important to control fits and clearances in aircraft components?",
+    "options": [
+      "To ensure proper functioning and prevent mechanical failures",
+      "To increase the weight of the aircraft",
+      "To make maintenance procedures easier"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To ensure proper functioning and prevent mechanical failures."
+  },
+  {
+    "question": "What is wear in mechanical systems?",
+    "options": [
+      "The gradual removal of material due to friction or movement",
+      "The process of adding extra material to strengthen components",
+      "The polishing of metal surfaces to improve appearance"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì The gradual removal of material due to friction or movement."
+  },
+  {
+    "question": "What is ovality in a hole or shaft?",
+    "options": [
+      "The condition where a circular hole or shaft becomes slightly elliptical due to wear",
+      "The increase in length of a metal component",
+      "The ability of a part to resist corrosion"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì The condition where a circular hole or shaft becomes slightly elliptical due to wear."
+  },
+  {
+    "question": "What tool is commonly used to check the ovality of a hole?",
+    "options": [
+      "Go/NoGo gauge",
+      "Torque wrench",
+      "Spirit level"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Go/NoGo gauge."
+  },
+  {
+    "question": "What is bow in a shaft?",
+    "options": [
+      "A condition where the shaft is not straight but slightly curved",
+      "A method of connecting two mechanical components",
+      "A measurement of the shaft's diameter"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì A condition where the shaft is not straight but slightly curved."
+  },
+  {
+    "question": "How can twist in a shaft be detected?",
+    "options": [
+      "By checking witness marks at both ends of the shaft",
+      "By applying lubricant and checking resistance",
+      "By heating the shaft and measuring its expansion"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì By checking witness marks at both ends of the shaft."
+  },
+  {
+    "question": "What instrument is used to measure bow in a shaft?",
+    "options": [
+      "Dial test indicator (DTI) with V-blocks",
+      "Vernier caliper",
+      "Hydraulic press"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Dial test indicator (DTI) with V-blocks."
+  },
+  {
+    "question": "What does EWIS stand for in aircraft maintenance?",
+    "options": [
+      "Electrical Wiring Interconnection System",
+      "Electronic Waveform Integration System",
+      "Engine Wiring Inspection Standard"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Electrical Wiring Interconnection System."
+  },
+  {
+    "question": "What is the purpose of a continuity test in electrical circuits?",
+    "options": [
+      "To check if current flows through a complete circuit",
+      "To measure the temperature of electrical components",
+      "To test the speed of electrical signals"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To check if current flows through a complete circuit."
+  },
+  {
+    "question": "What instrument is typically used for insulation testing?",
+    "options": [
+      "A megohmmeter (insulation tester)",
+      "A voltmeter",
+      "A frequency counter"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì A megohmmeter (insulation tester)."
+  },
+  {
+    "question": "What is the main purpose of bonding in an aircraft's electrical system?",
+    "options": [
+      "To prevent static electricity buildup and ensure proper grounding",
+      "To increase the power output of electrical circuits",
+      "To reduce the weight of the aircraft"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To prevent static electricity buildup and ensure proper grounding."
+  },
+  {
+    "question": "Why is it important to identify different wire types in an aircraft? (LM 1)",
+    "options": [
+      "To ensure proper electrical performance and safety",
+      "To make the aircraft look more organized",
+      "To reduce manufacturing costs"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To ensure proper electrical performance and safety."
+  },
+  {
+    "question": "What is a common material used for aircraft wiring insulation?",
+    "options": [
+      "PTFE (Teflon)",
+      "Rubber",
+      "Paper"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì PTFE (Teflon)."
+  },
+  {
+    "question": "What is the purpose of crimping tools in EWIS?",
+    "options": [
+      "To attach connectors securely to electrical wires",
+      "To cut wires to the correct length",
+      "To twist wires together for better conductivity"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To attach connectors securely to electrical wires."
+  },
+  {
+    "question": "Why is hydraulic crimping preferred over hand-operated crimping for large wires?",
+    "options": [
+      "It provides a stronger and more consistent connection",
+      "It is faster to use in all situations",
+      "It is easier to carry and transport"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì It provides a stronger and more consistent connection."
+  },
+  {
+    "question": "What is the function of connector pins in aircraft wiring?",
+    "options": [
+      "To allow electrical connections between components",
+      "To hold wires in place for easy identification",
+      "To act as grounding points for static discharge"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To allow electrical connections between components."
+  },
+  {
+    "question": "How are aircraft coaxial cables different from standard electrical cables?",
+    "options": [
+      "They are designed to transmit high-frequency signals with minimal loss",
+      "They are heavier and more rigid",
+      "They do not require insulation"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì They are designed to transmit high-frequency signals with minimal loss."
+  },
+  {
+    "question": "What is the purpose of cable looming in aircraft wiring?",
+    "options": [
+      "To organize and protect wiring bundles from damage",
+      "To make the aircraft lighter",
+      "To reduce the electrical resistance of cables"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To organize and protect wiring bundles from damage."
+  },
+  {
+    "question": "What is the role of heat shrink wrapping in EWIS?",
+    "options": [
+      "To insulate and protect wire connections from environmental factors",
+      "To increase the flexibility of wiring",
+      "To replace the need for connectors"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To insulate and protect wire connections from environmental factors."
+  },
+  {
+    "question": "Why must aircraft wiring be protected from fluid contamination?",
+    "options": [
+      "Fluids can degrade insulation and cause electrical failures",
+      "Fluids increase the conductivity of the wiring",
+      "Fluids improve heat dissipation in wires"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Fluids can degrade insulation and cause electrical failures."
+  },
+  {
+    "question": "What safety precaution should be taken when using heat guns for heat shrink wrapping?",
+    "options": [
+      "Ensure the heat gun is calibrated and directed away from sensitive components",
+      "Always use the highest heat setting",
+      "Use water to cool the wires immediately after heating"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Ensure the heat gun is calibrated and directed away from sensitive components."
+  },
+  {
+    "question": "What is the main purpose of cable clamps in an aircraft?",
+    "options": [
+      "To secure wiring in place and prevent movement",
+      "To act as a heat sink for electrical components",
+      "To increase current flow in the wiring"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To secure wiring in place and prevent movement."
+  },
+  {
+    "question": "What is arc tracking, and why is it dangerous?",
+    "options": [
+      "A phenomenon where electrical discharge damages insulation, leading to short circuits",
+      "A method used to locate damaged wires",
+      "A technique for improving electrical conductivity in wires"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì A phenomenon where electrical discharge damages insulation, leading to short circuits."
+  },
+  {
+    "question": "What is the primary purpose of riveting in aircraft structures?",
+    "options": [
+      "To create strong and permanent joints",
+      "To allow easy disassembly of components",
+      "To reduce the weight of the aircraft"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To create strong and permanent joints."
+  },
+  {
+    "question": "Why are rivets preferred over bolts in certain aircraft structures?",
+    "options": [
+      "Rivets are cheaper, lighter, and faster to install",
+      "Rivets are easier to remove than bolts",
+      "Rivets do not require pre-drilled holes"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Rivets are cheaper, lighter, and faster to install."
+  },
+  {
+    "question": "What is a lap joint?",
+    "options": [
+      "A joint where two overlapping sheets are riveted together",
+      "A joint where two plates are welded together",
+      "A joint used only in high-stress areas"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì A joint where two overlapping sheets are riveted together."
+  },
+  {
+    "question": "What is the main advantage of a joggled lap joint compared to a standard lap joint?",
+    "options": [
+      "It provides a flush surface",
+      "It is stronger than a double strap butt joint",
+      "It requires no rivets"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì It provides a flush surface."
+  },
+  {
+    "question": "What is the minimum recommended pitch for rivets in a row?",
+    "options": [
+      "3 times the rivet shank diameter (3D)",
+      "| times the rivet shank diameter (ID)",
+      "5 times the rivet shank diameter (5D)"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì 3 times the rivet shank diameter (3D)."
+  },
+  {
+    "question": "What is the purpose of staggered riveting?",
+    "options": [
+      "To improve joint strength and reduce stress concentration",
+      "To decrease the number of rivets used",
+      "To allow faster installation of rivets"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To improve joint strength and reduce stress concentration."
+  },
+  {
+    "question": "How is the correct rivet length determined?",
+    "options": [
+      "By ensuring enough material is left to form the second head",
+      "By choosing the longest available rivet",
+      "By selecting a rivet shorter than the hole depth"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì By ensuring enough material is left to form the second head."
+  },
+  {
+    "question": "What is the purpose of a pilot hole in riveting?",
+    "options": [
+      "To guide the final drill and ensure correct hole size",
+      "To provide extra space for the rivet",
+      "To make rivet removal easier"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To guide the final drill and ensure correct hole size."
+  },
+  {
+    "question": "Why is de-burring important before installing rivets?",
+    "options": [
+      "To remove sharp edges and prevent cracks",
+      "To increase the speed of riveting",
+      "To allow better airflow around the rivet"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To remove sharp edges and prevent cracks."
+  },
+  {
+    "question": "What tool is used to remove a damaged rivet?",
+    "options": [
+      "A pin punch and drill",
+      "A wrench",
+      "A screwdriver"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì A pin punch and drill."
+  },
+  {
+    "question": "What is the main function of pipes and hoses in an aircraft?",
+    "options": [
+      "To transport fluids such as fuel, oil, and hydraulic thud",
+      "To support structural components",
+      "To provide insulation for electrical wiring"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To transport fluids such as fuel, oil, and hydraulic thud."
+  },
+  {
+    "question": "Why is it important to isolate pressure sources before working on pipes?",
+    "options": [
+      "To prevent accidental fluid release and potential injury",
+      "To make the repair process faster",
+      "To ensure the pipes do not move during inspection"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To prevent accidental fluid release and potential injury."
+  },
+  {
+    "question": "What safety precaution should be taken when working with hydraulic fluid?",
+    "options": [
+      "Always wear eye protection and gloves",
+      "Use only bare hands to avoid contamination",
+      "Heat the fluid before handling"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Always wear eye protection and gloves."
+  },
+  {
+    "question": "What is the purpose of flaring a pipe?",
+    "options": [
+      "To create a secure and leak-proof connection",
+      "To make the pipe easier to bend",
+      "To increase the pipe's flexibility"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To create a secure and leak-proof connection."
+  },
+  {
+    "question": "What happens if a pipe flare is too short?",
+    "options": [
+      "It will not provide enough surface area for a proper seal",
+      "It will be too tight and cause leakage",
+      "It will make installation easier"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì It will not provide enough surface area for a proper seal."
+  },
+  {
+    "question": "What is the correct way to cut aircraft tubing?",
+    "options": [
+      "Using a tube cutter to ensure a clean and square cut",
+      "Using a hacksaw without deburring",
+      "Bending the tube until it breaks"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Using a tube cutter to ensure a clean and square cut."
+  },
+  {
+    "question": "Why should bends be included in aircraft tubing installations?",
+    "options": [
+      "To absorb thermal expansion and prevent stress",
+      "To reduce the weight of the tubing",
+      "To make the tubing easier to remove"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To absorb thermal expansion and prevent stress."
+  },
+  {
+    "question": "What test is used to check the internal cleanliness of a rigid pipe?",
+    "options": [
+      "Bore test",
+      "Electrical resistance test",
+      "Ultrasonic scan"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Bore test."
+  },
+  {
+    "question": "How is a pressure test performed on aircraft pipes?",
+    "options": [
+      "By testing at 1.5 times the maximum working pressure",
+      "By filling the pipe with water and checking for leaks",
+      "By squeezing the pipe with pliers"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì By testing at 1.5 times the maximum working pressure."
+  },
+  {
+    "question": "What must be done before installing a new flexible hose?",
+    "options": [
+      "Verify part number, inspect for damage, and perform a pressure test if required",
+      "Cut it to a shorter length to ensure a tight fit",
+      "Fill it with hydraulic fluid before installation"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Verify part number, inspect for damage, and perform a pressure test if required."
+  },
+  {
+    "question": "Why is it important to avoid twisting flexible hoses during installation?",
+    "options": [
+      "Twisting can restrict fluid flow and cause failure",
+      "Twisting makes the hose more durable",
+      "Twisting helps secure the fittings Note: Reference content page 22"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Twisting can restrict fluid flow and cause failure."
+  },
+  {
+    "question": "What must be done after installing a new hose in a fuel system?",
+    "options": [
+      "Perform a function and leak test, then conduct a flow test",
+      "Wait 24 hours before using the hose",
+      "Apply grease to the hose for lubrication"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Perform a function and leak test, then conduct a flow test."
+  },
+  {
+    "question": "What is the primary function of a spring in an aircraft system?",
+    "options": [
+      "To store and release mechanical energy",
+      "To generate electrical power",
+      "To reduce fuel consumption"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To store and release mechanical energy."
+  },
+  {
+    "question": "Where are most springs located in an aircraft?",
+    "options": [
+      "Inside units and assemblies",
+      "On the aircraft exterior",
+      "Inside the fuel tanks"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Inside units and assemblies."
+  },
+  {
+    "question": "What type of damage can occur when a spring rubs against adjacent components?",
+    "options": [
+      "Fretting",
+      "Melting",
+      "Expanding"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Fretting."
+  },
+  {
+    "question": "What is a common sign of overheating in a spring?",
+    "options": [
+      "Discoloration and loss of temper",
+      "Increased flexibility",
+      "Expanding"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Discoloration and loss of temper."
+  },
+  {
+    "question": "What is the most common check performed on coil springs?",
+    "options": [
+      "Static measurement",
+      "Electrical conductivity test",
+      "Ultrasonic testing"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Static measurement."
+  },
+  {
+    "question": "How is a spring rate typically tested in-situ?",
+    "options": [
+      "By measuring the force needed to operate a spring-loaded mechanism",
+      "By heating the spring and checking for deformation",
+      "By measuring the spring's color change"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì By measuring the force needed to operate a spring-loaded mechanism."
+  },
+  {
+    "question": "What happens if a spring fails an inspection check?",
+    "options": [
+      "It must be replaced with a serviceable item",
+      "It should be cleaned and reinstalled",
+      "It should be reinforced with extra material"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì It must be replaced with a serviceable item."
+  },
+  {
+    "question": "Why is it essential to use the correct part number when replacing a spring?",
+    "options": [
+      "Because springs are critical to the operation of the system",
+      "Because different springs have the same properties",
+      "Because larger springs always perform better"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Because springs are critical to the operation of the system."
+  },
+  {
+    "question": "What is the primary function of a bearing in an aircraft system?",
+    "options": [
+      "To reduce friction and support rotating or moving parts",
+      "To store hydraulic fluid",
+      "To generate electrical power"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To reduce friction and support rotating or moving parts."
+  },
+  {
+    "question": "Why should bearings not be spun in an unlubricated condition?",
+    "options": [
+      "It can cause contamination and lead to damage",
+      "It makes the bearing too hot to handle",
+      "It reduces the weight of the bearing"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì It can cause contamination and lead to damage."
+  },
+  {
+    "question": "What should be used to clean aircraft bearings?",
+    "options": [
+      "Trichloroethane or white spirit",
+      "Water and soap",
+      "Diesel fuel"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Trichloroethane or white spirit."
+  },
+  {
+    "question": "What is the purpose of bearing lubrication?",
+    "options": [
+      "To reduce friction and prevent metal-to-metal contact",
+      "To make the bearing heavier",
+      "To keep the bearing at a constant speed"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To reduce friction and prevent metal-to-metal contact."
+  },
+  {
+    "question": "What are the three main types of bearing lubricants?",
+    "options": [
+      "Oil, grease, and solid dry film lubricants",
+      "Water, gel, and foam",
+      "Graphite, silicone, and paint"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Oil, grease, and solid dry film lubricants."
+  },
+  {
+    "question": "What safety equipment should be worn when cleaning bearings?",
+    "options": [
+      "Gloves, goggles, and a breathing mask",
+      "A helmet and knee pads",
+      "A fire-resistant suit"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Gloves, goggles, and a breathing mask."
+  },
+  {
+    "question": "What is the \"feel test\" used for in bearing inspection?",
+    "options": [
+      "To check for roughness by slowly turning the bearing by hand",
+      "To measure the bearing's weight",
+      "To test the bearing's electrical resistance"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To check for roughness by slowly turning the bearing by hand."
+  },
+  {
+    "question": "How is a \"run test\" performed on a bearing?",
+    "options": [
+      "By rotating the bearing at 500-1,000 rpm while applying axial and radial loads",
+      "By placing the bearing in cold storage for 24 hours",
+      "By soaking the bearing in lubricant overnight"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì By rotating the bearing at 500-1,000 rpm while applying axial and radial loads."
+  },
+  {
+    "question": "What is a common sign of bearing overheating?",
+    "options": [
+      "Bluing of elements and raceways",
+      "Increased flexibility of the bearing",
+      "The bearing becomes lighter in weight"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Bluing of elements and raceways."
+  },
+  {
+    "question": "What is brinelling in a bearing?",
+    "options": [
+      "Indentation of raceways caused by sudden increases in speed under high load",
+      "The process of removing excess grease from a bearing",
+      "A method for reducing the weight of a bearing"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Indentation of raceways caused by sudden increases in speed under high load."
+  },
+  {
+    "question": "What is a common cause of false brinelling in a bearing?",
+    "options": [
+      "Vibration transmitted through the bearing while stationary",
+      "Lack of lubrication",
+      "High-speed operation"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Vibration transmitted through the bearing while stationary."
+  },
+  {
+    "question": "What is the correct action if a bearing fails an inspection check?",
+    "options": [
+      "lt must be replaced with a serviceable bearing",
+      "It should be clemed and reused",
+      "It should be reinforced with extra material"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì lt must be replaced with a serviceable bearing."
+  },
+  {
+    "question": "What is the primary function of a transmission system in an aircraft?",
+    "options": [
+      "To transfer and control mechanical motion",
+      "To generate electrical power",
+      "To store hydraulic fluid"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To transfer and control mechanical motion."
+  },
+  {
+    "question": "What are the main components of a gear transmission system?",
+    "options": [
+      "Gears, shafts, and bearings",
+      "Springs, rods, and wires",
+      "Pipes, hoses, and seals"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Gears, shafts, and bearings."
+  },
+  {
+    "question": "What is backlash in a gear system?",
+    "options": [
+      "The play or clearance between meshing gear teeth",
+      "The maximum load a gear can handle",
+      "The force required to rotate a gear"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì The play or clearance between meshing gear teeth."
+  },
+  {
+    "question": "Why is backlash important in gear systems?",
+    "options": [
+      "It allows for proper lubrication and prevents overheating",
+      "It eliminates the need for maintenance",
+      "It increases the speed of the gears"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì It allows for proper lubrication and prevents overheating."
+  },
+  {
+    "question": "What is the purpose of a belt and pulley system in aircraft transmissions?",
+    "options": [
+      "To transfer motion between shafts using flexible belts",
+      "To increase hydraulic pressure",
+      "To store electrical energy"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To transfer motion between shafts using flexible belts."
+  },
+  {
+    "question": "What are signs of wear in aircraft belts and pulleys?",
+    "options": [
+      "Fraying, splitting, and slackness",
+      "Change in color",
+      "Increase in belt thickness"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Fraying, splitting, and slackness."
+  },
+  {
+    "question": "What must be checked when inspecting control chains in aircraft?",
+    "options": [
+      "Freedom from twists and proper engagement with chain wheels",
+      "The electrical conductivity of the chain",
+      "The weight of the chain"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Freedom from twists and proper engagement with chain wheels."
+  },
+  {
+    "question": "What is the purpose of a screw jack in an aircraft system?",
+    "options": [
+      "To convert rotational motion into linear motion",
+      "To increase the speed of a transmission",
+      "To control electrical circuits"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To convert rotational motion into linear motion."
+  },
+  {
+    "question": "What should be checked during the inspection of a push-pull rod system?",
+    "options": [
+      "Signs of damage, overheating, and proper alignment",
+      "The weight of the rods",
+      "The color of the rods"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Signs of damage, overheating, and proper alignment."
+  },
+  {
+    "question": "Why is lubrication important for transmission components?",
+    "options": [
+      "To reduce friction and wear, extending component life",
+      "To increase the temperature of components",
+      "To make components heavier"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To reduce friction and wear, extending component life."
+  },
+  {
+    "question": "What should be ensured when adjusting a chain tension system?",
+    "options": [
+      "The chain should not be twisted during adjustment",
+      "The chain should be completely loose",
+      "The chain should be submerged in water"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì The chain should not be twisted during adjustment."
+  },
+  {
+    "question": "What is the primary purpose of lever devices in aircraft transmissions?",
+    "options": [
+      "To transfer mechanical force efficiently between components",
+      "To generate electrical signals",
+      "To act as a safety backup system"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To transfer mechanical force efficiently between components."
+  },
+  {
+    "question": "What is the primary lonction of control cables in an aircraft?",
+    "options": [
+      "To transmit mechanical motion for flight control surface",
+      "To provide electrical connections between components",
+      "To support structural loads in the aircraft"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To transmit mechanical motion for flight control surface."
+  },
+  {
+    "question": "What type of end fitting is the most commonly used on modern aircraft control cables?",
+    "options": [
+      "Swaged end fitting",
+      "Spilced and whipped end fitting",
+      "Welded end fitting"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Swaged end fitting."
+  },
+  {
+    "question": "What tool is used to install loop and thimble type end fittings on control cables?",
+    "options": [
+      "Nicopress tool",
+      "Torque wrench",
+      "Vernier caliper"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Nicopress tool."
+  },
+  {
+    "question": "What is the purpose of a Go/No-Go gauge when installing control cable end fittings?",
+    "options": [
+      "To check if the fitting has been properly compressed",
+      "To measure the length of the cable",
+      "To verify the material of the fitting"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To check if the fitting has been properly compressed."
+  },
+  {
+    "question": "Why should solvents not be used to clean control cables?",
+    "options": [
+      "They remove internal lubricant, causing corrosion and wear",
+      "They make the cables more flexible",
+      "They improve the strength of the cables"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì They remove internal lubricant, causing corrosion and wear."
+  },
+  {
+    "question": "How can broken wires in control cables be detected?",
+    "options": [
+      "By rubbing a cloth along the cable length",
+      "By applying water to see if bubbles form",
+      "By heating the cable and checking for deformations"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì By rubbing a cloth along the cable length."
+  },
+  {
+    "question": "What is \"bird-caging\" in control cables?",
+    "options": [
+      "When strands of the cable separate and stand out due to sudden tensile loads",
+      "When a cable is twisted incorrectly",
+      "When a cable is too loose in its fitting"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì When strands of the cable separate and stand out due to sudden tensile loads."
+  },
+  {
+    "question": "What is the maximum cable deflection angle at fairleads allowed during installation?",
+    "options": [
+      "Not more than three degrees",
+      "Not more than ten degrees",
+      "Not more than one degree"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Not more than three degrees."
+  },
+  {
+    "question": "What should be done if a control cable has red rust or a whitish deposit?",
+    "options": [
+      "The cable must be replaced",
+      "The cable can be cleaned and reused",
+      "The cable should be lubricated to remove rust"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì The cable must be replaced."
+  },
+  {
+    "question": "Why are pulleys used in control cable systems?",
+    "options": [
+      "To change the direction of the cable run",
+      "To provide additional support to the aircraft structure",
+      "To replace the need for fairleads"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To change the direction of the cable run."
+  },
+  {
+    "question": "What must be checked when inspecting a control cable pulley?",
+    "options": [
+      "Roughness, sharp edges, and foreign materials in grooves",
+      "The color of the pulley",
+      "The weight of the pulley"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Roughness, sharp edges, and foreign materials in grooves."
+  },
+  {
+    "question": "How should control cables be inspected in hard-to-see places?",
+    "options": [
+      "By using a torch and mirror",
+      "By feeling the cable with bare hands",
+      "By tapping the cable with a tool"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì By using a torch and mirror."
+  },
+  {
+    "question": "What is the primary purpose of aircraft storage procedures?",
+    "options": [
+      "To ensure the aircraft remains in peak condition during inactivity",
+      "To increase the weight of the aircraft",
+      "To reduce the fuel consumption"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To ensure the aircraft remains in peak condition during inactivity."
+  },
+  {
+    "question": "What is the ideal temperature range for storing aircraft inside buildings?",
+    "options": [
+      "50-60°F",
+      "70-80°F",
+      "30°-40°F"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì 50-60°F."
+  },
+  {
+    "question": "Why should aircraft be stored inside buildings whenever possible?",
+    "options": [
+      "To prevent corrosion and environmental damage",
+      "To reduce fuel usage",
+      "To make maintenance easier"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To prevent corrosion and environmental damage."
+  },
+  {
+    "question": "What is Phase I in the aircraft storage process?",
+    "options": [
+      "Preparation for storage",
+      "Regular maintenance",
+      "Final aircraft disposal"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Preparation for storage."
+  },
+  {
+    "question": "What is a key requirement for aircraft in Phase II storage maintenance?",
+    "options": [
+      "Periodic servicing to prevent deterioration",
+      "Engine removal",
+      "Permanent aircraft grounding"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Periodic servicing to prevent deterioration."
+  },
+  {
+    "question": "Why must aircraft be checked for leaks during storage maintenance?",
+    "options": [
+      "To ensure there are no fluid leaks that can lead to system failures",
+      "To reduce the aircraft weight",
+      "To increase storage time"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To ensure there are no fluid leaks that can lead to system failures."
+  },
+  {
+    "question": "What must be done to a stored aircraft before returning it to service?",
+    "options": [
+      "Complete inspections and apply necessary maintenance",
+      "Increase its storage duration",
+      "Remove all internal components"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Complete inspections and apply necessary maintenance."
+  },
+  {
+    "question": "Why should fuel tanks be maintained at least 10% full during storage?",
+    "options": [
+      "To prevent microbial growth",
+      "To reduce aircraft weight",
+      "To avoid electrical failures Knowledge Level 2 (Understanding principles and applying knowledge)"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To prevent microbial growth."
+  },
+  {
+    "question": "What is the main risk if an aircraft is stored in high humidity conditions?",
+    "options": [
+      "Corrosion of metal components",
+      "Increased fuel efficiency",
+      "Better insulation for the cockpit"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Corrosion of metal components."
+  },
+  {
+    "question": "What is the purpose of deactivating the hydraulic system before long-term storage?",
+    "options": [
+      "To prevent leaks and contamination",
+      "To reduce the aircraft's weight",
+      "To speed up the aircraft's restart process"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To prevent leaks and contamination."
+  },
+  {
+    "question": "How should an aircraft be prepared for storage exceeding 60 days?",
+    "options": [
+      "Remove and store sensitive components, apply protective coatings",
+      "Increase engine power",
+      "Fly it periodically"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Remove and store sensitive components, apply protective coatings."
+  },
+  {
+    "question": "What must be done when removing an aircraft from storage?",
+    "options": [
+      "Conduct operational tests on all systems",
+      "Immediately start the engines",
+      "Repaint the aircraft"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Conduct operational tests on all systems."
+  },
+  {
+    "question": "What is the main reason for maintaining stored aircraft tires at the correct pressure?",
+    "options": [
+      "To prevent flat spots and structural damage",
+      "To increase aircraft weight",
+      "To prevent overheating"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To prevent flat spots and structural damage."
+  },
+  {
+    "question": "Why are engine covers used on stored aircraft?",
+    "options": [
+      "To prevent debris and moisture from entering the engine",
+      "To increase air intake",
+      "To improve fuel efficiency"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To prevent debris and moisture from entering the engine."
+  },
+  {
+    "question": "What is the purpose of maintaining electrical power to an aircraft during long-term storage?",
+    "options": [
+      "To keep electronic components functional and prevent corrosion",
+      "To charge the landing gear",
+      "To test hydraulic systems"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To keep electronic components functional and prevent corrosion."
+  },
+  {
+    "question": "How should moisture-sensitive avionics be stored during aircraft storage?",
+    "options": [
+      "In sealed moisture-proof containers with desiccant",
+      "Exposed to open air",
+      "Inside the aircraft without protection"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì In sealed moisture-proof containers with desiccant."
+  },
+  {
+    "question": "What is the primary purpose of aircraft disassembly?",
+    "options": [
+      "To allow for maintenance, repairs, and inspections",
+      "To reduce aircraft weight",
+      "To store unused components"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To allow for maintenance, repairs, and inspections."
+  },
+  {
+    "question": "What is the most common method used for visual inspection of defects?",
+    "options": [
+      "Looking for abnormalities such as cracks, corrosion, or missing fasteners",
+      "Using a magnifying glass to enlarge defects",
+      "Spraying components with a special dye"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Looking for abnormalities such as cracks, corrosion, or missing fasteners."
+  },
+  {
+    "question": "Why should hydraulic pipelines be blanked off during disassembly?",
+    "options": [
+      "To prevent contamination and fluid loss",
+      "To improve airflow through the system",
+      "To make reassembly easier"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To prevent contamination and fluid loss."
+  },
+  {
+    "question": "What is the first step before beginning aircraft disassembly?",
+    "options": [
+      "Reviewing the aircraft maintenance manual (AMM)",
+      "Removing all electrical components",
+      "Draining all aircraft fluids"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Reviewing the aircraft maintenance manual (AMM)."
+  },
+  {
+    "question": "Why must protective coatings be applied to metal components after repair?",
+    "options": [
+      "To prevent corrosion",
+      "To make the components heavier",
+      "To improve the appearance of the aircraft"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To prevent corrosion."
+  },
+  {
+    "question": "What is the purpose of torque loading?",
+    "options": [
+      "To apply the correct force when tightening bolts and fasteners",
+      "To increase the weight of the aircraft",
+      "To remove rust from metal components"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To apply the correct force when tightening bolts and fasteners."
+  },
+  {
+    "question": "What is the main purpose of a structural repair manual (SRM)?",
+    "options": [
+      "To provide guidelines for repairing aircraft structures",
+      "To list the aircraft's technical specifications",
+      "To schedule aircraft flight operations"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To provide guidelines for repairing aircraft structures."
+  },
+  {
+    "question": "What tool is commonly used to measure applied torque?",
+    "options": [
+      "A tape wrench",
+      "A vemier caliper",
+      "A micrometer"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì A tape wrench."
+  },
+  {
+    "question": "What must be done before reassembling a component?",
+    "options": [
+      "Clean and inspect all parts for serviceability",
+      "Paint all surfaces",
+      "lncrease the size of the bolts"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Clean and inspect all parts for serviceability."
+  },
+  {
+    "question": "What is the key reason for marking components during disassembly?",
+    "options": [
+      "To ensure correct reassembly and prevent installation errors",
+      "To improve the appearance of the aircraft",
+      "To increase the strength of the material Knowledge Level 2 (Understanding principles and applying knowledge)"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To ensure correct reassembly and prevent installation errors."
+  },
+  {
+    "question": "What is a common cause of fretting corrosion in bolted joints?",
+    "options": [
+      "Micro-movements between mating surfaces under load",
+      "Excessive tightening of the bolts",
+      "High-temperature exposure"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Micro-movements between mating surfaces under load."
+  },
+  {
+    "question": "How can metal fatigue be detected during inspection?",
+    "options": [
+      "By checking for small cracks using dye penetrant testing",
+      "By measuring the temperature of the metal",
+      "By tapping the metal with a hammer"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì By checking for small cracks using dye penetrant testing."
+  },
+  {
+    "question": "What is the correct sequence for tightening multiple bolts in a circular pattern?",
+    "options": [
+      "Follow a cross-pattern tightening sequence",
+      "Tighten in a clockwise order",
+      "Start from one side and move in a straight line"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Follow a cross-pattern tightening sequence."
+  },
+  {
+    "question": "How should a critical bolted joint be prepared before final assembly?",
+    "options": [
+      "Ensure surfaces are free from corrosion and debris",
+      "Paint the joint to prevent corrosion",
+      "Use standard nuts and bolts without checking specifications"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Ensure surfaces are free from corrosion and debris."
+  },
+  {
+    "question": "What is the best way to ensure an aircraft panel is properly installed after reassembly?",
+    "options": [
+      "Verify alignment and check that fasteners are correctly seated",
+      "Apply extra sealant to the panel edges",
+      "Paint over the fasteners"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Verify alignment and check that fasteners are correctly seated."
+  },
+  {
+    "question": "What is the correct action if a bolt hole is found with corrosion during an inspection?",
+    "options": [
+      "Clean and inspect the hole using an appropriate solvent",
+      "Install a larger bolt",
+      "Apply extra torque to secure the bolt"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Clean and inspect the hole using an appropriate solvent."
+  },
+  {
+    "question": "What is considered an \"abnormal event\" in aircraft operations?",
+    "options": [
+      "An event that is not frequently encountered but requires special inspections",
+      "Routine maintenance inspections",
+      "Regular aircraft fueling operations"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì An event that is not frequently encountered but requires special inspections."
+  },
+  {
+    "question": "What is the most common cause of electrical interference in modern aircraft?",
+    "options": [
+      "High-intensity radiated fields (IIIRI)",
+      "Low fuel levels",
+      "Poor weather conditions"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì High-intensity radiated fields (IIIRI)."
+  },
+  {
+    "question": "What is the primary risk of a lightning strike on an aircral\"",
+    "options": [
+      "Damage to electrical and structural components",
+      "Loss of fuel efficiency",
+      "Overheating of the engines"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Damage to electrical and structural components."
+  },
+  {
+    "question": "What is the main effect of a hard landing on an aircraft?",
+    "options": [
+      "Excessive stress on landing gear and airframe",
+      "Increased engine power",
+      "Faster taxiing speeds"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Excessive stress on landing gear and airframe."
+  },
+  {
+    "question": "What is the key sign of a flap or slat overspeed condition?",
+    "options": [
+      "Structural damage to the flap and slat mechanisms",
+      "Reduction in landing speed",
+      "Improved aircrall stability"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Structural damage to the flap and slat mechanisms."
+  },
+  {
+    "question": "What can cause brakes to overheat during aircraft operations?",
+    "options": [
+      "A high-energy stop during rejected takeoff",
+      "Cold weather conditions",
+      "Low-speed taxiing"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì A high-energy stop during rejected takeoff."
+  },
+  {
+    "question": "What is the recommended action after a bird strike is reported?",
+    "options": [
+      "Inspect the affected area for structural damage",
+      "Continue normal flight operations",
+      "Reduce aircraft speed immediately"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Inspect the affected area for structural damage."
+  },
+  {
+    "question": "Why is volcanic ash particularly dangerous for aircraft?",
+    "options": [
+      "It is highly abrasive and can damage engines and sensors",
+      "It improves aerodynamics",
+      "It helps cool down the engines"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì It is highly abrasive and can damage engines and sensors."
+  },
+  {
+    "question": "What is a major concern with battery electrolyte contamination in aircraft?",
+    "options": [
+      "Corrosion of aircraft structures",
+      "Increased battery efficiency",
+      "Overheating of fuel tanks"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Corrosion of aircraft structures."
+  },
+  {
+    "question": "What should be done in the event of a mercury spill inside an aircraft?",
+    "options": [
+      "Contain and clean up the spill immediately to prevent structural damage",
+      "Leave the mercury exposed for natural evaporation",
+      "Flush the area with water"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Contain and clean up the spill immediately to prevent structural damage."
+  },
+  {
+    "question": "How often commercial aircraft experience lightning strikes on average?",
+    "options": [
+      "Once every 3,000 flight hours",
+      "Once every 10 years",
+      "Once per flight"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Once every 3,000 flight hours."
+  },
+  {
+    "question": "What is the first step in an inspection after an overweight landing ?",
+    "options": [
+      "A Phase 1 examination of landing gear and critical structural areas",
+      "Immediate refueling of the aircraft",
+      "Conducting a flight test Knowledge Level 2 (Understanding  principles and applying knowledge)"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì A Phase 1 examination of landing gear and critical structural areas."
+  },
+  {
+    "question": "What is the primary purpose of inspections following a lightning strike ?",
+    "options": [
+      "To detect direct and indirect damage to aircraft components",
+      "To check fuel efficiency",
+      "To increase aircraft speed"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To detect direct and indirect damage to aircraft components."
+  },
+  {
+    "question": "Why is it important to check aircraft antennas after a lightning strike?",
+    "options": [
+      "They may be physically damaged or experience signal disruption",
+      "They improve fuel efficiency",
+      "They generate additional lift"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì They may be physically damaged or experience signal disruption."
+  },
+  {
+    "question": "What is a key indicator of indirect lightning damage?",
+    "options": [
+      "Disruptions in electrical and electronic systems",
+      "Increased aircraft speed",
+      "Reduction in cabin pressure"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Disruptions in electrical and electronic systems."
+  },
+  {
+    "question": "What should be inspected after a severe turbulence event?",
+    "options": [
+      "The structural integrity of wings, fuselage, and control surfaces",
+      "The color of the aircraft exterior",
+      "The aircraft's fuel level"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì The structural integrity of wings, fuselage, and control surfaces."
+  },
+  {
+    "question": "How can an overweight landing impact an aircraft's structure?",
+    "options": [
+      "It can cause stress to the landing gear and airframe",
+      "It increases fuel efficiency",
+      "It prevents corrosion"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì It can cause stress to the landing gear and airframe."
+  },
+  {
+    "question": "What is the function of fuse plugs in aircraft wheels?",
+    "options": [
+      "To release tire pressure if the brakes overheat",
+      "To improve fuel consumption",
+      "To strengthen the wheel structure"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To release tire pressure if the brakes overheat."
+  },
+  {
+    "question": "What should be checked after a bird or hail strike?",
+    "options": [
+      "Structural damage to leading edges and flight control surfaces",
+      "The aircraft’s fuel tank capacity",
+      "The altitude at which the strike occurred"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Structural damage to leading edges and flight control surfaces."
+  },
+  {
+    "question": "What is a critical inspection step after flight through volcanic ash ?",
+    "options": [
+      "Checking the engines for ash accumulation and erosion",
+      "increasing aircraft weight for stability",
+      "Repainting the aircraft exterior"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Checking the engines for ash accumulation and erosion."
+  },
+  {
+    "question": "What is the most effective method to detect mercury contamination on aircraft ?",
+    "options": [
+      "Using mercury sniffers and X-ray equipment",
+      "Measuring the aircraft’s weight",
+      "Spraying the area with water"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Using mercury sniffers and X-ray equipment."
+  },
+  {
+    "question": "What is the recommended response when an aircraft's brake temperature warning light activates?",
+    "options": [
+      "Allow the brakes to cool before further inspections",
+      "Immediately replace all brakes",
+      "Continue normal operations"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Allow the brakes to cool before further inspections."
+  },
+  {
+    "question": "Why must an aircraft be thoroughly cleaned after volcanic ash exposure?",
+    "options": [
+      "To prevent abrasion damage to moving parts",
+      "To increase engine thrust",
+      "To improve the aircraft's aerodynamics"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To prevent abrasion damage to moving parts."
+  },
+  {
+    "question": "Why is it important to inspect control surfaces after a hard landing?",
+    "options": [
+      "To check for binding or structural misalignment",
+      "To increase aircraft fuel efficiency",
+      "To adjust passenger seating arrangements"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To check for binding or structural misalignment."
+  },
+  {
+    "question": "What is the purpose of maintenance planning in aircraft operations?",
+    "options": [
+      "To ensure continued airworthiness and operational efficiency",
+      "To reduce fuel consumption",
+      "To increase the weight of the aircraft"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To ensure continued airworthiness and operational efficiency."
+  },
+  {
+    "question": "What is a Transit Check in aircraft maintenance?",
+    "options": [
+      "A pre-flight inspection performed before every flight",
+      "A major overhaul of the aircraft's engines",
+      "A test flight after maintenance work"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì A pre-flight inspection performed before every flight."
+  },
+  {
+    "question": "How often is a C Check performed on an aircraft?",
+    "options": [
+      "Approximately every 15-24 months",
+      "Every week",
+      "Every flight"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Approximately every 15-24 months."
+  },
+  {
+    "question": "What is the most comprehensive and demanding aircraft maintenance check?",
+    "options": [
+      "D Check",
+      "A Check",
+      "Transit Check"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì D Check."
+  },
+  {
+    "question": "What is the purpose of a Certificate of Release to Service (CRS)?",
+    "options": [
+      "To confirm that maintenance has been carried out correctly and the aircraft is airworthy",
+      "To schedule the next maintenance check",
+      "To store maintenance records for future use"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To confirm that maintenance has been carried out correctly and the aircraft is airworthy."
+  },
+  {
+    "question": "What does a Quarantine Store contain?",
+    "options": [
+      "Newly delivered parts awaiting inspection and approval",
+      "Parts that have been permanently removed from service",
+      "Fuel samples for quality testing"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì Newly delivered parts awaiting inspection and approval."
+  },
+  {
+    "question": "What is the role of the Quality Department in an aircraft maintenance organization?",
+    "options": [
+      "To ensure compliance with safety and maintenance regulations",
+      "To train pilots for emergency procedures",
+      "To manufacture aircraft parts Knowledge Level 2 (Understanding principles and applying knowledge)"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To ensure compliance with safety and maintenance regulations."
+  },
+  {
+    "question": "Why must maintenance procedures follow the Approved Maintenance Program (AMP)?",
+    "options": [
+      "To ensure compliance with airworthiness requirements and prevent failures",
+      "To allow airlines to customize maintenance schedules freely",
+      "To minimize fuel consumption"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì To ensure compliance with airworthiness requirements and prevent failures."
+  },
+  {
+    "question": "What is the purpose of an EASA Form 1 in maintenance procedures?",
+    "options": [
+      "It serves as an Authorized Release Certificate for overhauled, repaired, or modified components",
+      "It is used for recording aircraft weight and balance",
+      "It provides flight crew duty schedules"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì It serves as an Authorized Release Certificate for overhauled, repaired, or modified components."
+  },
+  {
+    "question": "What is the function of the Airworthiness Certificate (CofA)?",
+    "options": [
+      "It confirms that an aircraft meets safety standards and is legally allowed to operate",
+      "It records the aircraft's total flight hours",
+      "It is used for scheduling crew rest periods"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì It confirms that an aircraft meets safety standards and is legally allowed to operate."
+  },
+  {
+    "question": "How does the Extended Twin Operations (ETOPS) maintenance policy impact aircraft maintenance?",
+    "options": [
+      "It requires stricter maintenance and reliability standards for twin-engine aircraft flying over long distance",
+      "It allows all twin-engine aircraft to operate on any route without restrictions",
+      "it eliminates the need for regular maintenance checks"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì It requires stricter maintenance and reliability standards for twin-engine aircraft flying over long distance."
+  },
+  {
+    "question": "Why is Engine Health Monitoring (EHM) important in aircraft maintenance?",
+    "options": [
+      "It helps predict potential failures and improve engine reliability",
+      "It increases fuel efficiency",
+      "It reduces the need for oil changes"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì It helps predict potential failures and improve engine reliability."
+  },
+  {
+    "question": "What is the significance of life-limited components in aircraft maintenance?",
+    "options": [
+      "These components must be replaced after a specific time to ensure safety",
+      "They can be used indefinitely if properly maintained",
+      "They are not subject to airworthiness regulations Hết"
+    ],
+    "answer": 0,
+    "explanation": "Đáp án đúng vì These components must be replaced after a specific time to ensure safety."
+  }
+]
