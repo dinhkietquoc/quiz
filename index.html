@@ -223,7 +223,7 @@
   .m-title { font-size: 18px; font-weight: 700; color: #ffffff; margin-bottom: 6px; text-shadow: 0 1px 4px rgba(0,0,0,0.6); }
   .m-desc { font-size: 14px; color: rgba(255, 255, 255, 0.85); line-height: 1.4; text-shadow: 0 1px 2px rgba(0,0,0,0.5); }
 
-  /* BẢNG 3 Ô THỐNG KÊ RÕ RÀNG */
+  /* 3 Ô THỐNG KÊ */
   .stats-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -354,15 +354,11 @@
   <!-- MÀN HÌNH TRANG CHỦ -->
   <div id="menuView" class="card">
     
-    <!-- ============================================================
-         CHỈNH SỬA DÒNG CHỮ CHẠY Ở ĐÂY (thay đổi text bên trong thẻ span)
-         ============================================================ -->
-    <div class="marquee-box">
+    <!-- KHUNG CHỮ CHẠY TỰ ĐỘNG LẤY TỪ FILE NOTICE.TXT -->
+    <div class="marquee-box" id="noticeBox">
       <span class="marquee-icon">📢</span>
       <div class="marquee-track">
-        <span class="marquee-text">
-          Chào mừng Quốc khánh 2/9! Chúc các bạn ôn luyện thật tốt và đạt kết quả cao nhất! ✈️ Chúc thi đạt 100%!
-        </span>
+        <span class="marquee-text" id="noticeText">Đang tải thông báo...</span>
       </div>
     </div>
 
@@ -383,7 +379,7 @@
   <!-- MÀN HÌNH BÀI LÀM QUIZ -->
   <div id="quizView" class="card hidden">
     
-    <!-- 3 Ô THỐNG KÊ RÕ RÀNG -->
+    <!-- 3 Ô THỐNG KÊ -->
     <div class="stats-grid" id="qStatsGrid">
       <div class="stat-card active">
         <span class="stat-label">Đang làm</span>
@@ -426,6 +422,24 @@ let totalAttempts = 0;
 let totalCorrectAttempts = 0; 
 let advanceTimer;
 
+// HÀM TẢI THÔNG BÁO TỪ FILE NOTICE.TXT (CÓ CHỐNG LƯU CACHE)
+async function loadNotice() {
+  try {
+    const res = await fetch('notice.txt?v=' + Date.now());
+    if (!res.ok) throw new Error("Không tìm thấy notice.txt");
+    const text = await res.text();
+    const cleanText = text.trim();
+    if (cleanText) {
+      document.getElementById('noticeText').innerText = cleanText;
+    } else {
+      document.getElementById('noticeBox').style.display = 'none';
+    }
+  } catch (err) {
+    // Nếu chưa tạo file notice.txt thì ẩn thanh chạy để tránh hiện chữ lỗi
+    document.getElementById('noticeBox').style.display = 'none';
+  }
+}
+
 function shuffleArray(array) {
   const arr = [...array];
   for (let i = arr.length - 1; i > 0; i--) {
@@ -435,7 +449,7 @@ function shuffleArray(array) {
   return arr;
 }
 
-// Chỉ xáo trộn đáp án, giữ nguyên 100% thứ tự câu hỏi
+// Chỉ trộn đáp án, giữ nguyên 100% thứ tự câu hỏi
 function shuffleOnlyOptions(data) {
   return data.map(q => {
     const originalOptions = Array.isArray(q[2]) ? q[2] : [];
@@ -466,6 +480,8 @@ function shuffleOnlyOptions(data) {
 }
 
 async function init() {
+  loadNotice(); // Tải dòng chữ thông báo từ notice.txt
+
   try {
     const res = await fetch('data/modules.json');
     if (!res.ok) throw new Error("Không thể tải modules.json");
@@ -548,7 +564,6 @@ function renderQuestion() {
   const q = currentRoundData[currentRoundIndex];
   const accuracy = totalAttempts === 0 ? 100 : Math.round((totalCorrectAttempts / totalAttempts) * 100);
   
-  // CẬP NHẬT RÕ RÀNG 3 THỐNG KÊ
   const isReviewRound = (currentRoundData.length !== globalTotal);
   if (isReviewRound) {
     document.getElementById('statCurrentQ').innerText = `Ôn ${currentRoundIndex + 1}/${currentRoundData.length}`;
@@ -606,7 +621,6 @@ function checkAnswer(selectedIndex, correctIndex, btnClicked) {
     allBtns.forEach((b, i) => { if(i !== selectedIndex && i !== correctIndex) b.classList.add('dimmed'); });
   }
 
-  // Cập nhật lại số liệu đúng và độ chính xác ngay sau khi chọn
   const accuracy = Math.round((totalCorrectAttempts / totalAttempts) * 100);
   document.getElementById('statPassed').innerText = `${globalCompleted}/${globalTotal}`;
   document.getElementById('statAccuracy').innerText = `${accuracy}%`;
