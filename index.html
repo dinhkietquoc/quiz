@@ -83,7 +83,7 @@
   .dropdown-item:hover, .dropdown-item:active { background: var(--bg-color); }
   .dropdown-item.dev { color: #4f46e5; border-top: 1px solid var(--border); margin-top: 4px; padding-top: 10px; }
 
-  /* BẢNG ĐĂNG NHẬP (CHỈ HIỆN KHI BẤM NÚT) */
+  /* BẢNG ĐĂNG NHẬP */
   .modal-overlay {
     position: fixed;
     inset: 0;
@@ -190,6 +190,7 @@
   .q-stats { font-size: 13px; font-weight: 700; color: var(--text-sub); text-transform: uppercase; margin-bottom: 12px; letter-spacing: 0.5px; display: flex; justify-content: space-between; }
   .q-text { font-size: 20px; font-weight: 600; margin-bottom: 24px; line-height: 1.45; }
 
+  /* NÚT ĐÁP ÁN */
   .opt-btn { 
     width: 100%; 
     background: var(--bg-color); 
@@ -242,7 +243,6 @@
 </head>
 <body>
 
-<!-- THANH HEADER -->
 <div class="topbar">
   <div class="brand">✈️ Internal Training</div>
   <div class="menu-wrapper">
@@ -259,7 +259,7 @@
 </div>
 <div class="progress-container"><div class="progress-bar" id="progressBar"></div></div>
 
-<!-- POPUP ĐĂNG NHẬP ADMIN (CHỈ MỞ KHI BẤM NÚT CHO NHÀ PHÁT TRIỂN) -->
+<!-- POPUP ĐĂNG NHẬP ADMIN -->
 <div id="loginModal" class="modal-overlay hidden">
   <div class="modal-box">
     <div class="modal-title">🔐 Quản Trị Viên</div>
@@ -277,9 +277,7 @@
   </div>
 </div>
 
-<!-- KHUNG LÀM BÀI BÌNH THƯỜNG -->
 <div class="container" id="mainContainer">
-  
   <div id="menuView" class="card">
     <div class="hub-title">Training Modules</div>
     <div class="hub-sub">Please select a module to start.</div>
@@ -310,7 +308,6 @@
     <p style="color: var(--text-sub); margin-bottom: 24px;" id="endDesc">Calculating score...</p>
     <button class="btn-header" style="background: var(--accent); color: white; padding: 14px 24px; font-size: 16px;" onclick="goHome()">Back to Home</button>
   </div>
-
 </div>
 
 <script>
@@ -324,6 +321,46 @@ let currentRoundIndex = 0;
 let totalAttempts = 0;     
 let totalCorrectAttempts = 0; 
 let advanceTimer;
+
+function shuffleArray(array) {
+  const arr = [...array];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+// XỬ LÝ TRỘN ĐÁP ÁN: Tự thích ứng 2, 3 hoặc 4 đáp án
+function shuffleOnlyOptions(data) {
+  return data.map(q => {
+    const originalOptions = Array.isArray(q[2]) ? q[2] : [];
+    
+    // Chuẩn hoá vị trí đáp án đúng: hỗ trợ cả số 0,1,2 lẫn chữ "A","B","C"
+    let correctIdx = q[3];
+    if (typeof correctIdx === 'string' && isNaN(correctIdx)) {
+      correctIdx = correctIdx.toUpperCase().charCodeAt(0) - 65;
+    } else {
+      correctIdx = parseInt(correctIdx, 10);
+    }
+
+    const labeledOptions = originalOptions.map((opt, idx) => ({
+      text: opt,
+      isCorrect: (idx === correctIdx)
+    }));
+
+    const shuffledOptions = shuffleArray(labeledOptions);
+    const newCorrectIndex = shuffledOptions.findIndex(item => item.isCorrect);
+
+    return [
+      q[0], // ID
+      q[1], // Nội dung câu hỏi (giữ nguyên thứ tự)
+      shuffledOptions.map(item => item.text), // Đáp án đã đảo
+      newCorrectIndex >= 0 ? newCorrectIndex : 0, // Vị trí đúng mới
+      q[4] || '' // Giải thích
+    ];
+  });
+}
 
 async function init() {
   try {
@@ -358,7 +395,9 @@ async function startQuiz(fileUrl) {
   try {
     const res = await fetch(fileUrl);
     if (!res.ok) throw new Error("Failed to load");
-    originalQuizData = await res.json();
+    const rawData = await res.json();
+    
+    originalQuizData = shuffleOnlyOptions(rawData);
     
     currentRoundData = [...originalQuizData];
     nextRoundData = [];
@@ -413,10 +452,13 @@ function renderQuestion() {
   document.getElementById('feedbackBox').className = 'feedback'; 
   
   let optsHtml = '';
-  q[2].forEach((optText, i) => {
-    const label = ['A', 'B', 'C', 'D'][i];
+  const options = Array.isArray(q[2]) ? q[2] : [];
+  
+  // Sinh nhãn tự động A, B, C... dựa vào số lượng thực tế
+  options.forEach((optText, i) => {
+    const label = String.fromCharCode(65 + i);
     optsHtml += `
-      <button class="opt-btn" onclick="checkAnswer(${i}, ${q[3]}, this, '${q[4] || ''}')">
+      <button class="opt-btn" onclick="checkAnswer(${i}, ${q[3]}, this)">
         <span class="opt-label">${label}.</span>
         <span style="flex: 1;">${optText}</span>
       </button>`;
@@ -424,12 +466,13 @@ function renderQuestion() {
   document.getElementById('optionsList').innerHTML = optsHtml;
 }
 
-function checkAnswer(selectedIndex, correctIndex, btnClicked, explanation) {
+function checkAnswer(selectedIndex, correctIndex, btnClicked) {
   const allBtns = document.querySelectorAll('.opt-btn');
   allBtns.forEach(b => b.disabled = true); 
 
   const isCorrect = (selectedIndex === correctIndex);
   const feedbackBox = document.getElementById('feedbackBox');
+  const explanation = currentRoundData[currentRoundIndex][4] || '';
   
   totalAttempts++;
 
@@ -445,7 +488,9 @@ function checkAnswer(selectedIndex, correctIndex, btnClicked, explanation) {
     nextRoundData.push(currentRoundData[currentRoundIndex]);
     
     btnClicked.classList.add('wrong');
-    allBtns[correctIndex].classList.add('correct'); 
+    if (allBtns[correctIndex]) {
+      allBtns[correctIndex].classList.add('correct'); 
+    }
     feedbackBox.innerHTML = `<strong>✗ Incorrect!</strong><br><span style="font-size:13.5px; opacity: 0.9; display:block; margin-top:4px;">${explanation}</span>`;
     feedbackBox.className = 'feedback show error';
     allBtns.forEach((b, i) => { if(i !== selectedIndex && i !== correctIndex) b.classList.add('dimmed'); });
@@ -479,7 +524,6 @@ function goHome() {
   init();
 }
 
-// XỬ LÝ MENU & ĐĂNG NHẬP ADMIN
 function toggleMenu(e) {
   e.stopPropagation();
   const menu = document.getElementById('dropdownMenu');
