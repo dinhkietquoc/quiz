@@ -37,7 +37,7 @@
   [36, "What is the advantage of using electronic micrometers over traditional micrometers?", ["They provide faster and more accurate digital readings", "They are lighter than traditional micrometers", "They do not require calibration"], 0, "Module 7A"],
   [37, "What is the purpose of an engineering drawing?", ["To provide detailed information for manufacturing and assembling components", "To record flight data", "To track maintenance schedules"], 0, "Module 7A"],
   [38, "What are the two main types of orthographic projection used in engineering drawings?", ["First-angle and third-angle projection", "Oblique and isometric projection", "Schematic and block diagrams"], 0, "Module 7A"],
-  [39, "What symbol is used to indicate the projection system on a drawing?", ["A triangle", "A projection symbol", "A circle with a cross"], 0, "Module 7A"],
+  [39, "What symbol is used to indicate the projection system on a drawing?", ["A triangle", "A projection symbol", "A circle with a cross"], 1, "Module 7A"],
   [40, "What is a sectional view used for in engineering drawings?", ["To show the internal feartures of a components", "To highlight electrical circuits", "To indicate color coding of materials"], 0, "Module 7A"],
   [41, "What is the purpose of a title block on an engineering drawing?", ["To provide identification and essential information about the drawing", "To indicate measurement units only", "To show the final assembled product"], 0, "Module 7A"],
   [42, "What is an exploded view drawing used for?", ["To show how individual components fit together", "To indicate different material types", "To display an object's electrical properties"], 0, "Module 7A"],
