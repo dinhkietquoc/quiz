@@ -140,6 +140,42 @@
   }
   .error-msg { color: var(--danger); font-size: 12px; margin-bottom: 10px; display: none; text-align: center; font-weight: 500; }
 
+  /* DÒNG CHỮ CHẠY (MARQUEE) TRANG CHỦ */
+  .marquee-box {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 14px;
+    padding: 8px 14px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  }
+  .marquee-icon { font-size: 16px; flex-shrink: 0; }
+  .marquee-track {
+    flex: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+  }
+  .marquee-text {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scrollMarquee 18s linear infinite;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.7);
+  }
+  @keyframes scrollMarquee {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+  }
+
   .progress-container { width: 100%; height: 4px; background: var(--border); }
   .progress-bar { height: 100%; background: var(--accent); width: 0%; transition: width 0.3s ease; }
 
@@ -148,7 +184,7 @@
     width: 100%; 
     max-width: 650px; 
     margin: 0 auto; 
-    padding: 30px 5%; 
+    padding: 24px 5% 40px; 
     box-sizing: border-box; 
     display: flex; 
     flex-direction: column;
@@ -178,7 +214,7 @@
   #menuView { background: transparent; box-shadow: none; padding: 0; }
 
   .hub-title { font-size: 28px; font-weight: 800; margin-bottom: 6px; color: #ffffff; text-shadow: 0 2px 10px rgba(0,0,0,0.8); }
-  .hub-sub { color: rgba(255, 255, 255, 0.9); margin-bottom: 24px; font-size: 16px; text-shadow: 0 2px 8px rgba(0,0,0,0.8); }
+  .hub-sub { color: rgba(255, 255, 255, 0.9); margin-bottom: 20px; font-size: 15px; text-shadow: 0 2px 8px rgba(0,0,0,0.8); }
   .module-grid { display: grid; gap: 16px; grid-template-columns: 1fr; }
   @media (min-width: 600px) { .module-grid { grid-template-columns: repeat(2, 1fr); } }
 
@@ -187,8 +223,43 @@
   .m-title { font-size: 18px; font-weight: 700; color: #ffffff; margin-bottom: 6px; text-shadow: 0 1px 4px rgba(0,0,0,0.6); }
   .m-desc { font-size: 14px; color: rgba(255, 255, 255, 0.85); line-height: 1.4; text-shadow: 0 1px 2px rgba(0,0,0,0.5); }
 
-  .q-stats { font-size: 13px; font-weight: 700; color: var(--text-sub); text-transform: uppercase; margin-bottom: 12px; letter-spacing: 0.5px; display: flex; justify-content: space-between; }
-  .q-text { font-size: 20px; font-weight: 600; margin-bottom: 24px; line-height: 1.45; }
+  /* BẢNG 3 Ô THỐNG KÊ RÕ RÀNG */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    background: var(--bg-color);
+    padding: 10px 8px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .stat-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .stat-card:not(:last-child) {
+    border-right: 1px solid var(--border);
+  }
+  .stat-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--text-sub);
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    margin-bottom: 2px;
+  }
+  .stat-val {
+    font-size: 15px;
+    font-weight: 800;
+    color: var(--text-main);
+  }
+  .stat-card.active .stat-val { color: var(--accent); }
+  .stat-card.passed .stat-val { color: var(--success); }
+
+  .q-text { font-size: 19px; font-weight: 600; margin-bottom: 22px; line-height: 1.45; }
 
   /* NÚT ĐÁP ÁN */
   .opt-btn { 
@@ -196,10 +267,10 @@
     background: var(--bg-color); 
     border: 2px solid transparent; 
     border-radius: 16px; 
-    padding: 16px; 
-    margin-bottom: 12px; 
+    padding: 15px 16px; 
+    margin-bottom: 11px; 
     text-align: left; 
-    font-size: 16px; 
+    font-size: 15px; 
     font-weight: 500; 
     color: var(--text-main); 
     cursor: pointer; 
@@ -243,6 +314,7 @@
 </head>
 <body>
 
+<!-- THANH HEADER -->
 <div class="topbar">
   <div class="brand">✈️ Internal Training</div>
   <div class="menu-wrapper">
@@ -278,7 +350,22 @@
 </div>
 
 <div class="container" id="mainContainer">
+  
+  <!-- MÀN HÌNH TRANG CHỦ -->
   <div id="menuView" class="card">
+    
+    <!-- ============================================================
+         CHỈNH SỬA DÒNG CHỮ CHẠY Ở ĐÂY (thay đổi text bên trong thẻ span)
+         ============================================================ -->
+    <div class="marquee-box">
+      <span class="marquee-icon">📢</span>
+      <div class="marquee-track">
+        <span class="marquee-text">
+          Chào mừng Quốc khánh 2/9! Chúc các bạn ôn luyện thật tốt và đạt kết quả cao nhất! ✈️ Chúc thi đạt 100%!
+        </span>
+      </div>
+    </div>
+
     <div class="hub-title">Training Modules</div>
     <div class="hub-sub">Please select a module to start.</div>
     <div class="module-grid" id="moduleList">
@@ -286,28 +373,45 @@
     </div>
   </div>
 
+  <!-- MÀN HÌNH LOADING -->
   <div id="loadingView" class="card hidden text-center">
     <div class="loader-spinner"></div>
     <h3 style="font-size: 18px; color: var(--text-main);">Loading Module...</h3>
     <p style="color: var(--text-sub); font-size: 14px; margin-top: 4px;">Preparing questions, please wait.</p>
   </div>
 
+  <!-- MÀN HÌNH BÀI LÀM QUIZ -->
   <div id="quizView" class="card hidden">
-    <div class="q-stats" id="qStats">
-      <span id="statProgress">Passed: 0/0</span>
-      <span id="statAcc">Accuracy: 100%</span>
+    
+    <!-- 3 Ô THỐNG KÊ RÕ RÀNG -->
+    <div class="stats-grid" id="qStatsGrid">
+      <div class="stat-card active">
+        <span class="stat-label">Đang làm</span>
+        <span class="stat-val" id="statCurrentQ">Câu 1/0</span>
+      </div>
+      <div class="stat-card passed">
+        <span class="stat-label">Làm đúng</span>
+        <span class="stat-val" id="statPassed">0/0</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-label">Tỉ lệ đúng</span>
+        <span class="stat-val" id="statAccuracy">100%</span>
+      </div>
     </div>
+
     <div class="q-text" id="qText">Loading question...</div>
     <div id="optionsList"></div>
     <div class="feedback" id="feedbackBox"></div>
   </div>
 
+  <!-- MÀN HÌNH KẾT QUẢ -->
   <div id="endView" class="card hidden text-center">
     <div style="font-size: 60px; margin-bottom: 10px;">🏆</div>
     <h2 style="font-size: 28px; margin-bottom: 8px;" id="endTitle">100% Completed!</h2>
     <p style="color: var(--text-sub); margin-bottom: 24px;" id="endDesc">Calculating score...</p>
     <button class="btn-header" style="background: var(--accent); color: white; padding: 14px 24px; font-size: 16px;" onclick="goHome()">Back to Home</button>
   </div>
+
 </div>
 
 <script>
@@ -331,12 +435,11 @@ function shuffleArray(array) {
   return arr;
 }
 
-// XỬ LÝ TRỘN ĐÁP ÁN: Tự thích ứng 2, 3 hoặc 4 đáp án
+// Chỉ xáo trộn đáp án, giữ nguyên 100% thứ tự câu hỏi
 function shuffleOnlyOptions(data) {
   return data.map(q => {
     const originalOptions = Array.isArray(q[2]) ? q[2] : [];
     
-    // Chuẩn hoá vị trí đáp án đúng: hỗ trợ cả số 0,1,2 lẫn chữ "A","B","C"
     let correctIdx = q[3];
     if (typeof correctIdx === 'string' && isNaN(correctIdx)) {
       correctIdx = correctIdx.toUpperCase().charCodeAt(0) - 65;
@@ -353,11 +456,11 @@ function shuffleOnlyOptions(data) {
     const newCorrectIndex = shuffledOptions.findIndex(item => item.isCorrect);
 
     return [
-      q[0], // ID
-      q[1], // Nội dung câu hỏi (giữ nguyên thứ tự)
-      shuffledOptions.map(item => item.text), // Đáp án đã đảo
-      newCorrectIndex >= 0 ? newCorrectIndex : 0, // Vị trí đúng mới
-      q[4] || '' // Giải thích
+      q[0], 
+      q[1], 
+      shuffledOptions.map(item => item.text), 
+      newCorrectIndex >= 0 ? newCorrectIndex : 0, 
+      q[4] || '' 
     ];
   });
 }
@@ -425,8 +528,8 @@ function renderQuestion() {
     if (nextRoundData.length === 0) {
       showEndScreen();
     } else {
-      document.getElementById('qStats').style.display = 'none';
-      document.getElementById('qText').innerHTML = `<span style="color:var(--accent)">🔄 Reviewing ${nextRoundData.length} incorrect question(s)...</span>`;
+      document.getElementById('qStatsGrid').style.display = 'none';
+      document.getElementById('qText').innerHTML = `<span style="color:var(--accent)">🔄 Đang chuẩn bị ôn lại ${nextRoundData.length} câu làm sai...</span>`;
       document.getElementById('optionsList').innerHTML = '';
       document.getElementById('feedbackBox').className = 'feedback';
       
@@ -435,7 +538,7 @@ function renderQuestion() {
       currentRoundIndex = 0;
       
       setTimeout(() => {
-        document.getElementById('qStats').style.display = 'flex';
+        document.getElementById('qStatsGrid').style.display = 'grid';
         renderQuestion();
       }, 2000);
     }
@@ -444,8 +547,16 @@ function renderQuestion() {
 
   const q = currentRoundData[currentRoundIndex];
   const accuracy = totalAttempts === 0 ? 100 : Math.round((totalCorrectAttempts / totalAttempts) * 100);
-  document.getElementById('statProgress').innerText = `Passed: ${globalCompleted}/${globalTotal}`;
-  document.getElementById('statAcc').innerText = `Accuracy: ${accuracy}%`;
+  
+  // CẬP NHẬT RÕ RÀNG 3 THỐNG KÊ
+  const isReviewRound = (currentRoundData.length !== globalTotal);
+  if (isReviewRound) {
+    document.getElementById('statCurrentQ').innerText = `Ôn ${currentRoundIndex + 1}/${currentRoundData.length}`;
+  } else {
+    document.getElementById('statCurrentQ').innerText = `Câu ${currentRoundIndex + 1}/${globalTotal}`;
+  }
+  document.getElementById('statPassed').innerText = `${globalCompleted}/${globalTotal}`;
+  document.getElementById('statAccuracy').innerText = `${accuracy}%`;
   
   document.getElementById('progressBar').style.width = ((globalCompleted) / globalTotal * 100) + '%';
   document.getElementById('qText').innerText = q[1];
@@ -454,7 +565,6 @@ function renderQuestion() {
   let optsHtml = '';
   const options = Array.isArray(q[2]) ? q[2] : [];
   
-  // Sinh nhãn tự động A, B, C... dựa vào số lượng thực tế
   options.forEach((optText, i) => {
     const label = String.fromCharCode(65 + i);
     optsHtml += `
@@ -495,6 +605,11 @@ function checkAnswer(selectedIndex, correctIndex, btnClicked) {
     feedbackBox.className = 'feedback show error';
     allBtns.forEach((b, i) => { if(i !== selectedIndex && i !== correctIndex) b.classList.add('dimmed'); });
   }
+
+  // Cập nhật lại số liệu đúng và độ chính xác ngay sau khi chọn
+  const accuracy = Math.round((totalCorrectAttempts / totalAttempts) * 100);
+  document.getElementById('statPassed').innerText = `${globalCompleted}/${globalTotal}`;
+  document.getElementById('statAccuracy').innerText = `${accuracy}%`;
 
   clearTimeout(advanceTimer);
   advanceTimer = setTimeout(() => {
