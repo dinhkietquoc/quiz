@@ -45,6 +45,52 @@
   .btn-header { background: var(--bg-color); color: var(--accent); border: none; padding: 8px 16px; border-radius: 12px; font-weight: 600; font-size: 14px; cursor: pointer; transition: all 0.2s; }
   .btn-header:active { transform: scale(0.95); }
   
+  /* DROPDOWN MENU */
+  .menu-wrapper { position: relative; }
+  .dropdown-menu {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    width: 210px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    border: 1px solid var(--border);
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    z-index: 200;
+    animation: fadeIn 0.2s ease;
+  }
+  .dropdown-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px 14px;
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-main);
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.15s;
+  }
+  .dropdown-item:hover, .dropdown-item:active {
+    background: var(--bg-color);
+  }
+  .dropdown-item.dev {
+    color: #4f46e5;
+    border-top: 1px solid var(--border);
+    margin-top: 4px;
+    padding-top: 10px;
+  }
+
   .progress-container { width: 100%; height: 4px; background: var(--border); }
   .progress-bar { height: 100%; background: var(--accent); width: 0%; transition: width 0.3s ease; }
 
@@ -65,7 +111,7 @@
     transition: all 0.3s ease;
   }
 
-  /* CLASS CĂN GIỮA TUYỆT ĐỐI (Sẽ được bật bằng JS khi vào Quiz/Loading/End) */
+  /* CLASS CĂN GIỮA TUYỆT ĐỐI */
   .container.center-mode {
     justify-content: center;
     align-items: center;
@@ -86,7 +132,7 @@
   }
   @media (min-width: 768px) { .card { padding: 40px; } }
 
-  /* BẢNG MENU CHÍNH (Tàng hình lộ ảnh nền) */
+  /* BẢNG MENU CHÍNH */
   #menuView { 
     background: transparent; 
     box-shadow: none; 
@@ -108,7 +154,7 @@
   .q-stats { font-size: 13px; font-weight: 700; color: var(--text-sub); text-transform: uppercase; margin-bottom: 12px; letter-spacing: 0.5px; display: flex; justify-content: space-between; }
   .q-text { font-size: 20px; font-weight: 600; margin-bottom: 24px; line-height: 1.45; }
 
-  /* NÚT ĐÁP ÁN (Tối ưu chống tràn chữ) */
+  /* NÚT ĐÁP ÁN */
   .opt-btn { 
     width: 100%; 
     background: var(--bg-color); 
@@ -127,7 +173,7 @@
     transition: all 0.2s ease; 
     user-select: none; 
     box-sizing: border-box; 
-    word-break: break-word; /* Chữ dài tự động xuống dòng */
+    word-break: break-word; 
   }
   .opt-btn:active:not(:disabled) { transform: scale(0.98); }
   .opt-label { font-weight: 700; color: var(--accent); flex-shrink: 0; }
@@ -164,7 +210,17 @@
 
 <div class="topbar">
   <div class="brand">✈️ Internal Training</div>
-  <button class="btn-header hidden" id="btnBack" onclick="goHome()">☰ Menu</button>
+  <div class="menu-wrapper">
+    <button class="btn-header" id="btnMenu" onclick="toggleMenu(event)">☰ Menu</button>
+    <div id="dropdownMenu" class="dropdown-menu hidden">
+      <button class="dropdown-item" onclick="handleMenuHome()">
+        <span>🏠</span> Về trang chủ
+      </button>
+      <button class="dropdown-item dev" onclick="openDevMode()">
+        <span>🛠️</span> Cho nhà phát triển
+      </button>
+    </div>
+  </div>
 </div>
 <div class="progress-container"><div class="progress-bar" id="progressBar"></div></div>
 
@@ -176,12 +232,11 @@
     <div class="hub-title">Training Modules</div>
     <div class="hub-sub">Please select a module to start.</div>
     <div class="module-grid" id="moduleList">
-      <!-- Mặc định khi mới load -->
       <div class="loader-spinner" style="margin-top: 20px;"></div>
     </div>
   </div>
 
-  <!-- MÀN HÌNH LOADING (Giao diện chờ tải file Quiz) -->
+  <!-- MÀN HÌNH LOADING -->
   <div id="loadingView" class="card hidden text-center">
     <div class="loader-spinner"></div>
     <h3 style="font-size: 18px; color: var(--text-main);">Loading Module...</h3>
@@ -246,24 +301,18 @@ async function init() {
 }
 
 async function startQuiz(fileUrl) {
-  // 1. CHUYỂN SANG MÀN HÌNH LOADING NGAY LẬP TỨC
   document.getElementById('menuView').classList.add('hidden');
   document.getElementById('endView').classList.add('hidden');
   document.getElementById('quizView').classList.add('hidden');
   
   document.getElementById('loadingView').classList.remove('hidden');
-  document.getElementById('btnBack').classList.remove('hidden');
-  
-  // BẬT CHẾ ĐỘ CĂN GIỮA
   document.getElementById('mainContainer').classList.add('center-mode');
 
   try {
-    // 2. FETCH DỮ LIỆU CÂU HỎI
     const res = await fetch(fileUrl);
     if (!res.ok) throw new Error("Failed to load");
     originalQuizData = await res.json();
     
-    // 3. SET UP DATA
     currentRoundData = [...originalQuizData];
     nextRoundData = [];
     globalTotal = originalQuizData.length;
@@ -272,7 +321,6 @@ async function startQuiz(fileUrl) {
     totalAttempts = 0;
     totalCorrectAttempts = 0;
     
-    // 4. ẨN LOADING VÀ HIỆN QUIZ
     document.getElementById('loadingView').classList.add('hidden');
     document.getElementById('quizView').classList.remove('hidden');
     
@@ -366,7 +414,6 @@ function checkAnswer(selectedIndex, correctIndex, btnClicked, explanation) {
 function showEndScreen() {
   document.getElementById('quizView').classList.add('hidden');
   document.getElementById('endView').classList.remove('hidden');
-  document.getElementById('btnBack').classList.add('hidden');
   document.getElementById('progressBar').style.width = '100%';
   
   const finalAcc = Math.round((totalCorrectAttempts / totalAttempts) * 100);
@@ -379,17 +426,45 @@ function goHome() {
   document.getElementById('endView').classList.add('hidden');
   document.getElementById('loadingView').classList.add('hidden');
   document.getElementById('menuView').classList.remove('hidden');
-  document.getElementById('btnBack').classList.add('hidden');
   document.getElementById('progressBar').style.width = '0%';
   
-  // TẮT CHẾ ĐỘ CĂN GIỮA ĐỂ MENU NẰM Ở LỀ TRÊN
   document.getElementById('mainContainer').classList.remove('center-mode');
-  
-  // Reload lại module list để chắc chắn đồng bộ mới nhất
   init();
 }
 
-// Khởi chạy lấy dữ liệu từ modules.json
+// --- XỬ LÝ MENU & CHẾ ĐỘ NHÀ PHÁT TRIỂN ---
+function toggleMenu(e) {
+  e.stopPropagation();
+  const menu = document.getElementById('dropdownMenu');
+  menu.classList.toggle('hidden');
+}
+
+// Đóng menu khi bấm ra ngoài
+document.addEventListener('click', (e) => {
+  const menu = document.getElementById('dropdownMenu');
+  const btn = document.getElementById('btnMenu');
+  if (menu && !menu.contains(e.target) && e.target !== btn) {
+    menu.classList.add('hidden');
+  }
+});
+
+function handleMenuHome() {
+  document.getElementById('dropdownMenu').classList.add('hidden');
+  goHome();
+}
+
+function openDevMode() {
+  document.getElementById('dropdownMenu').classList.add('hidden');
+  const pass = prompt("Chế độ Nhà phát triển - Nhập mật khẩu:");
+  if (pass === "admin123") {
+    sessionStorage.setItem("isAdmin", "true");
+    window.location.href = "admin.html";
+  } else if (pass !== null) {
+    alert("Mật khẩu không chính xác!");
+  }
+}
+
+// Khởi chạy
 init();
 </script>
 </body>
