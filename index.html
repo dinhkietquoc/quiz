@@ -44,175 +44,74 @@
   .btn-header { background: var(--bg-color); color: var(--accent); border: none; padding: 8px 16px; border-radius: 12px; font-weight: 600; font-size: 14px; cursor: pointer; transition: all 0.2s; }
   .btn-header:active { transform: scale(0.95); }
   
-  /* MENU XỔ XUỐNG */
   .menu-wrapper { position: relative; }
   .dropdown-menu {
-    position: absolute;
-    top: calc(100% + 8px);
-    right: 0;
-    width: 220px;
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    border-radius: 16px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-    border: 1px solid var(--border);
-    padding: 6px;
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    z-index: 200;
-    animation: fadeIn 0.2s ease;
+    position: absolute; top: calc(100% + 8px); right: 0; width: 220px;
+    background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+    border-radius: 16px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); border: 1px solid var(--border);
+    padding: 6px; display: flex; flex-direction: column; gap: 4px; z-index: 200; animation: fadeIn 0.2s ease;
   }
   .dropdown-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    width: 100%;
-    padding: 10px 14px;
-    background: transparent;
-    border: none;
-    border-radius: 10px;
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--text-main);
-    cursor: pointer;
-    text-align: left;
-    transition: background 0.15s;
+    display: flex; align-items: center; gap: 10px; width: 100%; padding: 10px 14px;
+    background: transparent; border: none; border-radius: 10px; font-size: 14px; font-weight: 600;
+    color: var(--text-main); cursor: pointer; text-align: left; transition: background 0.15s;
   }
   .dropdown-item:hover, .dropdown-item:active { background: var(--bg-color); }
   .dropdown-item.dev { color: #4f46e5; border-top: 1px solid var(--border); margin-top: 4px; padding-top: 10px; }
 
-  /* BẢNG ĐĂNG NHẬP */
+  /* OVERLAY MODAL CHUNG */
   .modal-overlay {
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 999;
-    padding: 20px;
-    animation: fadeIn 0.2s ease;
+    position: fixed; inset: 0; background: rgba(0, 0, 0, 0.5); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+    display: flex; align-items: center; justify-content: center; z-index: 999; padding: 20px; animation: fadeIn 0.2s ease;
   }
   .modal-box {
-    background: white;
-    width: 100%;
-    max-width: 350px;
-    border-radius: 24px;
-    padding: 26px 22px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+    background: white; width: 100%; max-width: 350px; border-radius: 24px; padding: 26px 22px; box-shadow: 0 20px 40px rgba(0,0,0,0.25);
   }
+  
   .modal-title { font-size: 18px; font-weight: 700; text-align: center; margin-bottom: 4px; color: var(--text-main); }
   .modal-sub { font-size: 13px; color: var(--text-sub); text-align: center; margin-bottom: 18px; }
+
   .input-field {
-    width: 100%;
-    padding: 12px 14px;
-    border: 1.5px solid var(--border);
-    border-radius: 12px;
-    font-size: 14px;
-    margin-bottom: 12px;
-    outline: none;
+    width: 100%; padding: 12px 14px; border: 1.5px solid var(--border); border-radius: 12px;
+    font-size: 14px; margin-bottom: 12px; outline: none; transition: 0.2s;
   }
   .input-field:focus { border-color: var(--accent); }
-  .btn-login {
-    width: 100%;
-    padding: 12px;
-    background: var(--accent);
-    color: white;
-    border: none;
-    border-radius: 12px;
-    font-weight: 600;
-    font-size: 15px;
-    cursor: pointer;
-  }
-  .btn-close-modal {
-    width: 100%;
-    background: none;
-    border: none;
-    color: var(--text-sub);
-    font-size: 13px;
-    margin-top: 10px;
-    cursor: pointer;
-    padding: 6px;
-  }
+  .btn-primary { width: 100%; padding: 12px; background: var(--accent); color: white; border: none; border-radius: 12px; font-weight: 600; font-size: 15px; cursor: pointer; }
+  .btn-close-modal { width: 100%; background: none; border: none; color: var(--text-sub); font-size: 13px; margin-top: 10px; cursor: pointer; padding: 6px; }
   .error-msg { color: var(--danger); font-size: 12px; margin-bottom: 10px; display: none; text-align: center; font-weight: 500; }
 
-  /* DÒNG CHỮ CHẠY (MARQUEE) TRANG CHỦ */
+  /* MODAL CHỌN CHẾ ĐỘ THI */
+  .mode-btn {
+    width: 100%; padding: 16px; background: var(--bg-color); border: 2px solid transparent; border-radius: 16px;
+    margin-bottom: 10px; text-align: left; cursor: pointer; transition: all 0.2s ease;
+  }
+  .mode-btn:hover, .mode-btn:active { background: #e0f0ff; border-color: var(--accent); }
+  .mode-title { font-size: 16px; font-weight: 700; color: var(--text-main); margin-bottom: 4px; display: flex; align-items: center; gap: 8px; }
+  .mode-desc { font-size: 13px; color: var(--text-sub); line-height: 1.4; }
+
   .marquee-box {
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    border-radius: 14px;
-    padding: 8px 14px;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.4); border-radius: 14px; padding: 8px 14px; margin-bottom: 20px;
+    display: flex; align-items: center; gap: 10px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.15);
   }
   .marquee-icon { font-size: 16px; flex-shrink: 0; }
-  .marquee-track {
-    flex: 1;
-    overflow: hidden;
-    white-space: nowrap;
-    position: relative;
-  }
+  .marquee-track { flex: 1; overflow: hidden; white-space: nowrap; position: relative; }
   .marquee-text {
-    display: inline-block;
-    padding-left: 100%;
-    animation: scrollMarquee 18s linear infinite;
-    font-size: 14px;
-    font-weight: 600;
-    color: #ffffff;
-    text-shadow: 0 1px 4px rgba(0,0,0,0.7);
+    display: inline-block; padding-left: 100%; animation: scrollMarquee 18s linear infinite;
+    font-size: 14px; font-weight: 600; color: #ffffff; text-shadow: 0 1px 4px rgba(0,0,0,0.7);
   }
-  @keyframes scrollMarquee {
-    0% { transform: translate(0, 0); }
-    100% { transform: translate(-100%, 0); }
-  }
+  @keyframes scrollMarquee { 0% { transform: translate(0, 0); } 100% { transform: translate(-100%, 0); } }
 
   .progress-container { width: 100%; height: 4px; background: var(--border); }
   .progress-bar { height: 100%; background: var(--accent); width: 0%; transition: width 0.3s ease; }
 
-  .container { 
-    flex: 1; 
-    width: 100%; 
-    max-width: 650px; 
-    margin: 0 auto; 
-    padding: 24px 5% 40px; 
-    box-sizing: border-box; 
-    display: flex; 
-    flex-direction: column;
-    justify-content: flex-start;
-    transition: all 0.3s ease;
-  }
-
-  .container.center-mode {
-    justify-content: center;
-    align-items: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-
-  .card { 
-    background: rgba(255, 255, 255, 0.95); 
-    border-radius: 24px; 
-    padding: 24px; 
-    box-shadow: 0 10px 40px rgba(0,0,0,0.2); 
-    border: none; 
-    width: 100%; 
-    box-sizing: border-box; 
-    overflow: hidden; 
-  }
-  @media (min-width: 768px) { .card { padding: 40px; } }
+  .container { flex: 1; width: 100%; max-width: 680px; margin: 0 auto; padding: 24px 5% 40px; box-sizing: border-box; display: flex; flex-direction: column; transition: all 0.3s ease; }
+  .container.center-mode { justify-content: center; align-items: center; padding-top: 15px; padding-bottom: 15px; }
+  
+  .card { background: rgba(255, 255, 255, 0.95); border-radius: 24px; padding: 24px; box-shadow: 0 10px 40px rgba(0,0,0,0.2); border: none; width: 100%; box-sizing: border-box; overflow: hidden; }
+  @media (min-width: 768px) { .card { padding: 32px; } }
 
   #menuView { background: transparent; box-shadow: none; padding: 0; }
-
   .hub-title { font-size: 28px; font-weight: 800; margin-bottom: 6px; color: #ffffff; text-shadow: 0 2px 10px rgba(0,0,0,0.8); }
   .hub-sub { color: rgba(255, 255, 255, 0.9); margin-bottom: 20px; font-size: 15px; text-shadow: 0 2px 8px rgba(0,0,0,0.8); }
   .module-grid { display: grid; gap: 16px; grid-template-columns: 1fr; }
@@ -223,68 +122,35 @@
   .m-title { font-size: 18px; font-weight: 700; color: #ffffff; margin-bottom: 6px; text-shadow: 0 1px 4px rgba(0,0,0,0.6); }
   .m-desc { font-size: 14px; color: rgba(255, 255, 255, 0.85); line-height: 1.4; text-shadow: 0 1px 2px rgba(0,0,0,0.5); }
 
-  /* 3 Ô THỐNG KÊ */
-  .stats-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
-    background: var(--bg-color);
-    padding: 10px 8px;
-    border-radius: 16px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  .stat-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .stat-card:not(:last-child) {
-    border-right: 1px solid var(--border);
-  }
-  .stat-label {
-    font-size: 11px;
-    font-weight: 700;
-    color: var(--text-sub);
-    text-transform: uppercase;
-    letter-spacing: 0.4px;
-    margin-bottom: 2px;
-  }
-  .stat-val {
-    font-size: 15px;
-    font-weight: 800;
-    color: var(--text-main);
-  }
+  .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; background: var(--bg-color); padding: 10px 8px; border-radius: 16px; margin-bottom: 20px; text-align: center; }
+  .stat-card { display: flex; flex-direction: column; justify-content: center; align-items: center; }
+  .stat-card:not(:last-child) { border-right: 1px solid var(--border); }
+  .stat-label { font-size: 11px; font-weight: 700; color: var(--text-sub); text-transform: uppercase; letter-spacing: 0.4px; margin-bottom: 2px; }
+  .stat-val { font-size: 15px; font-weight: 800; color: var(--text-main); }
   .stat-card.active .stat-val { color: var(--accent); }
   .stat-card.passed .stat-val { color: var(--success); }
 
   .q-text { font-size: 19px; font-weight: 600; margin-bottom: 22px; line-height: 1.45; }
 
-  /* NÚT ĐÁP ÁN */
-  .opt-btn { 
-    width: 100%; 
-    background: var(--bg-color); 
-    border: 2px solid transparent; 
-    border-radius: 16px; 
-    padding: 15px 16px; 
-    margin-bottom: 11px; 
-    text-align: left; 
-    font-size: 15px; 
-    font-weight: 500; 
-    color: var(--text-main); 
-    cursor: pointer; 
-    display: flex; 
-    gap: 12px; 
-    align-items: flex-start; 
-    transition: all 0.2s ease; 
-    user-select: none; 
-    box-sizing: border-box; 
-    word-break: break-word; 
-  }
+  /* GIAO DIỆN LƯỚI NHẢY CÂU (CHẾ ĐỘ TỪNG CÂU) */
+  #paletteCard { margin-top: 16px; }
+  .grid-title { font-size: 13px; font-weight: 700; margin-bottom: 12px; color: var(--text-sub); text-transform: uppercase; }
+  .palette-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 6px; max-height: 180px; overflow-y: auto; padding-right: 4px; }
+  @media (min-width: 600px) { .palette-grid { grid-template-columns: repeat(10, 1fr); } }
+  .palette-btn { height: 36px; border: 1px solid var(--border); background: var(--bg-color); border-radius: 10px; font-weight: 600; font-size: 13px; color: var(--text-main); cursor: pointer; transition: 0.15s; }
+  .palette-btn.active { background: var(--accent); color: white; border-color: var(--accent); }
+  .palette-btn.done { background: var(--success-bg); color: var(--success); border-color: var(--success); }
+  .palette-btn.wrong-done { background: var(--danger-bg); color: var(--danger); border-color: var(--danger); }
+
+  .nav-bar { display: flex; justify-content: space-between; align-items: center; margin-top: 20px; gap: 10px; }
+  .btn-nav { flex: 1; padding: 14px; border-radius: 14px; border: none; font-weight: 600; font-size: 15px; cursor: pointer; text-align: center; transition: 0.15s; }
+  .btn-prev { background: var(--bg-color); color: var(--text-main); }
+  .btn-next { background: var(--accent); color: white; display: none; }
+  .btn-nav:disabled { opacity: 0.35; cursor: default; }
+
+  .opt-btn { width: 100%; background: var(--bg-color); border: 2px solid transparent; border-radius: 16px; padding: 15px 16px; margin-bottom: 11px; text-align: left; font-size: 15px; font-weight: 500; color: var(--text-main); cursor: pointer; display: flex; gap: 12px; align-items: flex-start; transition: all 0.2s ease; user-select: none; word-break: break-word; }
   .opt-btn:active:not(:disabled) { transform: scale(0.98); }
   .opt-label { font-weight: 700; color: var(--accent); flex-shrink: 0; }
-  
   .opt-btn.correct { background: var(--success-bg); border-color: var(--success); color: #0e5c22; }
   .opt-btn.wrong { background: var(--danger-bg); border-color: var(--danger); color: #8a1510; }
   .opt-btn:disabled { cursor: default; opacity: 0.8; }
@@ -295,16 +161,7 @@
   .feedback.success { background: var(--success-bg); color: #0e5c22; border-left: 4px solid var(--success); }
   .feedback.error { background: var(--danger-bg); color: #8a1510; border-left: 4px solid var(--danger); }
   
-  .loader-spinner {
-    border: 4px solid var(--border);
-    border-top: 4px solid var(--accent);
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    animation: spin 1s linear infinite;
-    margin: 0 auto 16px auto;
-  }
-  
+  .loader-spinner { border: 4px solid var(--border); border-top: 4px solid var(--accent); border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: 0 auto 16px auto; }
   @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
   @keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
 
@@ -320,30 +177,43 @@
   <div class="menu-wrapper">
     <button class="btn-header" id="btnMenu" onclick="toggleMenu(event)">☰ Menu</button>
     <div id="dropdownMenu" class="dropdown-menu hidden">
-      <button class="dropdown-item" onclick="handleMenuHome()">
-        <span>🏠</span> Về trang chủ
-      </button>
-      <button class="dropdown-item dev" onclick="openDevLoginModal()">
-        <span>🛠️</span> Cho nhà phát triển
-      </button>
+      <button class="dropdown-item" onclick="handleMenuHome()"><span>🏠</span> Về trang chủ</button>
+      <button class="dropdown-item dev" onclick="openDevLoginModal()"><span>🛠️</span> Cho nhà phát triển</button>
     </div>
   </div>
 </div>
 <div class="progress-container"><div class="progress-bar" id="progressBar"></div></div>
+
+<!-- POPUP CHỌN CHẾ ĐỘ THI -->
+<div id="modeModal" class="modal-overlay hidden">
+  <div class="modal-box">
+    <div class="modal-title">Chọn Chế Độ</div>
+    <div class="modal-sub">Bạn muốn làm bài theo kiểu nào?</div>
+    
+    <button class="mode-btn" onclick="confirmMode('SCROLL')">
+      <div class="mode-title">📜 Chế độ Cuộn</div>
+      <div class="mode-desc">Trả lời xong tự động nhảy câu tiếp theo.</div>
+    </button>
+
+    <button class="mode-btn" onclick="confirmMode('ONE_BY_ONE')">
+      <div class="mode-title">🎯 Chế độ Từng câu (Thi thử)</div>
+      <div class="mode-desc">Có lưới nhảy câu, làm xong tự bấm Next để sang câu.</div>
+    </button>
+    
+    <button class="btn-close-modal" onclick="closeModeModal()">Hủy bỏ</button>
+  </div>
+</div>
 
 <!-- POPUP ĐĂNG NHẬP ADMIN -->
 <div id="loginModal" class="modal-overlay hidden">
   <div class="modal-box">
     <div class="modal-title">🔐 Quản Trị Viên</div>
     <div class="modal-sub">Dành cho Nhà phát triển</div>
-    
     <form onsubmit="handleAdminLogin(event)">
       <input type="text" id="adminUser" placeholder="Tên tài khoản" class="input-field" required autocomplete="username" />
       <input type="password" id="adminPass" placeholder="Mật khẩu" class="input-field" required autocomplete="current-password" />
-      
       <div id="loginError" class="error-msg">Sai tài khoản hoặc mật khẩu!</div>
-      
-      <button type="submit" class="btn-login">Đăng nhập</button>
+      <button type="submit" class="btn-primary">Đăng nhập</button>
       <button type="button" class="btn-close-modal" onclick="closeDevLoginModal()">Đóng</button>
     </form>
   </div>
@@ -351,17 +221,13 @@
 
 <div class="container" id="mainContainer">
   
-  <!-- MÀN HÌNH TRANG CHỦ -->
   <div id="menuView" class="card">
-    
-    <!-- KHUNG CHỮ CHẠY TỰ ĐỘNG LẤY TỪ FILE NOTICE.TXT -->
     <div class="marquee-box" id="noticeBox">
       <span class="marquee-icon">📢</span>
       <div class="marquee-track">
         <span class="marquee-text" id="noticeText">Đang tải thông báo...</span>
       </div>
     </div>
-
     <div class="hub-title">Training Modules</div>
     <div class="hub-sub">Please select a module to start.</div>
     <div class="module-grid" id="moduleList">
@@ -369,43 +235,41 @@
     </div>
   </div>
 
-  <!-- MÀN HÌNH LOADING -->
   <div id="loadingView" class="card hidden text-center">
     <div class="loader-spinner"></div>
     <h3 style="font-size: 18px; color: var(--text-main);">Loading Module...</h3>
     <p style="color: var(--text-sub); font-size: 14px; margin-top: 4px;">Preparing questions, please wait.</p>
   </div>
 
-  <!-- MÀN HÌNH BÀI LÀM QUIZ -->
+  <!-- BÀI LÀM QUIZ -->
   <div id="quizView" class="card hidden">
-    
-    <!-- 3 Ô THỐNG KÊ -->
     <div class="stats-grid" id="qStatsGrid">
-      <div class="stat-card active">
-        <span class="stat-label">Đang làm</span>
-        <span class="stat-val" id="statCurrentQ">Câu 1/0</span>
-      </div>
-      <div class="stat-card passed">
-        <span class="stat-label">Làm đúng</span>
-        <span class="stat-val" id="statPassed">0/0</span>
-      </div>
-      <div class="stat-card">
-        <span class="stat-label">Tỉ lệ đúng</span>
-        <span class="stat-val" id="statAccuracy">100%</span>
-      </div>
+      <div class="stat-card active"><span class="stat-label">Đang làm</span><span class="stat-val" id="statCurrentQ">Câu 1/0</span></div>
+      <div class="stat-card passed"><span class="stat-label">Làm đúng</span><span class="stat-val" id="statPassed">0/0</span></div>
+      <div class="stat-card"><span class="stat-label">Tỉ lệ đúng</span><span class="stat-val" id="statAccuracy">100%</span></div>
     </div>
 
     <div class="q-text" id="qText">Loading question...</div>
     <div id="optionsList"></div>
     <div class="feedback" id="feedbackBox"></div>
+
+    <div class="nav-bar" id="navBar" style="display: none;">
+      <button onclick="navPrev()" id="btnPrev" class="btn-nav btn-prev">‹ Câu trước</button>
+      <button onclick="navNext()" id="btnNext" class="btn-nav btn-next">Câu tiếp theo ›</button>
+    </div>
   </div>
 
-  <!-- MÀN HÌNH KẾT QUẢ -->
+  <!-- LƯỚI BẢNG CÂU HỎI (Chỉ hiện ở Mode Từng câu) -->
+  <div id="paletteCard" class="card hidden">
+    <div class="grid-title">Bảng nhảy câu</div>
+    <div id="paletteGrid" class="palette-grid"></div>
+  </div>
+
   <div id="endView" class="card hidden text-center">
     <div style="font-size: 60px; margin-bottom: 10px;">🏆</div>
     <h2 style="font-size: 28px; margin-bottom: 8px;" id="endTitle">100% Completed!</h2>
     <p style="color: var(--text-sub); margin-bottom: 24px;" id="endDesc">Calculating score...</p>
-    <button class="btn-header" style="background: var(--accent); color: white; padding: 14px 24px; font-size: 16px;" onclick="goHome()">Back to Home</button>
+    <button class="btn-primary" onclick="goHome()">Back to Home</button>
   </div>
 
 </div>
@@ -422,20 +286,19 @@ let totalAttempts = 0;
 let totalCorrectAttempts = 0; 
 let advanceTimer;
 
-// HÀM TẢI THÔNG BÁO TỪ FILE NOTICE.TXT (CÓ CHỐNG LƯU CACHE)
+let selectedFileUrl = "";
+let examMode = "SCROLL"; // 'SCROLL' hoặc 'ONE_BY_ONE'
+let userAnswers = {}; // Lưu lịch sử làm bài để tô màu lưới
+
 async function loadNotice() {
   try {
     const res = await fetch('notice.txt?v=' + Date.now());
     if (!res.ok) throw new Error("Không tìm thấy notice.txt");
     const text = await res.text();
     const cleanText = text.trim();
-    if (cleanText) {
-      document.getElementById('noticeText').innerText = cleanText;
-    } else {
-      document.getElementById('noticeBox').style.display = 'none';
-    }
+    if (cleanText) document.getElementById('noticeText').innerText = cleanText;
+    else document.getElementById('noticeBox').style.display = 'none';
   } catch (err) {
-    // Nếu chưa tạo file notice.txt thì ẩn thanh chạy để tránh hiện chữ lỗi
     document.getElementById('noticeBox').style.display = 'none';
   }
 }
@@ -449,11 +312,10 @@ function shuffleArray(array) {
   return arr;
 }
 
-// Chỉ trộn đáp án, giữ nguyên 100% thứ tự câu hỏi
+// Chuyên trộn đáp án A B C, giữ nguyên thứ tự câu hỏi
 function shuffleOnlyOptions(data) {
   return data.map(q => {
     const originalOptions = Array.isArray(q[2]) ? q[2] : [];
-    
     let correctIdx = q[3];
     if (typeof correctIdx === 'string' && isNaN(correctIdx)) {
       correctIdx = correctIdx.toUpperCase().charCodeAt(0) - 65;
@@ -461,63 +323,64 @@ function shuffleOnlyOptions(data) {
       correctIdx = parseInt(correctIdx, 10);
     }
 
-    const labeledOptions = originalOptions.map((opt, idx) => ({
-      text: opt,
-      isCorrect: (idx === correctIdx)
-    }));
-
+    const labeledOptions = originalOptions.map((opt, idx) => ({ text: opt, isCorrect: (idx === correctIdx) }));
     const shuffledOptions = shuffleArray(labeledOptions);
     const newCorrectIndex = shuffledOptions.findIndex(item => item.isCorrect);
 
-    return [
-      q[0], 
-      q[1], 
-      shuffledOptions.map(item => item.text), 
-      newCorrectIndex >= 0 ? newCorrectIndex : 0, 
-      q[4] || '' 
-    ];
+    return [q[0], q[1], shuffledOptions.map(item => item.text), newCorrectIndex >= 0 ? newCorrectIndex : 0, q[4] || ''];
   });
 }
 
 async function init() {
-  loadNotice(); // Tải dòng chữ thông báo từ notice.txt
-
+  loadNotice();
   try {
     const res = await fetch('data/modules.json');
     if (!res.ok) throw new Error("Không thể tải modules.json");
-    
     const modules = await res.json();
     let html = '';
-    
     modules.forEach(m => {
       html += `
-        <button class="module-btn" onclick="startQuiz('${m.file}')">
+        <button class="module-btn" onclick="openModeModal('${m.file}')">
           <div class="m-title">${m.title}</div>
           <div class="m-desc">${m.desc}</div>
         </button>`;
     });
     document.getElementById('moduleList').innerHTML = html;
   } catch (error) {
-    document.getElementById('moduleList').innerHTML = '<p style="color:red; text-align:center; padding: 20px;">⚠️ Lỗi tải danh sách Module. Vui lòng kiểm tra lại file data/modules.json!</p>';
-    console.error(error);
+    document.getElementById('moduleList').innerHTML = '<p style="color:red; text-align:center;">⚠️ Lỗi tải danh sách Module!</p>';
   }
 }
 
-async function startQuiz(fileUrl) {
+// Xử lý Popup Chọn Chế độ
+function openModeModal(fileUrl) {
+  selectedFileUrl = fileUrl;
+  document.getElementById('modeModal').classList.remove('hidden');
+}
+function closeModeModal() {
+  document.getElementById('modeModal').classList.add('hidden');
+}
+function confirmMode(mode) {
+  examMode = mode;
+  closeModeModal();
+  startQuiz();
+}
+
+async function startQuiz() {
   document.getElementById('menuView').classList.add('hidden');
   document.getElementById('endView').classList.add('hidden');
   document.getElementById('quizView').classList.add('hidden');
+  document.getElementById('paletteCard').classList.add('hidden');
+  document.getElementById('navBar').style.display = 'none';
   
   document.getElementById('loadingView').classList.remove('hidden');
   document.getElementById('mainContainer').classList.add('center-mode');
 
   try {
-    const res = await fetch(fileUrl);
+    const res = await fetch(selectedFileUrl);
     if (!res.ok) throw new Error("Failed to load");
     const rawData = await res.json();
     
     originalQuizData = shuffleOnlyOptions(rawData);
-    
     currentRoundData = [...originalQuizData];
     nextRoundData = [];
     globalTotal = originalQuizData.length;
@@ -525,17 +388,20 @@ async function startQuiz(fileUrl) {
     currentRoundIndex = 0;
     totalAttempts = 0;
     totalCorrectAttempts = 0;
+    userAnswers = {};
     
     document.getElementById('loadingView').classList.add('hidden');
     document.getElementById('quizView').classList.remove('hidden');
-    
+
+    if (examMode === 'ONE_BY_ONE') {
+      document.getElementById('mainContainer').classList.remove('center-mode');
+      document.getElementById('paletteCard').classList.remove('hidden');
+      document.getElementById('navBar').style.display = 'flex';
+    }
+
     renderQuestion();
   } catch (error) {
-    document.getElementById('loadingView').innerHTML = `
-      <div style="font-size: 40px; margin-bottom: 10px;">⚠️</div>
-      <h3 style="color: var(--danger);">Load Failed!</h3>
-      <p style="color: var(--text-sub); margin-top: 5px;">Cannot find <b>${fileUrl}</b>.<br>Please check network or data file.</p>
-    `;
+    document.getElementById('loadingView').innerHTML = `<h3 style="color:var(--danger)">Lỗi tải file đề thi!</h3>`;
   }
 }
 
@@ -545,6 +411,7 @@ function renderQuestion() {
       showEndScreen();
     } else {
       document.getElementById('qStatsGrid').style.display = 'none';
+      document.getElementById('paletteCard').classList.add('hidden');
       document.getElementById('qText').innerHTML = `<span style="color:var(--accent)">🔄 Đang chuẩn bị ôn lại ${nextRoundData.length} câu làm sai...</span>`;
       document.getElementById('optionsList').innerHTML = '';
       document.getElementById('feedbackBox').className = 'feedback';
@@ -552,9 +419,11 @@ function renderQuestion() {
       currentRoundData = [...nextRoundData];
       nextRoundData = [];
       currentRoundIndex = 0;
+      userAnswers = {}; // Reset lịch sử vòng mới
       
       setTimeout(() => {
         document.getElementById('qStatsGrid').style.display = 'grid';
+        if(examMode === 'ONE_BY_ONE') document.getElementById('paletteCard').classList.remove('hidden');
         renderQuestion();
       }, 2000);
     }
@@ -565,11 +434,7 @@ function renderQuestion() {
   const accuracy = totalAttempts === 0 ? 100 : Math.round((totalCorrectAttempts / totalAttempts) * 100);
   
   const isReviewRound = (currentRoundData.length !== globalTotal);
-  if (isReviewRound) {
-    document.getElementById('statCurrentQ').innerText = `Ôn ${currentRoundIndex + 1}/${currentRoundData.length}`;
-  } else {
-    document.getElementById('statCurrentQ').innerText = `Câu ${currentRoundIndex + 1}/${globalTotal}`;
-  }
+  document.getElementById('statCurrentQ').innerText = isReviewRound ? `Ôn ${currentRoundIndex + 1}/${currentRoundData.length}` : `Câu ${currentRoundIndex + 1}/${globalTotal}`;
   document.getElementById('statPassed').innerText = `${globalCompleted}/${globalTotal}`;
   document.getElementById('statAccuracy').innerText = `${accuracy}%`;
   
@@ -583,12 +448,38 @@ function renderQuestion() {
   options.forEach((optText, i) => {
     const label = String.fromCharCode(65 + i);
     optsHtml += `
-      <button class="opt-btn" onclick="checkAnswer(${i}, ${q[3]}, this)">
+      <button class="opt-btn" onclick="checkAnswer(${i}, ${q[3]}, this)" id="opt-${i}">
         <span class="opt-label">${label}.</span>
         <span style="flex: 1;">${optText}</span>
       </button>`;
   });
   document.getElementById('optionsList').innerHTML = optsHtml;
+
+  // Điều khiển chế độ Từng câu
+  if (examMode === 'ONE_BY_ONE') {
+    document.getElementById('btnPrev').disabled = (currentRoundIndex === 0);
+    document.getElementById('btnNext').style.display = 'none'; // Ẩn đi chờ làm xong mới hiện
+    renderPalette();
+
+    // Nếu đã làm câu này rồi thì khôi phục giao diện
+    if (userAnswers[currentRoundIndex]) {
+      const history = userAnswers[currentRoundIndex];
+      const allBtns = document.querySelectorAll('.opt-btn');
+      allBtns.forEach(b => b.disabled = true);
+      document.getElementById('btnNext').style.display = 'block';
+
+      if (history.isCorrect) {
+        document.getElementById(`opt-${history.selected}`).classList.add('correct');
+        document.getElementById('feedbackBox').innerText = "✓ Correct!";
+        document.getElementById('feedbackBox').className = 'feedback show success';
+      } else {
+        document.getElementById(`opt-${history.selected}`).classList.add('wrong');
+        document.getElementById(`opt-${history.correct}`).classList.add('correct');
+        document.getElementById('feedbackBox').innerHTML = `<strong>✗ Incorrect!</strong><br><span style="font-size:13.5px; opacity:0.9;">${q[4] || ''}</span>`;
+        document.getElementById('feedbackBox').className = 'feedback show error';
+      }
+    }
+  }
 }
 
 function checkAnswer(selectedIndex, correctIndex, btnClicked) {
@@ -601,21 +492,20 @@ function checkAnswer(selectedIndex, correctIndex, btnClicked) {
   
   totalAttempts++;
 
+  // Ghi nhận lịch sử cho lưới Palette
+  userAnswers[currentRoundIndex] = { selected: selectedIndex, correct: correctIndex, isCorrect: isCorrect };
+
   if (isCorrect) {
     totalCorrectAttempts++;
     globalCompleted++; 
-    
     btnClicked.classList.add('correct');
     feedbackBox.innerText = "✓ Correct!";
     feedbackBox.className = 'feedback show success';
     allBtns.forEach((b, i) => { if(i !== selectedIndex) b.classList.add('dimmed'); });
   } else {
     nextRoundData.push(currentRoundData[currentRoundIndex]);
-    
     btnClicked.classList.add('wrong');
-    if (allBtns[correctIndex]) {
-      allBtns[correctIndex].classList.add('correct'); 
-    }
+    if (allBtns[correctIndex]) allBtns[correctIndex].classList.add('correct'); 
     feedbackBox.innerHTML = `<strong>✗ Incorrect!</strong><br><span style="font-size:13.5px; opacity: 0.9; display:block; margin-top:4px;">${explanation}</span>`;
     feedbackBox.className = 'feedback show error';
     allBtns.forEach((b, i) => { if(i !== selectedIndex && i !== correctIndex) b.classList.add('dimmed'); });
@@ -625,18 +515,57 @@ function checkAnswer(selectedIndex, correctIndex, btnClicked) {
   document.getElementById('statPassed').innerText = `${globalCompleted}/${globalTotal}`;
   document.getElementById('statAccuracy').innerText = `${accuracy}%`;
 
-  clearTimeout(advanceTimer);
-  advanceTimer = setTimeout(() => {
+  if (examMode === 'SCROLL') {
+    clearTimeout(advanceTimer);
+    advanceTimer = setTimeout(() => { currentRoundIndex++; renderQuestion(); }, 1500);
+  } else {
+    document.getElementById('btnNext').style.display = 'block';
+    renderPalette();
+  }
+}
+
+// Tính năng lật trang của chế độ ONE_BY_ONE
+function navNext() {
+  if (currentRoundIndex < currentRoundData.length) {
     currentRoundIndex++;
     renderQuestion();
-  }, 1500);
+  }
+}
+function navPrev() {
+  if (currentRoundIndex > 0) {
+    currentRoundIndex--;
+    renderQuestion();
+  }
+}
+function jumpToQuestion(idx) {
+  currentRoundIndex = idx;
+  renderQuestion();
+}
+
+// Bảng Palette bên dưới
+function renderPalette() {
+  const grid = document.getElementById('paletteGrid');
+  grid.innerHTML = '';
+  currentRoundData.forEach((_, idx) => {
+    const btn = document.createElement('button');
+    btn.innerText = idx + 1;
+    let className = 'palette-btn';
+    if (idx === currentRoundIndex) className += ' active';
+    else if (userAnswers[idx]) {
+      if (userAnswers[idx].isCorrect) className += ' done';
+      else className += ' wrong-done';
+    }
+    btn.className = className;
+    btn.onclick = () => jumpToQuestion(idx);
+    grid.appendChild(btn);
+  });
 }
 
 function showEndScreen() {
   document.getElementById('quizView').classList.add('hidden');
+  document.getElementById('paletteCard').classList.add('hidden');
   document.getElementById('endView').classList.remove('hidden');
   document.getElementById('progressBar').style.width = '100%';
-  
   const finalAcc = Math.round((totalCorrectAttempts / totalAttempts) * 100);
   document.getElementById('endDesc').innerHTML = `Final Accuracy: <strong>${finalAcc}%</strong><br>Total attempts: ${totalAttempts}`;
 }
@@ -646,61 +575,38 @@ function goHome() {
   document.getElementById('quizView').classList.add('hidden');
   document.getElementById('endView').classList.add('hidden');
   document.getElementById('loadingView').classList.add('hidden');
+  document.getElementById('paletteCard').classList.add('hidden');
   document.getElementById('menuView').classList.remove('hidden');
   document.getElementById('progressBar').style.width = '0%';
-  
   document.getElementById('mainContainer').classList.remove('center-mode');
   init();
 }
 
-function toggleMenu(e) {
-  e.stopPropagation();
-  const menu = document.getElementById('dropdownMenu');
-  menu.classList.toggle('hidden');
-}
-
+function toggleMenu(e) { e.stopPropagation(); document.getElementById('dropdownMenu').classList.toggle('hidden'); }
 document.addEventListener('click', (e) => {
   const menu = document.getElementById('dropdownMenu');
   const btn = document.getElementById('btnMenu');
-  if (menu && !menu.contains(e.target) && e.target !== btn) {
-    menu.classList.add('hidden');
-  }
+  if (menu && !menu.contains(e.target) && e.target !== btn) menu.classList.add('hidden');
 });
-
-function handleMenuHome() {
-  document.getElementById('dropdownMenu').classList.add('hidden');
-  goHome();
-}
-
+function handleMenuHome() { document.getElementById('dropdownMenu').classList.add('hidden'); goHome(); }
 function openDevLoginModal() {
   document.getElementById('dropdownMenu').classList.add('hidden');
   document.getElementById('loginModal').classList.remove('hidden');
   document.getElementById('loginError').style.display = 'none';
-  document.getElementById('adminUser').value = '';
-  document.getElementById('adminPass').value = '';
 }
+function closeDevLoginModal() { document.getElementById('loginModal').classList.add('hidden'); }
 
-function closeDevLoginModal() {
-  document.getElementById('loginModal').classList.add('hidden');
-}
-
-const VALID_ACCOUNTS = {
-  "admin": "admin123",
-  "quockiet": "adminquockiet"
-};
-
+const VALID_ACCOUNTS = { "admin": "admin123", "quockiet": "adminquockiet" };
 function handleAdminLogin(e) {
   e.preventDefault();
   const u = document.getElementById('adminUser').value.trim();
   const p = document.getElementById('adminPass').value.trim();
-  const errorBox = document.getElementById('loginError');
-
   if (VALID_ACCOUNTS[u] && VALID_ACCOUNTS[u] === p) {
     sessionStorage.setItem("isAdmin", "true");
     sessionStorage.setItem("adminUser", u);
     window.location.href = "admin.html";
   } else {
-    errorBox.style.display = 'block';
+    document.getElementById('loginError').style.display = 'block';
   }
 }
 
