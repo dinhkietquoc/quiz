@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="color-scheme" content="light">
 <title>Internal Training</title>
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#007aff">
@@ -42,10 +43,9 @@
     min-height: 100vh; 
     display: flex; 
     flex-direction: column; 
-    overscroll-behavior-y: none; /* Ngăn chặn hiệu ứng kéo dãn màn hình trên iOS */
+    overscroll-behavior-y: none; 
   }
 
-  /* Kỹ thuật Hardware Acceleration cho các lớp kính mờ */
   .glass-effect {
     backdrop-filter: saturate(180%) blur(20px);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -68,26 +68,12 @@
   }
   @keyframes dropDown { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
   
-  .dropdown-item {
-    display: flex; align-items: center; gap: 10px; width: 100%; padding: 10px 14px;
-    background: transparent; border: none; border-radius: 12px; font-size: 14px; font-weight: 600;
-    color: var(--text-main); cursor: pointer; text-align: left; transition: background 0.2s;
-  }
+  .dropdown-item { display: flex; align-items: center; gap: 10px; width: 100%; padding: 10px 14px; background: transparent; border: none; border-radius: 12px; font-size: 14px; font-weight: 600; color: var(--text-main); cursor: pointer; text-align: left; transition: background 0.2s; }
   .dropdown-item:hover, .dropdown-item:active { background: rgba(0,0,0,0.05); }
   .dropdown-item.dev { color: #4f46e5; border-top: 1px solid var(--border); margin-top: 4px; padding-top: 10px; border-radius: 0 0 12px 12px; }
 
-  /* OVERLAY MODAL */
-  .modal-overlay {
-    position: fixed; inset: 0; background: rgba(0, 0, 0, 0.4); 
-    backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
-    display: flex; align-items: center; justify-content: center; z-index: 999; padding: 20px; 
-    animation: fadeIn 0.2s ease;
-  }
-  .modal-box {
-    background: white; width: 100%; max-width: 380px; border-radius: 28px; padding: 28px 24px; 
-    box-shadow: 0 24px 48px rgba(0,0,0,0.2); max-height: 85vh; overflow-y: auto;
-    animation: popIn 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  }
+  .modal-overlay { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.4); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); display: flex; align-items: center; justify-content: center; z-index: 999; padding: 20px; animation: fadeIn 0.2s ease; }
+  .modal-box { background: white; width: 100%; max-width: 380px; border-radius: 28px; padding: 28px 24px; box-shadow: 0 24px 48px rgba(0,0,0,0.2); max-height: 85vh; overflow-y: auto; animation: popIn 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
   @keyframes popIn { from { opacity: 0; transform: scale(0.9); } to { opacity: 1; transform: scale(1); } }
   
   .modal-title { font-size: 20px; font-weight: 700; text-align: center; margin-bottom: 4px; color: var(--text-main); letter-spacing: -0.4px; }
@@ -98,20 +84,17 @@
   .btn-primary { width: 100%; padding: 14px; background: var(--accent); color: white; border: none; border-radius: 14px; font-weight: 600; font-size: 16px; cursor: pointer; transition: transform 0.2s; }
   .btn-primary:active { transform: scale(0.96); }
   .btn-close-modal { width: 100%; background: none; border: none; color: var(--text-sub); font-size: 14px; font-weight: 600; margin-top: 10px; cursor: pointer; padding: 10px; transition: color 0.2s; }
-  .btn-close-modal:active { color: var(--text-main); }
-  .error-msg { color: var(--danger); font-size: 13px; margin-bottom: 12px; display: none; text-align: center; font-weight: 600; }
-
-  /* NÚT CHỌN CHẾ ĐỘ THI */
+  
   .mode-btn { width: 100%; padding: 16px; background: var(--bg-color); border: 2px solid transparent; border-radius: 18px; margin-bottom: 12px; text-align: left; cursor: pointer; transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
   .mode-btn:active { transform: scale(0.96); background: #e0f0ff; border-color: var(--accent); }
   .mode-title { font-size: 15.5px; font-weight: 700; color: var(--text-main); margin-bottom: 4px; display: flex; align-items: center; gap: 8px; }
   .mode-desc { font-size: 13px; color: var(--text-sub); line-height: 1.4; }
 
-  /* BANNER THÔNG BÁO */
-  .marquee-box { background: rgba(255, 255, 255, 0.25); border: 1px solid var(--glass-border); border-radius: 50px; padding: 8px 18px; margin-bottom: 24px; display: flex; align-items: center; gap: 10px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
-  .marquee-icon { font-size: 16px; flex-shrink: 0; }
+  /* BANNER THÔNG BÁO HOÀN TOÀN KHÔNG CÓ NỀN */
+  .marquee-box { background: transparent; border: none; padding: 10px 0; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; overflow: hidden; box-shadow: none; }
+  .marquee-icon { font-size: 18px; flex-shrink: 0; text-shadow: 0 1px 4px rgba(0,0,0,0.6); }
   .marquee-track { flex: 1; overflow: hidden; white-space: nowrap; position: relative; }
-  .marquee-text { display: inline-block; padding-left: 100%; animation: scrollMarquee 18s linear infinite; font-size: 14px; font-weight: 600; color: #ffffff; text-shadow: 0 1px 4px rgba(0,0,0,0.6); letter-spacing: 0.3px; }
+  .marquee-text { display: inline-block; padding-left: 100%; animation: scrollMarquee 18s linear infinite; font-size: 14px; font-weight: 700; color: #ffffff; text-shadow: 0 1px 6px rgba(0,0,0,0.8); letter-spacing: 0.3px; }
   @keyframes scrollMarquee { 0% { transform: translateX(0); } 100% { transform: translateX(-100%); } }
 
   .progress-container { width: 100%; height: 5px; background: rgba(0,0,0,0.05); }
@@ -123,23 +106,21 @@
   .card { background: var(--card-bg); border-radius: 28px; padding: 24px; box-shadow: 0 12px 40px rgba(0,0,0,0.15); border: 1px solid var(--glass-border); width: 100%; box-sizing: border-box; overflow: hidden; }
   @media (min-width: 768px) { .card { padding: 36px; border-radius: 32px; } }
 
-  #menuView { background: transparent; box-shadow: none; padding: 0; border: none; }
+  #menuView { width: 100%; display: flex; flex-direction: column; }
   .hub-title { font-size: 30px; font-weight: 800; margin-bottom: 4px; color: #ffffff; text-shadow: 0 2px 12px rgba(0,0,0,0.8); letter-spacing: -0.5px; }
   .hub-sub { color: rgba(255, 255, 255, 0.95); margin-bottom: 24px; font-size: 15px; text-shadow: 0 2px 8px rgba(0,0,0,0.8); font-weight: 500; }
   
   .module-grid { display: grid; gap: 16px; grid-template-columns: 1fr; }
   @media (min-width: 600px) { .module-grid { grid-template-columns: repeat(2, 1fr); } }
 
-  .module-btn { background: rgba(255, 255, 255, 0.15); border: 1px solid var(--glass-border); border-radius: 20px; padding: 22px; cursor: pointer; text-align: left; transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275); box-shadow: 0 8px 32px rgba(0,0,0,0.2); word-break: normal; hyphens: auto; }
+  .module-btn { background: rgba(255, 255, 255, 0.15); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); border: 1px solid var(--glass-border); border-radius: 20px; padding: 22px; cursor: pointer; text-align: left; transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275); box-shadow: 0 8px 32px rgba(0,0,0,0.2); word-break: normal; hyphens: auto; transform: translateZ(0); }
   .module-btn:active { transform: scale(0.96); background: rgba(255, 255, 255, 0.25); }
   .m-title { font-size: 16.5px; font-weight: 700; color: #ffffff; margin-bottom: 8px; text-shadow: 0 1px 4px rgba(0,0,0,0.6); line-height: 1.35; display: flex; align-items: center; flex-wrap: wrap; gap: 6px; }
   .m-desc { font-size: 13.5px; color: rgba(255, 255, 255, 0.9); line-height: 1.45; text-shadow: 0 1px 2px rgba(0,0,0,0.5); font-weight: 500; }
 
-  /* Báo hiệu câu hỏi yếu (Pulsing badge) */
   .weak-badge { background: var(--danger); color: white; font-size: 11px; padding: 3px 8px; border-radius: 12px; font-weight: 700; box-shadow: 0 2px 8px rgba(255, 59, 48, 0.4); animation: pulse 2s infinite; }
   @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(255, 59, 48, 0.4); } 70% { box-shadow: 0 0 0 6px rgba(255, 59, 48, 0); } 100% { box-shadow: 0 0 0 0 rgba(255, 59, 48, 0); } }
 
-  /* THỐNG KÊ TRONG BÀI THI */
   .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; background: rgba(0,0,0,0.03); padding: 12px 8px; border-radius: 18px; margin-bottom: 24px; text-align: center; border: 1px solid var(--border); }
   .stat-card { display: flex; flex-direction: column; justify-content: center; align-items: center; }
   .stat-card:not(:last-child) { border-right: 1px solid var(--border); }
@@ -150,7 +131,6 @@
 
   .q-text { font-size: 19px; font-weight: 600; margin-bottom: 24px; line-height: 1.5; color: var(--text-main); letter-spacing: -0.3px; }
 
-  /* LƯỚI BẢNG CÂU HỎI (PALETTE) */
   #paletteCard { margin-top: 16px; }
   .grid-title { font-size: 13px; font-weight: 700; margin-bottom: 14px; color: var(--text-sub); text-transform: uppercase; letter-spacing: 0.5px; }
   .palette-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; max-height: 200px; overflow-y: auto; padding-right: 4px; }
@@ -168,7 +148,6 @@
   .btn-nav:active:not(:disabled) { transform: scale(0.96); }
   .btn-nav:disabled { opacity: 0.4; cursor: not-allowed; }
 
-  /* NÚT CHỌN ĐÁP ÁN */
   .opt-btn { width: 100%; background: var(--bg-color); border: 2px solid transparent; border-radius: 18px; padding: 16px 18px; margin-bottom: 12px; text-align: left; font-size: 15.5px; font-weight: 500; color: var(--text-main); cursor: pointer; display: flex; gap: 14px; align-items: flex-start; transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275); user-select: none; word-break: break-word; line-height: 1.4; }
   @media (hover: hover) { .opt-btn:hover:not(:disabled) { background: #e8e8ed; } }
   .opt-btn:active:not(:disabled) { transform: scale(0.97); background: #e0e0e5; }
@@ -180,7 +159,6 @@
   .opt-btn:disabled { cursor: default; }
   .opt-btn.dimmed { opacity: 0.45; filter: grayscale(100%); }
 
-  /* FEEDBACK BOX */
   .feedback { margin-top: 24px; padding: 18px; border-radius: 16px; font-size: 14.5px; font-weight: 500; display: none; line-height: 1.5; animation: popIn 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
   .feedback.show { display: block; }
   .feedback.success { background: var(--success-bg); color: #0e5c22; border: 1px solid rgba(52, 199, 89, 0.2); }
@@ -214,22 +192,18 @@
   <div class="modal-box">
     <div class="modal-title">Select Mode</div>
     <div class="modal-sub">Choose your preferred training format.</div>
-    
     <button class="mode-btn" onclick="confirmMode('SCROLL')">
       <div class="mode-title">🚀 Continuous Training</div>
       <div class="mode-desc">Build rapid reflexes through uninterrupted practice. The system auto-advances upon answer selection.</div>
     </button>
-
     <button class="mode-btn" onclick="confirmMode('ONE_BY_ONE')">
       <div class="mode-title">🎯 Standard Assessment</div>
       <div class="mode-desc">Standalone evaluation interface. Navigate manually via the "Next" button and the question palette.</div>
     </button>
-
     <button class="mode-btn" onclick="confirmMode('WEAK_REVIEW')">
       <div class="mode-title">🔄 Review Weak Questions</div>
       <div class="mode-desc">Practice exclusively the questions you've previously answered incorrectly, saved locally on your device.</div>
     </button>
-    
     <button class="btn-close-modal" onclick="closeModeModal()">Cancel</button>
   </div>
 </div>
@@ -251,8 +225,9 @@
 
 <div class="container" id="mainContainer">
   
-  <div id="menuView"
-    <div class="marquee-box glass-effect" id="noticeBox">
+  <!-- MENU CHÍNH -->
+  <div id="menuView">
+    <div class="marquee-box" id="noticeBox">
       <span class="marquee-icon">📢</span>
       <div class="marquee-track">
         <span class="marquee-text" id="noticeText">Loading notice...</span>
@@ -274,7 +249,7 @@
   <!-- BÀI LÀM QUIZ -->
   <div id="quizView" class="card hidden glass-effect">
     <div class="stats-grid" id="qStatsGrid">
-      <div class="stat-card active"><span class="stat-label">Progress</span><span class="stat-val" id="statCurrentQ">Q 1/0</span></div>
+      <div class="stat-card active"><span class="stat-label">Progress</span><span class="stat-val" id="statCurrentQ">1/0</span></div>
       <div class="stat-card passed"><span class="stat-label">Correct</span><span class="stat-val" id="statPassed">0/0</span></div>
       <div class="stat-card"><span class="stat-label">Accuracy</span><span class="stat-val" id="statAccuracy">100%</span></div>
     </div>
@@ -305,35 +280,16 @@
 </div>
 
 <script>
-/* === DOM Caching (Tối ưu tốc độ DOM) === */
 const DOM = {
-  noticeText: document.getElementById('noticeText'),
-  noticeBox: document.getElementById('noticeBox'),
-  moduleList: document.getElementById('moduleList'),
-  modeModal: document.getElementById('modeModal'),
-  loginModal: document.getElementById('loginModal'),
-  menuView: document.getElementById('menuView'),
-  endView: document.getElementById('endView'),
-  quizView: document.getElementById('quizView'),
-  paletteCard: document.getElementById('paletteCard'),
-  navBar: document.getElementById('navBar'),
-  loadingView: document.getElementById('loadingView'),
-  mainContainer: document.getElementById('mainContainer'),
-  progressBar: document.getElementById('progressBar'),
-  qStatsGrid: document.getElementById('qStatsGrid'),
-  statCurrentQ: document.getElementById('statCurrentQ'),
-  statPassed: document.getElementById('statPassed'),
-  statAccuracy: document.getElementById('statAccuracy'),
-  qText: document.getElementById('qText'),
-  optionsList: document.getElementById('optionsList'),
-  feedbackBox: document.getElementById('feedbackBox'),
-  btnPrev: document.getElementById('btnPrev'),
-  btnNext: document.getElementById('btnNext'),
-  paletteGrid: document.getElementById('paletteGrid'),
-  endDesc: document.getElementById('endDesc'),
-  dropdownMenu: document.getElementById('dropdownMenu'),
-  btnMenu: document.getElementById('btnMenu'),
-  loginError: document.getElementById('loginError')
+  noticeText: document.getElementById('noticeText'), noticeBox: document.getElementById('noticeBox'), moduleList: document.getElementById('moduleList'),
+  modeModal: document.getElementById('modeModal'), loginModal: document.getElementById('loginModal'), menuView: document.getElementById('menuView'),
+  endView: document.getElementById('endView'), quizView: document.getElementById('quizView'), paletteCard: document.getElementById('paletteCard'),
+  navBar: document.getElementById('navBar'), loadingView: document.getElementById('loadingView'), mainContainer: document.getElementById('mainContainer'),
+  progressBar: document.getElementById('progressBar'), qStatsGrid: document.getElementById('qStatsGrid'), statCurrentQ: document.getElementById('statCurrentQ'),
+  statPassed: document.getElementById('statPassed'), statAccuracy: document.getElementById('statAccuracy'), qText: document.getElementById('qText'),
+  optionsList: document.getElementById('optionsList'), feedbackBox: document.getElementById('feedbackBox'), btnPrev: document.getElementById('btnPrev'),
+  btnNext: document.getElementById('btnNext'), paletteGrid: document.getElementById('paletteGrid'), endDesc: document.getElementById('endDesc'),
+  dropdownMenu: document.getElementById('dropdownMenu'), btnMenu: document.getElementById('btnMenu'), loginError: document.getElementById('loginError')
 };
 
 let originalQuizData = [], currentRoundData = [], nextRoundData = [];    
@@ -352,10 +308,7 @@ async function loadNotice() {
 }
 
 function shuffleArray(arr) {
-  for (let i = arr.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [arr[i], arr[j]] = [arr[j], arr[i]];
-  }
+  for (let i = arr.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [arr[i], arr[j]] = [arr[j], arr[i]]; }
   return arr;
 }
 
@@ -370,9 +323,7 @@ function shuffleOnlyOptions(data) {
   });
 }
 
-function getWeakQuestions(fileUrl) {
-  try { return JSON.parse(localStorage.getItem('weak_' + fileUrl)) || []; } catch(e) { return []; }
-}
+function getWeakQuestions(fileUrl) { try { return JSON.parse(localStorage.getItem('weak_' + fileUrl)) || []; } catch(e) { return []; } }
 function saveWeakQuestion(q, fileUrl) {
   try {
     let list = getWeakQuestions(fileUrl);
@@ -392,16 +343,10 @@ async function init() {
     const res = await fetch('data/modules.json');
     if (!res.ok) throw new Error();
     const modules = await res.json();
-    
-    // Tối ưu DOM: Sử dụng map và join thay vì vòng lặp cộng chuỗi
     DOM.moduleList.innerHTML = modules.map(m => {
       const weakCount = getWeakQuestions(m.file).length;
       const weakBadge = weakCount > 0 ? `<span class="weak-badge">${weakCount} weak</span>` : '';
-      return `
-        <button class="module-btn glass-effect" onclick="openModeModal('${m.file}')">
-          <div class="m-title">${m.title} ${weakBadge}</div>
-          <div class="m-desc">${m.desc}</div>
-        </button>`;
+      return `<button class="module-btn" onclick="openModeModal('${m.file}')"><div class="m-title">${m.title} ${weakBadge}</div><div class="m-desc">${m.desc}</div></button>`;
     }).join('');
   } catch (error) { DOM.moduleList.innerHTML = '<p style="color:red; text-align:center;">⚠️ Error loading module list!</p>'; }
 }
@@ -425,8 +370,7 @@ async function startQuiz() {
       originalQuizData = shuffleOnlyOptions(await res.json());
     }
 
-    currentRoundData = [...originalQuizData]; nextRoundData = [];
-    globalTotal = originalQuizData.length; globalCompleted = 0; currentRoundIndex = 0;
+    currentRoundData = [...originalQuizData]; nextRoundData = []; globalTotal = originalQuizData.length; globalCompleted = 0; currentRoundIndex = 0;
     totalAttempts = 0; totalCorrectAttempts = 0; userAnswers = {};
     
     DOM.loadingView.classList.add('hidden'); DOM.quizView.classList.remove('hidden');
@@ -443,7 +387,6 @@ async function startQuiz() {
 function renderQuestion() {
   if (currentRoundIndex >= currentRoundData.length) {
     if (nextRoundData.length === 0) return showEndScreen();
-    
     DOM.qStatsGrid.style.display = 'none'; DOM.paletteCard.classList.add('hidden');
     DOM.qText.innerHTML = `<span style="color:var(--accent)">🔄 Preparing to review ${nextRoundData.length} incorrect questions...</span>`;
     DOM.optionsList.innerHTML = ''; DOM.feedbackBox.className = 'feedback';
@@ -461,11 +404,10 @@ function renderQuestion() {
   const accuracy = totalAttempts === 0 ? 100 : Math.round((totalCorrectAttempts / totalAttempts) * 100);
   const isReviewRound = (currentRoundData.length !== globalTotal);
   
-  DOM.statCurrentQ.innerText = isReviewRound ? `Review ${currentRoundIndex + 1}/${currentRoundData.length}` : ` ${currentRoundIndex + 1}/${globalTotal}`;
+  DOM.statCurrentQ.innerText = isReviewRound ? `Review ${currentRoundIndex + 1}/${currentRoundData.length}` : `${currentRoundIndex + 1}/${globalTotal}`;
   DOM.statPassed.innerText = `${globalCompleted}/${globalTotal}`;
   DOM.statAccuracy.innerText = `${accuracy}%`;
   DOM.progressBar.style.width = ((globalCompleted) / globalTotal * 100) + '%';
-  
   DOM.qText.innerText = q[1];
   DOM.feedbackBox.className = 'feedback'; 
   
@@ -478,20 +420,14 @@ function renderQuestion() {
   `).join('');
 
   if (examMode !== 'SCROLL') {
-    DOM.btnPrev.disabled = (currentRoundIndex === 0);
-    DOM.btnNext.style.display = 'none'; 
-    renderPalette();
-
+    DOM.btnPrev.disabled = (currentRoundIndex === 0); DOM.btnNext.style.display = 'none'; renderPalette();
     if (userAnswers[currentRoundIndex]) {
       const history = userAnswers[currentRoundIndex];
-      const allBtns = DOM.optionsList.querySelectorAll('.opt-btn');
-      allBtns.forEach(b => b.disabled = true);
+      DOM.optionsList.querySelectorAll('.opt-btn').forEach(b => b.disabled = true);
       DOM.btnNext.style.display = 'block';
-
       if (history.isCorrect) {
         document.getElementById(`opt-${history.selected}`).classList.add('correct');
-        DOM.feedbackBox.innerText = "✓ Correct!";
-        DOM.feedbackBox.className = 'feedback show success';
+        DOM.feedbackBox.innerText = "✓ Correct!"; DOM.feedbackBox.className = 'feedback show success';
       } else {
         document.getElementById(`opt-${history.selected}`).classList.add('wrong');
         document.getElementById(`opt-${history.correct}`).classList.add('correct');
@@ -512,14 +448,12 @@ function checkAnswer(selectedIndex, correctIndex, btnClicked) {
   userAnswers[currentRoundIndex] = { selected: selectedIndex, correct: correctIndex, isCorrect: isCorrect };
 
   if (isCorrect) {
-    totalCorrectAttempts++; globalCompleted++; 
-    btnClicked.classList.add('correct');
+    totalCorrectAttempts++; globalCompleted++; btnClicked.classList.add('correct');
     DOM.feedbackBox.innerText = "✓ Correct!"; DOM.feedbackBox.className = 'feedback show success';
     allBtns.forEach((b, i) => { if(i !== selectedIndex) b.classList.add('dimmed'); });
     removeWeakQuestion(currentQ, selectedFileUrl);
   } else {
-    nextRoundData.push(currentQ);
-    btnClicked.classList.add('wrong');
+    nextRoundData.push(currentQ); btnClicked.classList.add('wrong');
     if (allBtns[correctIndex]) allBtns[correctIndex].classList.add('correct'); 
     DOM.feedbackBox.innerHTML = `<strong>✗ Incorrect!</strong><br><span style="font-size:13.5px; opacity:0.9; display:block; margin-top:4px;">${currentQ[4] || ''}</span>`;
     DOM.feedbackBox.className = 'feedback show error';
@@ -532,7 +466,7 @@ function checkAnswer(selectedIndex, correctIndex, btnClicked) {
 
   if (examMode === 'SCROLL') {
     clearTimeout(advanceTimer);
-    advanceTimer = setTimeout(() => { currentRoundIndex++; renderQuestion(); }, 1200); // Rút ngắn tg chờ còn 1.2s
+    advanceTimer = setTimeout(() => { currentRoundIndex++; renderQuestion(); }, 1200);
   } else {
     DOM.btnNext.style.display = 'block';
     renderPalette();
@@ -543,18 +477,15 @@ function navNext() { if (currentRoundIndex < currentRoundData.length) { currentR
 function navPrev() { if (currentRoundIndex > 0) { currentRoundIndex--; renderQuestion(); } }
 function jumpToQuestion(idx) { currentRoundIndex = idx; renderQuestion(); }
 
-// Tối ưu Tốc độ: Render bằng DocumentFragment cho Grid 100+ nút
 function renderPalette() {
   DOM.paletteGrid.innerHTML = '';
   const fragment = document.createDocumentFragment();
   currentRoundData.forEach((_, idx) => {
-    const btn = document.createElement('button');
-    btn.innerText = idx + 1;
+    const btn = document.createElement('button'); btn.innerText = idx + 1;
     let className = 'palette-btn';
     if (idx === currentRoundIndex) className += ' active';
     else if (userAnswers[idx]) className += userAnswers[idx].isCorrect ? ' done' : ' wrong-done';
-    btn.className = className;
-    btn.onclick = () => jumpToQuestion(idx);
+    btn.className = className; btn.onclick = () => jumpToQuestion(idx);
     fragment.appendChild(btn);
   });
   DOM.paletteGrid.appendChild(fragment);
@@ -584,12 +515,9 @@ function closeDevLoginModal() { DOM.loginModal.classList.add('hidden'); }
 const VALID_ACCOUNTS = { "admin": "admin123", "quockiet": "adminquockiet" };
 function handleAdminLogin(e) {
   e.preventDefault();
-  const u = document.getElementById('adminUser').value.trim();
-  const p = document.getElementById('adminPass').value.trim();
-  if (VALID_ACCOUNTS[u] && VALID_ACCOUNTS[u] === p) {
-    sessionStorage.setItem("isAdmin", "true"); sessionStorage.setItem("adminUser", u);
-    window.location.href = "admin.html";
-  } else DOM.loginError.style.display = 'block';
+  const u = document.getElementById('adminUser').value.trim(); const p = document.getElementById('adminPass').value.trim();
+  if (VALID_ACCOUNTS[u] && VALID_ACCOUNTS[u] === p) { sessionStorage.setItem("isAdmin", "true"); sessionStorage.setItem("adminUser", u); window.location.href = "admin.html"; } 
+  else DOM.loginError.style.display = 'block';
 }
 
 init();
