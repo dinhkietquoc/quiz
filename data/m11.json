@@ -1,0 +1,3632 @@
+[
+  [
+    1,
+    "What are the three axes of aircraft movement?",
+    [
+      "Roll, pitch, yaw",
+      "Lift, thrust, drag",
+      "Speed, altitude, heading"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    2,
+    "What flight control surface is primarily responsible for roll control?",
+    [
+      "Elevators",
+      "Ailerons",
+      "Rudder"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    3,
+    "What is the primary purpose of spoilers on an aircraft?",
+    [
+      "To increase lift",
+      "To disrupt airflow and reduce lift",
+      "To help in taxiing"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    4,
+    "How do elevators affect an aircraft’s movement?",
+    [
+      "They control pitch, moving the nose up or down",
+      "They control roll, moving the aircraft side to side",
+      "They control yaw, rotating the aircraft left or right"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    5,
+    "What is the function of a rudder on an aircraft?",
+    [
+      "It controls roll",
+      "It controls yaw",
+      "It controls altitude"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    6,
+    "What type of high-lift device is used to increase lift during takeoff and landing?",
+    [
+      "Spoilers",
+      "Slats and flaps",
+      "Elevators"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    7,
+    "What is the purpose of trim tabs on an aircraft?",
+    [
+      "To provide additional lift",
+      "To help pilots maintain steady flight with minimal control input",
+      "To increase speed"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    8,
+    "How do slats improve an aircraft’s performance?",
+    [
+      "By increasing thrust",
+      "By improving airflow over the wings at high angles of attack",
+      "By reducing drag"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    9,
+    "What happens when flaps are deployed during landing?",
+    [
+      "Lift increases, and drag decreases",
+      "Lift increases, and drag increases",
+      "Lift decreases, and drag decreases"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    10,
+    "What are elevons used for?",
+    [
+      "To combine elevator and aileron functions on delta-wing aircraft",
+      "To replace rudders in supersonic aircraft",
+      "To act as emergency brakes"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    11,
+    "What is the main function of canards in aircraft design?",
+    [
+      "To increase speed",
+      "To provide additional pitch control",
+      "To replace rudders"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    12,
+    "What is the effect of vortex generators on aircraft wings?",
+    [
+      "They improve boundary layer control and delay airflow separation",
+      "They increase drag and reduce fuel efficiency",
+      "They change the shape of the wing"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    13,
+    "How does sweepback affect an aircraft’s performance?",
+    [
+      "It reduces drag at high speeds",
+      "It increases drag at low speeds",
+      "It increases lift"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    14,
+    "What is the function of a speed brake (air brake)?",
+    [
+      "To reduce the aircraft’s speed in flight",
+      "To increase engine power",
+      "To assist in takeoff"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    15,
+    "What is the primary purpose of ailerons?",
+    [
+      "To provide lift",
+      "To control rolling motion",
+      "To reduce drag"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    16,
+    "What is the term for the movement of an aircraft around its longitudinal axis?",
+    [
+      "Yaw",
+      "Roll",
+      "Pitch"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    17,
+    "What is the purpose of a boundary layer control system?",
+    [
+      "To reduce drag and improve lift efficiency",
+      "To increase engine power",
+      "To decrease fuel consumption"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    18,
+    "What is a stall wedge?",
+    [
+      "A device that promotes stall at the root before the wingtips",
+      "A device that prevents stalls",
+      "A flap modification"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    19,
+    "What is the critical Mach number?",
+    [
+      "The speed at which airflow over the wing first reaches Mach 1",
+      "The maximum speed of an aircraft",
+      "The minimum speed required for takeoff"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    20,
+    "What happens when an aircraft reaches its critical Mach number?",
+    [
+      "A shock wave forms over part of the aircraft",
+      "The aircraft gains extra lift",
+      "The engine power decreases"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    21,
+    "What is the purpose of a horn balance on a control surface?",
+    [
+      "To help the pilot move the control surface by reducing aerodynamic resistance",
+      "To increase the lift of the aircraft",
+      "To decrease stall speed"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    22,
+    "What is the primary cause of aerodynamic heating?",
+    [
+      "Friction and air compression at high speeds",
+      "Excessive fuel burn",
+      "High-altitude turbulence"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    23,
+    "What is the function of a rudder limiter?",
+    [
+      "To prevent excessive rudder deflection at high speeds",
+      "To increase yaw control",
+      "To assist with takeoff"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    24,
+    "What is a supersonic intake designed to do?",
+    [
+      "Slow incoming air to subsonic speeds before reaching the engine",
+      "Increase airflow through the engine",
+      "Reduce aerodynamic drag"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    25,
+    "What is the primary purpose of an aircraft's structural design?",
+    [
+      "To increase fuel efficiency",
+      "To withstand and distribute applied loads safely",
+      "To enhance aerodynamics"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    26,
+    "What are the three main classifications of aircraft structures?",
+    [
+      "Principal, Subordinate, Auxiliary",
+      "Primary, Secondary, Tertiary",
+      "Major, Minor, Supporting"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    27,
+    "What is a primary structure in an aircraft?",
+    [
+      "A structure that carries significant flight, ground, or pressure loads",
+      "A structure that enhances aerodynamic performance",
+      "A non-load-bearing structure"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    28,
+    "What is the main function of aircraft longerons?",
+    [
+      "To support the internal electrical systems",
+      "To carry major bending loads along the fuselage",
+      "To act as an aerodynamic surface"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    29,
+    "How are aircraft station identification systems used?",
+    [
+      "They mark emergency exits",
+      "They help locate specific aircraft parts using numerical coordinates",
+      "They identify fuel tank locations"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    30,
+    "What is an aircraft’s “safe-life” concept?",
+    [
+      "The principle of replacing parts after a fixed number of flight cycles",
+      "A method for identifying damage before failure",
+      "A technique for improving passenger safety"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    31,
+    "Which of the following best describes “fail-safe” design?",
+    [
+      "A structure designed to fail under minimal loads",
+      "A structure with redundant load paths to prevent catastrophic failure",
+      "A system that prevents mechanical wear"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    32,
+    "What is the primary purpose of a wing spar?",
+    [
+      "To generate lift",
+      "To absorb bending and torsional loads",
+      "To store hydraulic fluid"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    33,
+    "What does “hoop stress” refer to in an aircraft structure?",
+    [
+      "Stress caused by aerodynamic forces",
+      "Stress exerted around cylindrical structures due to internal pressure",
+      "Stress applied to the aircraft’s landing gear"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    34,
+    "What is the main function of a fuselage frame?",
+    [
+      "To maintain the shape of the fuselage and prevent instability",
+      "To provide fuel storage",
+      "To generate aerodynamic lift"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    35,
+    "What is a semi-monocoque fuselage?",
+    [
+      "A fuselage structure without internal supports",
+      "A reinforced shell structure with frames and stringers",
+      "A structure that relies solely on outer skin strength"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    36,
+    "What are the primary structural elements of a pressurized cabin?",
+    [
+      "Interior panels and flooring",
+      "Circumferential frames and pressure bulkheads",
+      "Passenger seating supports"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    37,
+    "What is a stringer panel in aircraft structures?",
+    [
+      "A single-piece construction of an entire fuselage",
+      "A combination of skin and stringers used for load-bearing",
+      "A system of pipes for fuel transfer"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    38,
+    "What are the primary aircraft wing structure types?",
+    [
+      "Single-wing, Bi-wing, Delta",
+      "Mono-spar, Dual-spar, Multi-spar",
+      "Vertical, Horizontal, Rotary"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    39,
+    "What is the primary function of an aircraft bulkhead?",
+    [
+      "To store fuel safely",
+      "To transfer concentrated forces at key attachment points",
+      "To act as a decorative panel"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    40,
+    "What is the function of aircraft bonding?",
+    [
+      "To increase fuel efficiency",
+      "To reduce static electricity and ensure electrical continuity",
+      "To improve passenger safety"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    41,
+    "What is the function of an aircraft’s lightning strike protection provision?",
+    [
+      "To prevent the aircraft from conducting electricity",
+      "To safely direct lightning strikes away from critical systems",
+      "To enhance electrical conductivity"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    42,
+    "What is the main method of aircraft surface protection?",
+    [
+      "Using protective covers during storage",
+      "Chromating, anodizing, and painting",
+      "Increasing the thickness of metal components"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    43,
+    "What is the purpose of aircraft structural drains and ventilation?",
+    [
+      "To remove unwanted moisture and prevent corrosion",
+      "To provide additional airflow to passengers",
+      "To reduce aircraft weight"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    44,
+    "What is the purpose of aircraft zonal identification?",
+    [
+      "To determine aircraft speed",
+      "To facilitate maintenance and inspections",
+      "To improve passenger comfort"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    45,
+    "What does the term \"torsion stress\" refer to?",
+    [
+      "Stress caused by twisting forces",
+      "Stress due to heavy loads",
+      "Stress created by external vibrations"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    46,
+    "How does structural fatigue affect aircraft over time?",
+    [
+      "It increases the aircraft's weight",
+      "It leads to cracks and eventual failure due to repeated stress cycles",
+      "It enhances the aircraft's performance"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    47,
+    "What is Young’s modulus used for in aircraft structures?",
+    [
+      "Measuring stress resistance",
+      "Calculating fuel efficiency",
+      "Determining wind resistance"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    48,
+    "What is the main advantage of a composite fuselage structure?",
+    [
+      "It is heavier but stronger",
+      "It is lightweight with high strength",
+      "It requires frequent repairs"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    49,
+    "How does a semi-monocoque design improve aircraft durability?",
+    [
+      "By distributing stress among internal structural members",
+      "By increasing the thickness of external skin",
+      "By reducing the overall weight"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    50,
+    "What happens when a fail-safe structure sustains damage?",
+    [
+      "The aircraft becomes inoperable",
+      "Load is redistributed to redundant structural members",
+      "The structure collapses immediately"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    51,
+    "What is the purpose of structural load distribution?",
+    [
+      "To ensure stress is evenly spread across the airframe",
+      "To prevent fuel leaks",
+      "To increase passenger comfort"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    52,
+    "What is the primary function of the fuselage in an aircraft?",
+    [
+      "To generate lift",
+      "To house the cockpit, passengers, and cargo",
+      "To store fuel"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    53,
+    "What type of fuselage construction is commonly used in modern transport aircraft?",
+    [
+      "Truss-type",
+      "Monocoque",
+      "Semi-monocoque"
+    ],
+    2,
+    "Module 11"
+  ],
+  [
+    54,
+    "What is the function of stringers in the fuselage structure?",
+    [
+      "To reduce aerodynamic drag",
+      "To provide longitudinal strength and stiffness",
+      "To store electrical wiring"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    55,
+    "What are bulkheads in the fuselage designed to do?",
+    [
+      "Control the airflow within the cabin",
+      "Carry pressure loads and reinforce the structure",
+      "Support the landing gear"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    56,
+    "Which type of fuselage joint allows for expansion and contraction while maintaining pressurization?",
+    [
+      "Lap joint",
+      "Butt joint",
+      "Riveted joint"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    57,
+    "What is the purpose of blowout panels in aircraft fuselages?",
+    [
+      "To provide additional ventilation",
+      "To release excessive pressure and protect the structure",
+      "To reduce aerodynamic drag"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    58,
+    "What is the primary function of an aircraft’s wings?",
+    [
+      "To store fuel",
+      "To generate lift",
+      "To house the cockpit"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    59,
+    "What is the main structural component of a wing?",
+    [
+      "Aileron",
+      "Spar",
+      "Rib"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    60,
+    "What is the purpose of wing ribs?",
+    [
+      "To maintain the airfoil shape",
+      "To store hydraulic fluid",
+      "To reduce aircraft weight"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    61,
+    "Which type of wing construction does not require external bracing?",
+    [
+      "Truss-type",
+      "Semi-monocoque",
+      "Cantilever"
+    ],
+    2,
+    "Module 11"
+  ],
+  [
+    62,
+    "What is a wing torsion box?",
+    [
+      "A fuel storage unit",
+      "A structural component that resists twisting",
+      "A flight control device"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    63,
+    "What is the function of stabilizers on an aircraft?",
+    [
+      "To improve aerodynamic efficiency",
+      "To provide stability and control",
+      "To house flight control surfaces"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    64,
+    "What type of stabilizer configuration reduces aerodynamic interference from wing turbulence?",
+    [
+      "T-tail",
+      "V-tail",
+      "Conventional tail"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    65,
+    "What is the main purpose of ailerons?",
+    [
+      "To control roll",
+      "To control yaw",
+      "To reduce drag"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    66,
+    "Where are rudders typically mounted on an aircraft?",
+    [
+      "Horizontal stabilizer",
+      "Vertical stabilizer",
+      "Wingtip"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    67,
+    "What is the primary function of engine pylons?",
+    [
+      "To generate lift",
+      "To attach engines to the aircraft structure",
+      "To store hydraulic fluid"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    68,
+    "What is the function of an engine firewall?",
+    [
+      "To prevent fire from spreading",
+      "To provide structural support",
+      "To reduce engine noise"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    69,
+    "What type of doors provide additional strength to the fuselage structure?",
+    [
+      "Plug-type doors",
+      "Sliding doors",
+      "Hinged doors"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    70,
+    "What is the purpose of cockpit window heating?",
+    [
+      "To improve pilot visibility by preventing icing and fogging",
+      "To strengthen the glass",
+      "To reduce glare from sunlight"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    71,
+    "How do cabin windows help maintain pressure integrity?",
+    [
+      "By using tempered glass",
+      "By having multiple panes with a small vent hole",
+      "By being made of flexible plastic"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    72,
+    "What component of the aircraft structure bears the highest loads during landing?",
+    [
+      "Wing spars",
+      "Landing gear attachment points",
+      "Rudder hinges"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    73,
+    "Why are landing gear trunnions used?",
+    [
+      "To provide support and allow retraction",
+      "To house hydraulic lines",
+      "To reduce aircraft weight"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    74,
+    "What is the function of cargo nets in aircraft?",
+    [
+      "To improve aerodynamics",
+      "To prevent cargo from shifting during flight",
+      "To hold passenger baggage"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    75,
+    "How are passenger seats typically attached to the aircraft?",
+    [
+      "Bolted directly to the fuselage",
+      "Mounted on seat tracks",
+      "Suspended from the ceiling"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    76,
+    "What type of fuel storage is commonly used in aircraft wings?",
+    [
+      "Rigid removable tanks",
+      "Integral fuel tanks",
+      "External tanks"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    77,
+    "What is the purpose of fuel tank baffles?",
+    [
+      "To prevent fuel from freezing",
+      "To reduce fuel movement (slosh)",
+      "To increase fuel capacity"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    78,
+    "What is the main purpose of fuselage doublers?",
+    [
+      "To reinforce structural weak points",
+      "To reduce weight",
+      "To act as a mounting point for avionics"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    79,
+    "Why are aircraft structures designed with fail-safe elements?",
+    [
+      "To improve aerodynamics",
+      "To ensure that damage does not lead to catastrophic failure",
+      "To reduce weight"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    80,
+    "What is the function of fuselage fire zones?",
+    [
+      "To isolate and contain fires",
+      "To store emergency equipment",
+      "To improve airflow"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    81,
+    "What is the primary source of air for an aircraft's air conditioning system?",
+    [
+      "Ram air",
+      "Bleed air from engines",
+      "Passenger oxygen system"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    82,
+    "What is the purpose of an APU in the air supply system?",
+    [
+      "To provide electrical power only",
+      "To supply bleed air when engines are not running",
+      "To regulate fuel flow"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    83,
+    "What is the function of a ground air cart in air conditioning?",
+    [
+      "Provides conditioned air when aircraft systems are off",
+      "Used for emergency oxygen supply",
+      "Regulates airspeed"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    84,
+    "Which aircraft system uses ram air supply?",
+    [
+      "Pressurised cabin",
+      "Some small unpressurised aircraft",
+      "Engine combustion chamber"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    85,
+    "Where is the ground service connection for air conditioning usually located?",
+    [
+      "On the cockpit panel",
+      "Under the fuselage",
+      "Inside the engine nacelle"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    86,
+    "What is the main function of an aircraft's air conditioning system?",
+    [
+      "Supply fresh and temperature-controlled air to the cabin",
+      "Reduce aerodynamic drag",
+      "Pressurise hydraulic lines"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    87,
+    "What are the two main types of air conditioning systems?",
+    [
+      "Air cycle and vapor cycle",
+      "Hydraulic and pneumatic",
+      "Liquid cooling and air cooling"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    88,
+    "Which component regulates cabin temperature in an air cycle system?",
+    [
+      "Thermostat",
+      "Temperature control valve",
+      "Bleed air switch"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    89,
+    "What is a common method of distributing conditioned air in the cabin?",
+    [
+      "Through ducts and vents",
+      "Directly from the engine",
+      "Via emergency oxygen masks"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    90,
+    "How does a vapor cycle cooling system operate?",
+    [
+      "Uses refrigerant to absorb cabin heat",
+      "Uses hot engine exhaust for cooling",
+      "Mixes hot and cold air"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    91,
+    "What is the purpose of an aircraft pressurisation system?",
+    [
+      "Maintain cabin pressure for passenger comfort",
+      "Reduce aircraft weight",
+      "Increase fuel efficiency"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    92,
+    "What controls cabin pressure during flight?",
+    [
+      "Engine power settings",
+      "Outflow valves",
+      "Wing flaps"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    93,
+    "What happens to cabin pressure if an outflow valve is stuck open?",
+    [
+      "Cabin pressure increases",
+      "Cabin pressure decreases",
+      "Cabin air conditioning shuts down"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    94,
+    "What is the typical maximum cabin altitude maintained by the pressurisation system?",
+    [
+      "8,000 feet",
+      "10,000 feet",
+      "3,000 feet"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    95,
+    "What type of system is commonly used for pressurisation control?",
+    [
+      "Hydraulic actuators",
+      "Electronic or pneumatic controllers",
+      "Mechanical gears"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    96,
+    "What is cabin differential pressure?",
+    [
+      "The difference between cabin pressure and outside air pressure",
+      "The variation in engine power",
+      "The airspeed at cruise altitude"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    97,
+    "What mode is used to prevent pressure surges during takeoff?",
+    [
+      "Cruise mode",
+      "Pre-pressurisation mode",
+      "Landing mode"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    98,
+    "What occurs if the aircraft fails to climb after takeoff?",
+    [
+      "The pressurisation system switches to abort mode",
+      "The outflow valve locks open",
+      "The aircraft enters emergency descent"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    99,
+    "What happens if cabin altitude exceeds 10,000 feet?",
+    [
+      "The aircraft automatically descends",
+      "A warning system activates",
+      "The air conditioning turns off"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    100,
+    "What is the function of a positive pressure relief valve?",
+    [
+      "Prevents excessive cabin pressure",
+      "Prevents rapid decompression",
+      "Releases excess engine exhaust"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    101,
+    "What is the function of a negative pressure relief valve?",
+    [
+      "Prevents cabin pressure from dropping too low",
+      "Increases airflow for cooling",
+      "Activates oxygen masks"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    102,
+    "What activates the emergency oxygen masks in case of cabin decompression?",
+    [
+      "Cabin altitude reaching 14,000 feet",
+      "Air conditioning failure",
+      "Engine shutdown"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    103,
+    "What are blowout panels used for?",
+    [
+      "To protect cargo compartments from excessive pressure",
+      "To allow airflow into the cabin",
+      "To absorb shock during turbulence"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    104,
+    "What happens if the aircraft descends unexpectedly before reaching cruise altitude?",
+    [
+      "The \"Off-Schedule Descent\" warning activates",
+      "The engines shut down",
+      "The outflow valve closes"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    105,
+    "What is the function of the pressurisation system's manual mode?",
+    [
+      "Allows the pilot to manually adjust cabin pressure",
+      "Automatically regulates airflow",
+      "Turns off air conditioning"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    106,
+    "How does an aircraft prevent excessive pressurisation?",
+    [
+      "By using pressure relief valves",
+      "By increasing airflow",
+      "By shutting off cabin air supply"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    107,
+    "Why must maintenance personnel be cautious when working on a pressurised aircraft?",
+    [
+      "Sudden pressure changes can cause injury",
+      "Pressurisation systems are extremely loud",
+      "The temperature is very high inside"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    108,
+    "What is the function of the \"Auto Fail\" warning in a pressurisation system?",
+    [
+      "Indicates a failure in automatic pressurisation mode",
+      "Shows that the air conditioning is off",
+      "Turns off cabin lights"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    109,
+    "What does the pitot-static system primarily measure?",
+    [
+      "Engine performance",
+      "Atmospheric pressure and airspeed",
+      "Fuel quantity"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    110,
+    "What instrument is directly connected to the pitot tube in a small jet aircraft?",
+    [
+      "Altimeter",
+      "Vertical speed indicator",
+      "Airspeed indicator"
+    ],
+    2,
+    "Module 11"
+  ],
+  [
+    111,
+    "What does an altimeter primarily measure?",
+    [
+      "Airspeed",
+      "Altitude",
+      "Temperature"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    112,
+    "How does a vertical speed indicator (VSI) determine the rate of climb or descent?",
+    [
+      "By measuring fuel consumption",
+      "By using a pressure capsule and calibrated leak",
+      "By detecting aircraft pitch changes"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    113,
+    "What is a key principle of gyroscopic instruments?",
+    [
+      "They rely on magnetic fields",
+      "They maintain orientation despite aircraft movement",
+      "They measure airspeed changes"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    114,
+    "Which of the following is a gyroscopic instrument?",
+    [
+      "Airspeed indicator",
+      "Turn coordinator",
+      "Fuel gauge"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    115,
+    "What is the main disadvantage of a direct-reading compass?",
+    [
+      "It requires an electrical power source",
+      "It is affected by magnetic components in the aircraft",
+      "It cannot be used in flight"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    116,
+    "What type of compass is used in modern aircraft for automatic heading correction?",
+    [
+      "Direct-reading compass",
+      "Remote-reading compass",
+      "Gyroscopic compass"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    117,
+    "What does the stall warning system monitor?",
+    [
+      "Airspeed only",
+      "Angle of attack",
+      "Cabin pressure"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    118,
+    "What instrument provides a visual indication of an aircraft’s angle of attack?",
+    [
+      "Airspeed indicator",
+      "Attitude indicator",
+      "Angle of attack indicator"
+    ],
+    2,
+    "Module 11"
+  ],
+  [
+    119,
+    "What is the main advantage of a glass cockpit?",
+    [
+      "It replaces all mechanical instruments",
+      "It reduces pilot workload by consolidating information",
+      "It eliminates the need for backup instruments"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    120,
+    "Which display is a key component of an EFIS?",
+    [
+      "Artificial horizon",
+      "Primary flight display (PFD)",
+      "Chronometer"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    121,
+    "What does a terrain awareness and warning system (TAWS) do?",
+    [
+      "Warns pilots of possible ground collisions",
+      "Measures altitude changes",
+      "Controls aircraft speed"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    122,
+    "What is the purpose of a traffic collision avoidance system (TCAS)?",
+    [
+      "Provides real-time weather updates",
+      "Detects and warns pilots about nearby aircraft",
+      "Measures engine vibration"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    123,
+    "Why do modern aircraft use vibration indicators?",
+    [
+      "To measure fuel consumption",
+      "To detect changes in engine vibration levels",
+      "To monitor external weather conditions"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    124,
+    "What is measured by a total air temperature (TAT) probe?",
+    [
+      "Cabin temperature",
+      "Outside air temperature considering flight speed",
+      "Fuel temperature"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    125,
+    "What is the primary purpose of a flight data recorder (FDR)?",
+    [
+      "To assist pilots during flight",
+      "To record flight parameters for accident investigation",
+      "To display real-time engine data"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    126,
+    "How is an FDR protected for retrieval after an accident?",
+    [
+      "It is placed in the cockpit",
+      "It is stored in a fireproof and impact-resistant container",
+      "It is made of lightweight plastic"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    127,
+    "What type of fuel quantity measurement system is commonly used in modern aircraft?",
+    [
+      "Float-type system",
+      "Capacitance-type system",
+      "Mechanical gauge system"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    128,
+    "What factor affects the accuracy of a capacitance-type fuel gauge?",
+    [
+      "Fuel temperature changes",
+      "Aircraft altitude",
+      "Engine speed"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    129,
+    "What does EICAS primarily display?",
+    [
+      "Navigation charts",
+      "Engine and aircraft system information",
+      "Passenger cabin conditions"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    130,
+    "How does ECAM differ from EICAS?",
+    [
+      "ECAM provides checklist and system diagrams, while EICAS mainly shows engine data",
+      "ECAM is used only on military aircraft",
+      "EICAS is a backup system for ECAM"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    131,
+    "What are the two main types of electrical power used in aircraft systems?",
+    [
+      "Direct current (DC) and Static electricity",
+      "Direct current (DC) and Alternating current (AC)",
+      "Static electricity and Magnetism"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    132,
+    "What is the primary function of a battery in an aircraft electrical system?",
+    [
+      "To provide power for in-flight entertainment systems",
+      "To supply emergency power and assist in engine/APU starting",
+      "To generate alternating current for main aircraft systems"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    133,
+    "Which type of aircraft generally uses 115V and 200V AC electrical systems?",
+    [
+      "Small turboprop aircraft",
+      "Large transport aircraft",
+      "Helicopters"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    134,
+    "What type of generator is commonly found in turbine-engine aircraft?",
+    [
+      "Hand-cranked generator",
+      "Starter-generator",
+      "Solar-powered generator"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    135,
+    "Which of the following is a key component in AC power generation?",
+    [
+      "Transformer rectifier unit (TRU)",
+      "Carbon brushes",
+      "Vibrator-type voltage regulator"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    136,
+    "What is the purpose of a voltage regulator in an aircraft electrical system?",
+    [
+      "To maintain a constant voltage level",
+      "To store electrical energy for later use",
+      "To convert DC power into AC power"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    137,
+    "Which component converts AC to DC in an aircraft electrical system?",
+    [
+      "Inverter",
+      "Transformer rectifier unit (TRU)",
+      "Generator"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    138,
+    "What is the function of a circuit breaker in an aircraft electrical system?",
+    [
+      "To regulate voltage output",
+      "To protect electrical circuits from overload",
+      "To increase power supply efficiency"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    139,
+    "Which power source is typically used for emergency electrical power generation in aircraft?",
+    [
+      "Wind turbines",
+      "Ram air turbine (RAT)",
+      "Solar panels"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    140,
+    "What is the primary advantage of a three-phase electrical system in aircraft?",
+    [
+      "It provides a more stable and efficient power supply",
+      "It eliminates the need for a voltage regulator",
+      "It reduces the aircraft’s overall weight"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    141,
+    "What happens when a nickel-cadmium (NiCad) battery experiences thermal runaway?",
+    [
+      "The battery becomes more efficient",
+      "The battery overheats and can be damaged",
+      "The battery recharges faster than normal"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    142,
+    "Which component is used to protect aircraft electrical circuits from excessive current flow?",
+    [
+      "Overvoltage sensor",
+      "Fuse",
+      "Alternator"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    143,
+    "What is the primary purpose of emergency equipment on an aircraft?",
+    [
+      "To enhance passenger comfort",
+      "To assist in emergency situations on the ground, in the air, or during ditching",
+      "To store cargo securely"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    144,
+    "What type of fire extinguishers are commonly found on aircraft?",
+    [
+      "Water-based extinguishers",
+      "Halon-type extinguishers",
+      "Foam extinguishers"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    145,
+    "Where are emergency oxygen bottles typically located in an aircraft?",
+    [
+      "In the cockpit and throughout the passenger cabin",
+      "Only in the cockpit",
+      "In cargo compartments"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    146,
+    "Which of the following is NOT considered loose emergency equipment?",
+    [
+      "Fire axe",
+      "Pilot seat",
+      "Portable oxygen bottle"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    147,
+    "What is the main function of escape slides in an aircraft?",
+    [
+      "To provide quick evacuation for passengers and crew",
+      "To enhance aerodynamics during takeoff",
+      "To serve as an additional cargo door"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    148,
+    "What should be done with a life jacket that has been immersed in seawater?",
+    [
+      "It should be washed and reused",
+      "It should be discarded from operational use",
+      "It should be left to dry and stored"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    149,
+    "What is the purpose of a megaphone on an aircraft?",
+    [
+      "To amplify music in the cabin",
+      "To be used by the crew when the main public-address system fails",
+      "To communicate with ground staff"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    150,
+    "What material is typically used in passenger seat cushions to reduce fire hazards?",
+    [
+      "Wool fabric",
+      "Fire-blocking foam",
+      "Leather"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    151,
+    "What is the function of emergency ropes in aircraft?",
+    [
+      "To secure cargo in turbulent conditions",
+      "To allow passengers to exit the aircraft safely",
+      "To tie down aircraft components"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    152,
+    "Where are crew seats typically positioned in an aircraft?",
+    [
+      "In the lavatories",
+      "Near the doors for quick access in emergencies",
+      "In the cargo compartment"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    153,
+    "What type of lighting is used for emergency escape path indication?",
+    [
+      "Fluorescent lights",
+      "Floor-level LED lighting",
+      "Overhead neon lights"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    154,
+    "What must be included in an aircraft’s emergency evacuation demonstration?",
+    [
+      "A test using only one exit",
+      "A full evacuation within 90 seconds",
+      "A simulation using dummies"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    155,
+    "What is the minimum passenger capacity for an aircraft to require an emergency evacuation demonstration?",
+    [
+      "10 passengers",
+      "44 passengers",
+      "100 passengers"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    156,
+    "How are escape slides typically inflated?",
+    [
+      "Manually using a pump",
+      "Automatically with a gas cylinder",
+      "By an electric motor"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    157,
+    "Why are aircraft seat materials tested under fire conditions?",
+    [
+      "To improve durability",
+      "To prevent toxic gas emissions during fires",
+      "To reduce cost of production"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    158,
+    "What mechanism is commonly used in aircraft cargo compartments to prevent movement of loose cargo?",
+    [
+      "Magnetic locks",
+      "Net webbing and anchor plates",
+      "Rubber mats"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    159,
+    "What regulation specifies the fire resistance requirements for aircraft cabin furnishings?",
+    [
+      "EASA CS-25.853",
+      "FAA Part-91",
+      "IATA Cabin Standards"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    160,
+    "Why are emergency exit doors equipped with inertia force resistance requirements?",
+    [
+      "To ensure they remain operational during sudden impact",
+      "To prevent unauthorized use",
+      "To reduce aircraft weight"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    161,
+    "What is the primary function of an aircraft fire detection system?",
+    [
+      "Detect and alert the crew to fire or smoke conditions",
+      "Extinguish fires automatically",
+      "Control engine temperature"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    162,
+    "Which type of fire detection system is commonly used in engine installations?",
+    [
+      "Carbon monoxide detector",
+      "Unit type detector",
+      "Ionization smoke detector"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    163,
+    "How does a bimetallic thermal switch fire detector operate?",
+    [
+      "By sensing airflow temperature changes",
+      "By detecting radiation from flames",
+      "By using a bimetallic strip that deforms and closes an electrical circuit"
+    ],
+    2,
+    "Module 11"
+  ],
+  [
+    164,
+    "What is a key advantage of a continuous-loop fire detection system?",
+    [
+      "It provides coverage over a large area",
+      "It operates without electrical power",
+      "It detects fire only in one specific spot"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    165,
+    "Where are smoke detectors commonly installed in an aircraft?",
+    [
+      "Passenger cabin windows",
+      "Cargo compartments and avionics bays",
+      "Engine nacelles"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    166,
+    "What type of smoke detector uses a beam of light to detect smoke particles?",
+    [
+      "Ionization detector",
+      "Photoelectric smoke detector",
+      "Carbon monoxide detector"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    167,
+    "Which aircraft compartment typically has an automatic fire extinguisher?",
+    [
+      "Cargo hold",
+      "Lavatory waste bin",
+      "Passenger seating area"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    168,
+    "Which fire-extinguishing agent was widely used but later banned due to environmental concerns?",
+    [
+      "Carbon dioxide (CO₂)",
+      "Halon",
+      "Water"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    169,
+    "What is the main purpose of a high-rate-discharge (HRD) extinguishing system?",
+    [
+      "Suppress fire using low-pressure water mist",
+      "Quickly release fire extinguishing agents into an engine nacelle",
+      "Reduce smoke emissions from aircraft engines"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    170,
+    "What happens when an engine fire bottle discharges normally?",
+    [
+      "A red warning light illuminates",
+      "A yellow discharge indicator disk blows out",
+      "The fire alarm turns off immediately"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    171,
+    "How is fire protection achieved in cargo compartments?",
+    [
+      "By using automatic Halon extinguishers",
+      "By placing hand-held fire extinguishers",
+      "By installing emergency escape hatches"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    172,
+    "Which type of fire extinguisher is suitable for use on electrical fires?",
+    [
+      "Water extinguisher",
+      "Halon extinguisher",
+      "Dry chemical extinguisher"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    173,
+    "What is the purpose of airworthiness requirements for structural strength?",
+    [
+      "To ensure the aircraft can withstand applied loads safely",
+      "To increase the aircraft’s fuel efficiency",
+      "To improve passenger comfort"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    174,
+    "What is the main goal of the safe-life design principle?",
+    [
+      "To repair aircraft parts before failure",
+      "To ensure structural elements are replaced after a fixed number of flight cycles",
+      "To prevent cracks from appearing in aircraft skin"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    175,
+    "Which structural classification includes parts that bear the primary flight loads?",
+    [
+      "Tertiary structure",
+      "Primary structure",
+      "Secondary structure"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    176,
+    "Which of the following is NOT a basic type of structural stress?",
+    [
+      "Shear",
+      "Thermal",
+      "Torsion"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    177,
+    "What type of structural stress occurs when a force tries to twist an aircraft component?",
+    [
+      "Torsion",
+      "Compression",
+      "Bending"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    178,
+    "Why is hoop stress significant in aircraft structures?",
+    [
+      "It affects the pressurized fuselage and circular structures",
+      "It only occurs in the landing gear",
+      "It prevents cracks from forming"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    179,
+    "Which structural component mainly resists bending loads in aircraft wings?",
+    [
+      "Ribs",
+      "Stringers",
+      "Spars"
+    ],
+    2,
+    "Module 11"
+  ],
+  [
+    180,
+    "What is the main benefit of a fail-safe design?",
+    [
+      "It allows damaged components to continue carrying loads safely",
+      "It eliminates the need for regular inspections",
+      "It prevents all forms of damage from occurring"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    181,
+    "Which aircraft fuselage design provides the highest structural efficiency?",
+    [
+      "Semi-monocoque",
+      "Truss",
+      "Monocoque"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    182,
+    "What is the primary function of a stringer in aircraft structures?",
+    [
+      "Provide aerodynamic shaping",
+      "Reinforce the fuselage skin against bending and shear loads",
+      "Increase the cabin pressure"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    183,
+    "Which of the following is a method of aircraft structure assembly?",
+    [
+      "Carbon fiber weaving",
+      "Riveting",
+      "Powder coating"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    184,
+    "What is the purpose of bonding in aircraft structures?",
+    [
+      "To electrically ground all metal components",
+      "To increase fuel efficiency",
+      "To improve paint adhesion"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    185,
+    "Where are the main fuel tanks typically located in an aircraft?",
+    [
+      "In the vertical stabilizer",
+      "In the wings",
+      "Under the passenger seats"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    186,
+    "What is the purpose of fuel tank baffles?",
+    [
+      "To prevent fuel from moving excessively due to aircraft movement",
+      "To increase fuel capacity",
+      "To remove water from fuel"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    187,
+    "Which type of fuel tank is directly integrated into the aircraft structure?",
+    [
+      "Bladder tank",
+      "Integral tank",
+      "Rigid metal tank"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    188,
+    "What is the purpose of a fuel crossfeed system?",
+    [
+      "To transfer fuel between tanks in an emergency",
+      "To prevent fuel contamination",
+      "To pump fuel into the auxiliary tanks"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    189,
+    "Which pump is responsible for moving fuel from the tanks to the engines?",
+    [
+      "Jet pump",
+      "Booster (low-pressure) pump",
+      "Hydraulic pump"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    190,
+    "What is the function of a fuel shutoff valve?",
+    [
+      "Stops fuel flow in case of an emergency",
+      "Increases fuel pressure",
+      "Prevents air bubbles in the fuel line"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    191,
+    "Where is the main refueling point located on a large commercial aircraft?",
+    [
+      "On the cockpit panel",
+      "On the lower wing or fuselage",
+      "Inside the cargo bay"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    192,
+    "What is the primary risk during aircraft refueling?",
+    [
+      "Fuel leakage into the cabin",
+      "Fire hazard due to fuel vapors",
+      "Overfilling of hydraulic fluid"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    193,
+    "What safety measure should always be taken before refueling an aircraft?",
+    [
+      "Grounding the aircraft to prevent static discharge",
+      "Disconnecting the electrical system",
+      "Removing all passengers"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    194,
+    "Which method is commonly used to measure fuel quantity in modern aircraft?",
+    [
+      "Float sticks",
+      "Capacitive probes",
+      "Magnetic dipsticks"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    195,
+    "Why are fuel quantity indicators cross-checked with manual measuring sticks?",
+    [
+      "To detect errors in electronic fuel quantity systems",
+      "To calibrate fuel pumps",
+      "To measure fuel temperature"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    196,
+    "What is the purpose of a fuel jettison system?",
+    [
+      "To quickly reduce aircraft weight for landing",
+      "To drain excess fuel before refueling",
+      "To remove contaminated fuel from the system"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    197,
+    "What is the primary function of a hydraulic system in an aircraft?",
+    [
+      "Transmitting power using pressurized liquid",
+      "Generating electrical energy",
+      "Cooling avionics systems"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    198,
+    "Which of the following is an advantage of a hydraulic system?",
+    [
+      "Heavier than mechanical systems",
+      "Provides high force with small components",
+      "Requires frequent lubrication"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    199,
+    "What type of power does a hydraulic pump convert into hydraulic power?",
+    [
+      "Electrical power",
+      "Mechanical power",
+      "Thermal power"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    200,
+    "Which type of hydraulic fluid is commonly used in modern aircraft due to its fire resistance?",
+    [
+      "Vegetable-based fluids",
+      "Phosphate ester-based fluids",
+      "Mineral-based fluids"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    201,
+    "Why are hydraulic fluids color-coded?",
+    [
+      "To differentiate between old and new fluids",
+      "To identify fluid types and prevent mixing",
+      "To make them more visible in the reservoir"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    202,
+    "What is the function of a hydraulic reservoir?",
+    [
+      "Store excess hydraulic fluid",
+      "Generate hydraulic pressure",
+      "Prevent fluid contamination"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    203,
+    "What is the purpose of a hydraulic accumulator?",
+    [
+      "Convert hydraulic power into mechanical power",
+      "Store hydraulic fluid under pressure for emergency use",
+      "Filter hydraulic fluid"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    204,
+    "What type of hydraulic pump is commonly used in aircraft engine-driven hydraulic systems?",
+    [
+      "Gear pump",
+      "Vane pump",
+      "Piston pump"
+    ],
+    2,
+    "Module 11"
+  ],
+  [
+    205,
+    "What is the purpose of a hydraulic pressure relief valve?",
+    [
+      "Prevent excessive pressure buildup",
+      "Increase hydraulic pressure",
+      "Separate air from hydraulic fluid"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    206,
+    "How does a hydraulic filter contribute to system performance?",
+    [
+      "Prevents contamination and removes particles",
+      "Reduces system pressure",
+      "Increases hydraulic flow speed"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    207,
+    "What safety precaution should be taken when working with hydraulic systems?",
+    [
+      "Use fire-resistant clothing",
+      "Wear gloves and eye protection",
+      "Avoid touching metal components"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    208,
+    "Where is hydraulic system pressure typically monitored in the cockpit?",
+    [
+      "On the GPS display",
+      "On the hydraulic control panel",
+      "On the weather radar screen"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    209,
+    "Which component provides emergency hydraulic power in case of system failure?",
+    [
+      "Ram Air Turbine (RAT)",
+      "Hydraulic reservoir",
+      "Hydraulic filter"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    210,
+    "What is the purpose of a hydraulic selector valve?",
+    [
+      "Directs hydraulic fluid to actuators",
+      "Increases hydraulic fluid temperature",
+      "Pumps hydraulic fluid to the reservoir"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    211,
+    "Why is in-flight icing considered a serious hazard?",
+    [
+      "It increases aircraft speed",
+      "It disrupts airflow and increases drag",
+      "It improves lift efficiency"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    212,
+    "Which type of ice is the most dangerous due to its smooth and transparent appearance?",
+    [
+      "Rime ice",
+      "Clear (glaze) ice",
+      "Hoarfrost"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    213,
+    "Which method is used in some aircraft to visually inspect for ice formation?",
+    [
+      "Infrared sensors",
+      "Ice detection spotlights",
+      "Ultrasonic sound waves"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    214,
+    "How does a pressure-operated ice detector function?",
+    [
+      "Measures airflow pressure differences",
+      "Uses a heated probe to detect ice",
+      "Detects the electrical conductivity of ice"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    215,
+    "What type of ice detector uses ultrasonic vibration to detect ice buildup?",
+    [
+      "Vibrating rod (Rosemount) ice detector",
+      "Hot rod ice detector",
+      "Radioactive ice detector"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    216,
+    "What is the main difference between anti-icing and de-icing?",
+    [
+      "Anti-icing prevents ice formation, while de-icing removes existing ice",
+      "De-icing prevents ice formation, while anti-icing removes existing ice",
+      "Both are used only for rain protection"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    217,
+    "What is the primary method of anti-icing on aircraft wing leading edges?",
+    [
+      "Pneumatic boots",
+      "Hot air from the engine",
+      "Spraying de-icing fluid"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    218,
+    "Which system is commonly used on small aircraft for de-icing?",
+    [
+      "Hot air system",
+      "Pneumatic boot system",
+      "Chemical rain repellent"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    219,
+    "What is the primary function of electrically heated mats in ice protection?",
+    [
+      "Provide insulation",
+      "Melt ice by generating heat",
+      "Absorb excess moisture"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    220,
+    "What is the purpose of windshield wipers on aircraft?",
+    [
+      "To remove ice",
+      "To clear rain from the windshield",
+      "To improve aerodynamic efficiency"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    221,
+    "Why is chemical rain repellent used on some aircraft?",
+    [
+      "To prevent windshield fogging",
+      "To make rainwater bead up and blow off the windshield",
+      "To lubricate windshield wipers"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    222,
+    "Why are aircraft probes and drains heated?",
+    [
+      "To increase aerodynamic performance",
+      "To prevent ice formation that could block critical sensors",
+      "To improve fuel efficiency"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    223,
+    "What is the primary purpose of landing gear on an aircraft?",
+    [
+      "To increase aerodynamic efficiency",
+      "To support and maneuver the aircraft on the ground",
+      "To improve fuel consumption"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    224,
+    "Which landing gear configuration is most commonly used in modern aircraft?",
+    [
+      "Taildragger",
+      "Bicycle gear",
+      "Tricycle gear"
+    ],
+    2,
+    "Module 11"
+  ],
+  [
+    225,
+    "What is the purpose of a shimmy damper in landing gear?",
+    [
+      "To absorb landing impact",
+      "To prevent rapid oscillation of the nose wheel",
+      "To increase braking efficiency"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    226,
+    "How does a retractable landing gear benefit aircraft performance?",
+    [
+      "Reduces aerodynamic drag",
+      "Increases ground stability",
+      "Improves braking efficiency"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    227,
+    "What is the main function of an aircraft's landing gear shock absorber?",
+    [
+      "To store hydraulic pressure for braking",
+      "To absorb landing forces and provide a smooth landing",
+      "To retract the landing gear"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    228,
+    "Where are aircraft wheels typically located in relation to the center of gravity?",
+    [
+      "Ahead of the center of gravity",
+      "Behind the center of gravity",
+      "Distributed around the center of gravity"
+    ],
+    2,
+    "Module 11"
+  ],
+  [
+    229,
+    "What is the purpose of the emergency landing gear extension system?",
+    [
+      "To allow the landing gear to extend in case of system failure",
+      "To reduce hydraulic pressure in the system",
+      "To provide additional braking power"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    230,
+    "Which type of landing gear typically has a tilting mechanism to fit into the wheel well?",
+    [
+      "Single-wheel landing gear",
+      "Bogie beam landing gear",
+      "Fixed landing gear"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    231,
+    "Which of the following is a key function of the downlock mechanism in landing gear?",
+    [
+      "Prevents unwanted retraction of the landing gear when down",
+      "Slows the aircraft during landing",
+      "Engages the wheel brakes"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    232,
+    "What component helps to prevent nose wheel vibrations during taxiing?",
+    [
+      "Shock absorber",
+      "Torque link",
+      "Shimmy damper"
+    ],
+    2,
+    "Module 11"
+  ],
+  [
+    233,
+    "How does an aircraft's hydraulic retraction system work?",
+    [
+      "Uses hydraulic pressure to extend and retract the landing gear",
+      "Relies on manual operation by the pilot",
+      "Uses electric motors to raise and lower the landing gear"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    234,
+    "What happens when the landing gear control handle is placed in the \"down\" position?",
+    [
+      "Hydraulic pressure unlocks the uplock and extends the landing gear",
+      "The wheels are locked in place",
+      "The landing gear retracts for flight"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    235,
+    "What is the main reason for using multi-wheel bogie landing gear in large aircraft?",
+    [
+      "To improve aerodynamic efficiency",
+      "To distribute the aircraft's weight more effectively",
+      "To reduce maintenance costs"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    236,
+    "What is the role of an aircraft's anti-skid system?",
+    [
+      "Ensures maximum braking efficiency by preventing wheel lock-up",
+      "Helps the pilot steer the aircraft on the ground",
+      "Increases landing gear extension speed"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    237,
+    "Why are thermal relief fuse plugs used in aircraft wheels?",
+    [
+      "To prevent tire explosion due to overheating",
+      "To regulate hydraulic fluid pressure",
+      "To improve braking efficiency"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    238,
+    "What is the purpose of a weight-on-wheels (WoW) switch?",
+    [
+      "To indicate landing gear extension",
+      "To disable landing gear retraction when the aircraft is on the ground",
+      "To control the aircraft’s center of gravity"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    239,
+    "What is the primary purpose of exterior lighting on an aircraft?",
+    [
+      "To improve passenger comfort",
+      "To illuminate the ground for ground crew visibility",
+      "To indicate the aircraft's position and enhance visibility"
+    ],
+    2,
+    "Module 11"
+  ],
+  [
+    240,
+    "What color are the position (navigation) lights on the aircraft’s wingtips?",
+    [
+      "Red on the right and green on the left",
+      "Green on the right and red on the left",
+      "Both are white"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    241,
+    "What is the function of an aircraft's landing lights?",
+    [
+      "To illuminate the runway for landing",
+      "To warn other aircraft of its presence",
+      "To provide backup emergency lighting"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    242,
+    "Where is the taxi light typically located on an aircraft?",
+    [
+      "On the tail",
+      "On the nose landing gear",
+      "On the wingtips"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    243,
+    "What type of lighting is used for emergency exits in aircraft?",
+    [
+      "Self-illuminating signs",
+      "Strobe lights",
+      "Taxi lights"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    244,
+    "What power supply do emergency lights typically use?",
+    [
+      "The aircraft's main electrical system",
+      "A dedicated battery backup",
+      "Solar power"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    245,
+    "How are anticollision lights activated in modern aircraft?",
+    [
+      "Automatically during takeoff and landing",
+      "Manually by the ground crew",
+      "Only when visibility is poor"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    246,
+    "What is a key characteristic of strobe lights used on aircraft?",
+    [
+      "They flash with a high-intensity white light",
+      "They remain steady at all times",
+      "They are only used when parked"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    247,
+    "What is the purpose of electroluminescent lighting in aircraft?",
+    [
+      "To enhance energy efficiency and visibility in dark conditions",
+      "To increase aircraft weight for stability",
+      "To heat up the cockpit during cold weather"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    248,
+    "Which lighting system helps pilots maintain night vision during a thunderstorm?",
+    [
+      "Taxi lights",
+      "Storm lights",
+      "Landing lights"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    249,
+    "What is the function of passenger service unit (PSU) lighting?",
+    [
+      "To provide reading lights and illuminate passenger call buttons",
+      "To guide passengers to exits",
+      "To display external weather conditions"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    250,
+    "What system ensures aircraft lighting functions during a total electrical failure?",
+    [
+      "Auxiliary power unit (APU)",
+      "Independent emergency power supply",
+      "The main aircraft generator"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    251,
+    "Why do aircraft require supplemental oxygen systems?",
+    [
+      "To enhance passenger comfort",
+      "To prevent hypoxia at high altitudes",
+      "To provide air conditioning"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    252,
+    "At what altitude do the effects of hypoxia start to become noticeable?",
+    [
+      "1,000 feet",
+      "5,000 feet",
+      "30,000 feet"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    253,
+    "Which oxygen system is commonly used for flight crew?",
+    [
+      "Chemical oxygen generator",
+      "Diluter demand system",
+      "Continuous flow system"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    254,
+    "What is the purpose of an oxygen regulator?",
+    [
+      "To convert liquid oxygen into gas",
+      "To reduce oxygen pressure for safe distribution",
+      "To store oxygen for future use"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    255,
+    "Where are crew oxygen cylinders typically located?",
+    [
+      "Under passenger seats",
+      "In the cockpit overhead panel",
+      "In a dedicated compartment near the cockpit"
+    ],
+    2,
+    "Module 11"
+  ],
+  [
+    256,
+    "How are passenger oxygen masks deployed in an emergency?",
+    [
+      "Manually by passengers",
+      "Automatically when cabin pressure drops",
+      "By pressing a button on the seat"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    257,
+    "What activates a chemical oxygen generator?",
+    [
+      "A flight attendant turns it on",
+      "Pulling the oxygen mask lanyard",
+      "The aircraft’s hydraulic system"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    258,
+    "What is the main purpose of portable oxygen cylinders in an aircraft?",
+    [
+      "First aid and medical emergencies",
+      "To power hydraulic systems",
+      "To inflate life rafts"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    259,
+    "What is the primary purpose of an aircraft pneumatic system?",
+    [
+      "To provide electrical power",
+      "To supply pressurized air for various aircraft systems",
+      "To cool avionics equipment"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    260,
+    "Which of the following is NOT a typical source of pneumatic power on an aircraft?",
+    [
+      "Engine bleed air",
+      "Hydraulic accumulator",
+      "Auxiliary power unit (APU)"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    261,
+    "Which aircraft systems commonly use low-pressure pneumatic air?",
+    [
+      "Hydraulic actuators",
+      "Engine starting, de-icing, and cabin pressurization",
+      "Radar and navigation systems"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    262,
+    "What component in the pneumatic system removes water and oil from the compressed air?",
+    [
+      "Pressure regulator",
+      "Oil-and-water trap",
+      "Check valve"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    263,
+    "What is the function of a pressure regulator in a pneumatic system?",
+    [
+      "To reduce high-pressure air to a safe operating level",
+      "To store compressed air for later use",
+      "To increase the temperature of the air supply"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    264,
+    "Where is engine bleed air extracted from in a turbine engine?",
+    [
+      "The fan section",
+      "The compressor section",
+      "The exhaust nozzle"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    265,
+    "What safety device prevents excessive pressure buildup in a pneumatic system?",
+    [
+      "Pressure relief valve",
+      "Isolation valve",
+      "Flow control valve"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    266,
+    "How does a pneumatic actuator function?",
+    [
+      "Converts electrical energy into mechanical movement",
+      "Converts compressed air energy into linear or rotary motion",
+      "Uses hydraulic fluid to generate force"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    267,
+    "What is the primary function of an aircraft's water system?",
+    [
+      "To provide potable water for passengers and crew",
+      "To maintain hydraulic pressure",
+      "To prevent ice buildup on the fuselage"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    268,
+    "Where is potable water stored in an aircraft?",
+    [
+      "In overhead compartments",
+      "In tanks below the cabin floor",
+      "In the cargo bay"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    269,
+    "How is potable water pressurized during flight?",
+    [
+      "By using engine bleed air",
+      "By an electric water pump",
+      "By gravity flow"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    270,
+    "What is the purpose of a water heater in an aircraft toilet?",
+    [
+      "To maintain a comfortable cabin temperature",
+      "To heat water for hand washing and cleaning",
+      "To supply hot air to the cabin"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    271,
+    "How is potable water drained from the aircraft during maintenance?",
+    [
+      "Through a drain valve in the service panel",
+      "By manually scooping it out",
+      "By using a hydraulic pump"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    272,
+    "What system is used to flush modern aircraft toilets?",
+    [
+      "Gravity-fed flushing",
+      "Vacuum flushing",
+      "Water-pressure flushing"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    273,
+    "Why must the potable water system be disinfected regularly?",
+    [
+      "To maintain water quality and prevent contamination",
+      "To improve fuel efficiency",
+      "To prevent corrosion in the plumbing"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    274,
+    "What happens if the aircraft's water system is not drained in cold weather?",
+    [
+      "It will improve water quality",
+      "The water may freeze, causing damage to the system",
+      "The aircraft will consume more fuel"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    275,
+    "What component prevents overpressure in the water tank?",
+    [
+      "Relief valve",
+      "Non-return valve",
+      "Water filter"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    276,
+    "How is waste from vacuum toilet systems stored in modern aircraft?",
+    [
+      "In a dedicated waste vacuum tank",
+      "In a separate compartment within the water tank",
+      "It is directly expelled outside the aircraft"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    277,
+    "What is a key corrosion concern in aircraft toilet systems?",
+    [
+      "Toilet waste products creating an electrolyte effect on metal components",
+      "Fuel contamination in the system",
+      "Increased oxygen levels causing rust"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    278,
+    "Why are titanium pipes used in aircraft toilet waste systems?",
+    [
+      "To reduce aircraft weight",
+      "To prevent corrosion from waste materials",
+      "To improve water pressure"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    279,
+    "What is the primary function of an Onboard Maintenance System (OMS)?",
+    [
+      "To provide passenger entertainment",
+      "To support aircraft maintenance tasks by monitoring system data",
+      "To assist in aircraft navigation"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    280,
+    "Which system centralizes aircraft fault data for maintenance personnel?",
+    [
+      "Electronic flight bag",
+      "Central Maintenance System (CMS)",
+      "Flight Management System (FMS)"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    281,
+    "What is a key function of the CMS in normal mode?",
+    [
+      "Performing real-time structural repairs",
+      "Providing continuous system monitoring and failure detection",
+      "Automatically resetting failed components"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    282,
+    "Which system records aircraft operational parameters for incident investigations?",
+    [
+      "Flight Data Recording System (FDRS)",
+      "Central Maintenance Computer (CMC)",
+      "Engine Control Unit (ECU)"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    283,
+    "Where can maintenance personnel retrieve failure information recorded by the CMS?",
+    [
+      "On the aircraft’s Wi-Fi network",
+      "Through the multipurpose control display unit (MCDU)",
+      "On the autopilot panel"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    284,
+    "What does a Central Maintenance Computer (CMC) do?",
+    [
+      "Stores and processes system failure messages",
+      "Adjusts fuel flow to the engines",
+      "Controls aircraft cabin temperature"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    285,
+    "What is the function of the Electronic Library System (ELS)?",
+    [
+      "Stores and provides access to operational and maintenance documents",
+      "Displays engine temperature data",
+      "Communicates with air traffic control"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    286,
+    "What type of system is used for automatic software updates and configuration changes?",
+    [
+      "Manual software loading",
+      "Data Loading System (DLS)",
+      "Ground-based navigation system"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    287,
+    "What is the purpose of an airborne printer in an aircraft maintenance system?",
+    [
+      "To print passenger flight details",
+      "To generate maintenance and fault reports",
+      "To provide navigation charts"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    288,
+    "What does Damage Tolerance Monitoring focus on?",
+    [
+      "Detecting excessive vertical acceleration during landings",
+      "Monitoring pilot workload",
+      "Measuring aircraft fuel consumption"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    289,
+    "What is the primary purpose of Integrated Modular Avionics (IMA)?",
+    [
+      "To centralize and optimize avionics functions",
+      "To add extra weight to the aircraft",
+      "To replace hydraulic control systems"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    290,
+    "Which of the following is an advantage of IMA over traditional federated avionics?",
+    [
+      "Reduces weight, size, and power consumption",
+      "Increases aircraft fuel consumption",
+      "Requires more wiring connections"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    291,
+    "Which aircraft model was one of the first to implement a digital federated architecture?",
+    [
+      "Boeing 767",
+      "Airbus A350",
+      "McDonnell Douglas DC-10"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    292,
+    "Which data communication protocol is widely used in IMA for network connectivity?",
+    [
+      "ARINC 429",
+      "Avionics Full-Duplex Switched Ethernet (AFDX)",
+      "USB 3.0"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    293,
+    "What are the three main functional domains in Airbus’s IMA system?",
+    [
+      "Cockpit, Cabin, and Utilities",
+      "Fuel, Braking, and Engine Control",
+      "Landing Gear, Navigation, and Entertainment"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    294,
+    "Which aircraft first used the IMA concept in commercial aviation?",
+    [
+      "Boeing 777",
+      "Airbus A320",
+      "Concorde"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    295,
+    "What type of modules replace conventional LRUs in an IMA system?",
+    [
+      "Electromechanical relays",
+      "Core Processing Input/Output Modules (CPIOMs)",
+      "Manual switches"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    296,
+    "What is the primary function of an IMA hosting module?",
+    [
+      "To act as a backup system for traditional avionics",
+      "To process and manage avionics software applications",
+      "To increase aircraft fuel efficiency"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    297,
+    "How does IMA improve aircraft maintenance?",
+    [
+      "By allowing software upgrades without changing hardware",
+      "By eliminating the need for regular system checks",
+      "By increasing the number of components to inspect"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    298,
+    "What is a key feature of the ARINC 653 standard in IMA systems?",
+    [
+      "It enables avionics software partitioning for safety",
+      "It replaces hydraulic control systems",
+      "It removes redundancy from avionics systems"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    299,
+    "Which major aircraft manufacturer uses the term “Common Core System” (CCS) for its IMA architecture?",
+    [
+      "Boeing",
+      "Airbus",
+      "Embraer"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    300,
+    "Which component in IMA architecture is responsible for data transmission?",
+    [
+      "Power supply board",
+      "AFDX switch",
+      "Hydraulic actuator"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    301,
+    "What is a major benefit of IMA in aircraft avionics design?",
+    [
+      "Reduces complexity and increases reliability",
+      "Increases aircraft engine power",
+      "Eliminates the need for flight computers"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    302,
+    "How does IMA contribute to weight reduction in modern aircraft?",
+    [
+      "By replacing multiple avionics units with centralized processing modules",
+      "By eliminating the need for landing gear",
+      "By reducing cabin insulation"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    303,
+    "What is the primary function of the cabin system in an aircraft?",
+    [
+      "To provide passenger entertainment and internal communication",
+      "To control the aircraft's flight systems",
+      "To manage hydraulic power distribution"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    304,
+    "Which subsystem of the cabin system is responsible for providing in-flight entertainment to passengers?",
+    [
+      "Cabin Core System",
+      "Cabin Monitoring System",
+      "In-Flight Entertainment System (IFE)"
+    ],
+    2,
+    "Module 11"
+  ],
+  [
+    305,
+    "Which system provides an interface between cockpit and cabin crew for communication?",
+    [
+      "Cabin Network System",
+      "Cabin Intercommunication Data System (CIDS)",
+      "Passenger Address System"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    306,
+    "What is the primary function of the Cabin Core System (CCS)?",
+    [
+      "To entertain passengers",
+      "To control, test, and monitor various cabin systems",
+      "To operate the aircraft's fuel system"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    307,
+    "What system allows passengers to listen to announcements and music during the flight?",
+    [
+      "Passenger Address (PA) System",
+      "Cabin Monitoring System",
+      "Cabin Ready Signalling"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    308,
+    "Which component is used by flight attendants to operate and monitor cabin systems?",
+    [
+      "Flight Management Computer (FMC)",
+      "Multi-purpose Flight Attendant Panel (MP FAP)",
+      "Emergency Locator Transmitter (ELT)"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    309,
+    "What is the purpose of the Cabin Monitoring System?",
+    [
+      "To track aircraft location",
+      "To monitor cabin conditions, such as lighting and security",
+      "To assist in aircraft takeoff and landing"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    310,
+    "Which of the following systems is responsible for storing and processing cabin-related data?",
+    [
+      "Cabin Mass Memory System (CMMS)",
+      "Air Data Computer",
+      "Hydraulic Control System"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    311,
+    "What function does the Passenger Call System perform?",
+    [
+      "Controls passenger seats",
+      "Illuminates call lights and activates call chimes for crew assistance",
+      "Opens aircraft doors"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    312,
+    "Which system allows communication between the ground crew and cockpit crew when the aircraft is on the ground?",
+    [
+      "Passenger Interphone",
+      "Service Interphone",
+      "Flight Control System"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    313,
+    "What is the function of the Cabin Ready Signalling system?",
+    [
+      "Informs cockpit crew of cabin status",
+      "Detects external environmental conditions",
+      "Controls the aircraft's navigation system"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    314,
+    "Which function is included in the Miscellaneous Cabin Systems?",
+    [
+      "Cabin pressurization",
+      "Passenger signs and emergency crew alerting",
+      "Engine thrust management"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    315,
+    "What system allows passengers to read during the flight?",
+    [
+      "Emergency Exit Lighting",
+      "Passenger Reading Lights",
+      "Cabin Pressurization System"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    316,
+    "What happens when the no-smoking or fasten seatbelt signs are activated?",
+    [
+      "A chime sounds and the corresponding sign illuminates",
+      "Oxygen masks deploy automatically",
+      "The flight attendant call button is disabled"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    317,
+    "What is the primary purpose of an aircraft information system?",
+    [
+      "To improve flight, cabin, and maintenance operations",
+      "To control the aircraft’s hydraulic systems",
+      "To replace avionics instruments"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    318,
+    "Which system is responsible for hosting the Onboard Information System (OIS) on Airbus aircraft?",
+    [
+      "Engine Control Unit",
+      "Network Server System (NSS)",
+      "Hydraulic Power System"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    319,
+    "What type of data does an aircraft’s information system collect and centralize?",
+    [
+      "Passenger manifest only",
+      "Flight, maintenance, and operational data",
+      "Engine thrust data"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    320,
+    "What is the purpose of the Electronic Flight Bag (EFB)?",
+    [
+      "To provide real-time navigation updates",
+      "To replace paper-based reference materials for flight crews",
+      "To store passenger personal data"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    321,
+    "Which class of Electronic Flight Bag (EFB) is considered installed equipment and fully integrated with aircraft systems?",
+    [
+      "Class 1",
+      "Class 2",
+      "Class 3"
+    ],
+    2,
+    "Module 11"
+  ],
+  [
+    322,
+    "Which of the following is a key function of the Maintenance Information System?",
+    [
+      "Provides maintenance personnel access to diagnostic tools and aircraft health data",
+      "Controls fuel distribution",
+      "Manages air traffic control communications"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    323,
+    "What is the Airbus maintenance system that continuously monitors an aircraft's health?",
+    [
+      "Central Maintenance System (CMS)",
+      "AIRMAN",
+      "Flight Control System"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    324,
+    "What is the function of the Electronic Logbook (e-Logbook)?",
+    [
+      "To store pilot schedules",
+      "To replace paper logbooks for defect reporting and maintenance tracking",
+      "To provide entertainment options"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    325,
+    "How do cabin crew access cabin system applications on modern aircraft?",
+    [
+      "Through the aircraft’s autopilot system",
+      "Using Flight Attendant Panels (FAPs)",
+      "Through the engine control system"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    326,
+    "What is the function of leaky line antennas in the cabin?",
+    [
+      "Provide wireless connectivity throughout the aircraft",
+      "Monitor cabin pressure levels",
+      "Control in-flight entertainment"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    327,
+    "Which component allows maintenance personnel to access aircraft system data remotely?",
+    [
+      "Portable Maintenance Access Terminal (PMAT)",
+      "Engine Control Display",
+      "Passenger Information System"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    328,
+    "What is the role of Human-Machine Interfaces (HMIs) in aircraft information systems?",
+    [
+      "To provide an interface for pilots and maintenance personnel to access data",
+      "To adjust fuel mixture settings",
+      "To change aircraft altitude"
+    ],
+    0,
+    "Module 11"
+  ],
+  [
+    329,
+    "Where is the Onboard Maintenance Terminal (OMT) typically located?",
+    [
+      "In the avionics bay",
+      "At the back of the cockpit",
+      "Inside the passenger cabin"
+    ],
+    1,
+    "Module 11"
+  ],
+  [
+    330,
+    "What allows passengers to connect to Wi-Fi and internet services onboard?",
+    [
+      "Aircraft autopilot system",
+      "Internal wireless datalink",
+      "Flight management computer"
+    ],
+    1,
+    "Module 11"
+  ]
+]
